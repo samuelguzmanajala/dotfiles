@@ -1,0 +1,82 @@
+2025-02-04 18:35:56.776 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-selfhost-test-provider' wants API proposal 'attributableCoverage' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-02-04 18:35:56.777 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-02-04 18:35:56.777 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.debugpy' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-02-04 18:35:57.033 [info] Started local extension host with pid 9236.
+2025-02-04 18:35:58.046 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-02-04 18:35:59.959 [info] [perf] Render performance baseline is 20ms
+2025-02-04 18:36:03.628 [error] Unknown error while installing extension github.copilot: Unknown: Unknown error while installing extension github.copilot
+    at fh.installFromGallery (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:1534)
+2025-02-04 18:36:20.151 [error] MainThreadChatAgents2#$updateAgent: No agent with handle 9 registered
+2025-02-04 18:36:20.153 [error] chatParticipant must be declared in package.json: springboot.agent: Error: chatParticipant must be declared in package.json: springboot.agent
+    at d5t.$registerAgent (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:729:48592)
+2025-02-04 18:36:22.570 [warning] Overlapping semantic tokens detected at lineNumber 3, column 13
+2025-02-04 18:39:15.458 [error] [Extension Host] Error fetching OpenRouter generation details: AxiosError: Request failed with status code 404
+    at yE (/home/samuelg/.vscode/extensions/rooveterinaryinc.roo-cline-3.3.9/dist/extension.js:753:1051)
+    at BrotliDecompress.<anonymous> (/home/samuelg/.vscode/extensions/rooveterinaryinc.roo-cline-3.3.9/dist/extension.js:754:9728)
+    at BrotliDecompress.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+    at rT.request (/home/samuelg/.vscode/extensions/rooveterinaryinc.roo-cline-3.3.9/dist/extension.js:756:2057)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at Mce.createMessage (/home/samuelg/.vscode/extensions/rooveterinaryinc.roo-cline-3.3.9/dist/extension.js:814:2746)
+    at lte.attemptApiRequest (/home/samuelg/.vscode/extensions/rooveterinaryinc.roo-cline-3.3.9/dist/extension.js:2574:1926)
+    at lte.recursivelyMakeClineRequests (/home/samuelg/.vscode/extensions/rooveterinaryinc.roo-cline-3.3.9/dist/extension.js:2693:557)
+    at lte.initiateTaskLoop (/home/samuelg/.vscode/extensions/rooveterinaryinc.roo-cline-3.3.9/dist/extension.js:2560:209)
+    at lte.startTask (/home/samuelg/.vscode/extensions/rooveterinaryinc.roo-cline-3.3.9/dist/extension.js:2540:9570)
+2025-02-04 18:39:35.704 [error] [Extension Host] Error fetching OpenRouter generation details: AxiosError: Request failed with status code 404
+    at yE (/home/samuelg/.vscode/extensions/rooveterinaryinc.roo-cline-3.3.9/dist/extension.js:753:1051)
+    at BrotliDecompress.<anonymous> (/home/samuelg/.vscode/extensions/rooveterinaryinc.roo-cline-3.3.9/dist/extension.js:754:9728)
+    at BrotliDecompress.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+    at rT.request (/home/samuelg/.vscode/extensions/rooveterinaryinc.roo-cline-3.3.9/dist/extension.js:756:2057)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at Mce.createMessage (/home/samuelg/.vscode/extensions/rooveterinaryinc.roo-cline-3.3.9/dist/extension.js:814:2746)
+    at lte.attemptApiRequest (/home/samuelg/.vscode/extensions/rooveterinaryinc.roo-cline-3.3.9/dist/extension.js:2574:1926)
+    at lte.recursivelyMakeClineRequests (/home/samuelg/.vscode/extensions/rooveterinaryinc.roo-cline-3.3.9/dist/extension.js:2693:557)
+    at lte.initiateTaskLoop (/home/samuelg/.vscode/extensions/rooveterinaryinc.roo-cline-3.3.9/dist/extension.js:2560:209)
+    at lte.startTask (/home/samuelg/.vscode/extensions/rooveterinaryinc.roo-cline-3.3.9/dist/extension.js:2540:9570)
+2025-02-04 18:39:52.868 [error] [Extension Host] Error fetching OpenRouter generation details: AxiosError: Request failed with status code 404
+    at yE (/home/samuelg/.vscode/extensions/rooveterinaryinc.roo-cline-3.3.9/dist/extension.js:753:1051)
+    at BrotliDecompress.<anonymous> (/home/samuelg/.vscode/extensions/rooveterinaryinc.roo-cline-3.3.9/dist/extension.js:754:9728)
+    at BrotliDecompress.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+    at rT.request (/home/samuelg/.vscode/extensions/rooveterinaryinc.roo-cline-3.3.9/dist/extension.js:756:2057)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at Mce.createMessage (/home/samuelg/.vscode/extensions/rooveterinaryinc.roo-cline-3.3.9/dist/extension.js:814:2746)
+    at lte.attemptApiRequest (/home/samuelg/.vscode/extensions/rooveterinaryinc.roo-cline-3.3.9/dist/extension.js:2580:304)
+    at lte.recursivelyMakeClineRequests (/home/samuelg/.vscode/extensions/rooveterinaryinc.roo-cline-3.3.9/dist/extension.js:2693:557)
+    at lte.initiateTaskLoop (/home/samuelg/.vscode/extensions/rooveterinaryinc.roo-cline-3.3.9/dist/extension.js:2560:209)
+    at lte.startTask (/home/samuelg/.vscode/extensions/rooveterinaryinc.roo-cline-3.3.9/dist/extension.js:2540:9570)
+2025-02-04 19:14:53.766 [error] Internal error.: Error: Internal error.
+    at /home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1066478
+    at re (/home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1066772)
+    at /home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1061556
+    at Immediate.<anonymous> (/home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1061576)
+    at processImmediate (node:internal/timers:483:21)
+2025-02-04 19:14:55.840 [error] Internal error.: Error: Internal error.
+    at /home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1066478
+    at re (/home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1066772)
+    at /home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1061556
+    at Immediate.<anonymous> (/home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1061576)
+    at processImmediate (node:internal/timers:483:21)
+2025-02-04 19:14:57.668 [error] Internal error.: Error: Internal error.
+    at /home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1066478
+    at re (/home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1066772)
+    at /home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1061556
+    at Immediate.<anonymous> (/home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1061576)
+    at processImmediate (node:internal/timers:483:21)
+2025-02-04 19:14:59.287 [error] Internal error.: Error: Internal error.
+    at /home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1066478
+    at re (/home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1066772)
+    at /home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1061556
+    at Immediate.<anonymous> (/home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1061576)
+    at processImmediate (node:internal/timers:483:21)
+2025-02-04 19:15:09.493 [error] Internal error.: Error: Internal error.
+    at /home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1066478
+    at re (/home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1066772)
+    at /home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1061556
+    at Immediate.<anonymous> (/home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1061576)
+    at processImmediate (node:internal/timers:483:21)
+2025-02-04 21:14:06.297 [error] [network] #55: https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery - error POST Canceled

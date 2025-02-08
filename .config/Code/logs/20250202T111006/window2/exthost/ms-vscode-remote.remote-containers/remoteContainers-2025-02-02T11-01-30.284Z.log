@@ -1,0 +1,52 @@
+[2025-02-02T11:01:30.372Z] Initializing configuration support...
+[2025-02-02T11:01:30.373Z] Internal initialization of dev container support package...
+[2025-02-02T11:01:30.372Z] Dev Containers 0.394.0 in VS Code 1.96.4 (cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba).
+[2025-02-02T11:01:37.287Z] Start: Run: docker version --format {{json .}}
+[2025-02-02T11:01:37.314Z] {"Client":{"Platform":{"Name":"Docker Engine - Community"},"Version":"27.3.1","ApiVersion":"1.47","DefaultAPIVersion":"1.47","GitCommit":"ce12230","GoVersion":"go1.22.7","Os":"linux","Arch":"amd64","BuildTime":"Fri Sep 20 11:42:43 2024","Context":"default"},"Server":{"Platform":{"Name":"Docker Engine - Community"},"Components":[{"Name":"Engine","Version":"27.3.1","Details":{"ApiVersion":"1.47","Arch":"amd64","BuildTime":"Fri Sep 20 11:41:01 2024","Experimental":"false","GitCommit":"41ca978","GoVersion":"go1.22.7","KernelVersion":"6.11.3-200.fsync.fc40.x86_64","MinAPIVersion":"1.24","Os":"linux"}},{"Name":"containerd","Version":"1.7.22","Details":{"GitCommit":"7f7fdf5fed64eb6a7caf99b3e12efcf9d60e311c"}},{"Name":"runc","Version":"1.1.14","Details":{"GitCommit":"v1.1.14-0-g2c9f560"}},{"Name":"docker-init","Version":"0.19.0","Details":{"GitCommit":"de40ad0"}}],"Version":"27.3.1","ApiVersion":"1.47","MinAPIVersion":"1.24","GitCommit":"41ca978","GoVersion":"go1.22.7","Os":"linux","Arch":"amd64","KernelVersion":"6.11.3-200.fsync.fc40.x86_64","BuildTime":"2024-09-20T11:41:01.000000000+00:00"}}
+[2025-02-02T11:01:37.316Z] Stop (29 ms): Run: docker version --format {{json .}}
+[2025-02-02T11:01:37.338Z] Running Dev Containers CLI:   read-configuration --workspace-folder /home/samuelg/Projects/fleet-manager/backend/spring-petclinic --log-level debug --log-format json --config /home/samuelg/Projects/fleet-manager/backend/spring-petclinic/.devcontainer/devcontainer.json --include-merged-configuration --mount-workspace-git-root
+[2025-02-02T11:01:37.339Z] Start: Run: /usr/share/code/code /home/samuelg/.vscode/extensions/ms-vscode-remote.remote-containers-0.394.0/dist/spec-node/devContainersSpecCLI.js read-configuration --workspace-folder /home/samuelg/Projects/fleet-manager/backend/spring-petclinic --log-level debug --log-format json --config /home/samuelg/Projects/fleet-manager/backend/spring-petclinic/.devcontainer/devcontainer.json --include-merged-configuration --mount-workspace-git-root
+[2025-02-02T11:01:37.502Z] @devcontainers/cli 0.72.0. Node.js v20.18.1. linux 6.11.3-200.fsync.fc40.x86_64 x64.
+[2025-02-02T11:01:37.502Z] Start: Run: git rev-parse --show-cdup
+[2025-02-02T11:01:37.507Z] Stop (5 ms): Run: git rev-parse --show-cdup
+[2025-02-02T11:01:37.508Z] Start: Run: docker ps -q -a --filter label=devcontainer.local_folder=/home/samuelg/Projects/fleet-manager/backend/spring-petclinic --filter label=devcontainer.config_file=/home/samuelg/Projects/fleet-manager/backend/spring-petclinic/.devcontainer/devcontainer.json
+[2025-02-02T11:01:37.519Z] Stop (11 ms): Run: docker ps -q -a --filter label=devcontainer.local_folder=/home/samuelg/Projects/fleet-manager/backend/spring-petclinic --filter label=devcontainer.config_file=/home/samuelg/Projects/fleet-manager/backend/spring-petclinic/.devcontainer/devcontainer.json
+[2025-02-02T11:01:37.520Z] Start: Run: docker ps -q -a --filter label=devcontainer.local_folder=/home/samuelg/Projects/fleet-manager/backend/spring-petclinic
+[2025-02-02T11:01:37.532Z] Stop (12 ms): Run: docker ps -q -a --filter label=devcontainer.local_folder=/home/samuelg/Projects/fleet-manager/backend/spring-petclinic
+[2025-02-02T11:01:37.534Z] Resolving Feature dependencies for 'ghcr.io/devcontainers/features/java:1'...
+[2025-02-02T11:01:37.534Z] * Processing feature: ghcr.io/devcontainers/features/java:1
+[2025-02-02T11:01:37.535Z] Loading 149 extra certificates from /etc/ssl/certs/ca-certificates.crt.
+[2025-02-02T11:01:37.793Z] Start: Run: docker-credential-secret get
+[2025-02-02T11:01:37.795Z] Stop (2 ms): Run: docker-credential-secret get
+[2025-02-02T11:01:37.796Z] Stop (3 ms): Run: docker-credential-secret get
+[2025-02-02T11:01:38.234Z] * Processing feature: ghcr.io/devcontainers/features/common-utils
+[2025-02-02T11:01:38.498Z] Resolving Feature dependencies for 'ghcr.io/devcontainers/features/azure-cli:1'...
+[2025-02-02T11:01:38.498Z] * Processing feature: ghcr.io/devcontainers/features/azure-cli:1
+[2025-02-02T11:01:38.732Z] * Processing feature: ghcr.io/devcontainers/features/common-utils
+[2025-02-02T11:01:39.000Z] Resolving Feature dependencies for 'ghcr.io/devcontainers/features/docker-in-docker:2'...
+[2025-02-02T11:01:39.000Z] * Processing feature: ghcr.io/devcontainers/features/docker-in-docker:2
+[2025-02-02T11:01:39.251Z] * Processing feature: ghcr.io/devcontainers/features/common-utils
+[2025-02-02T11:01:39.492Z] Resolving Feature dependencies for 'ghcr.io/devcontainers/features/github-cli:1'...
+[2025-02-02T11:01:39.492Z] * Processing feature: ghcr.io/devcontainers/features/github-cli:1
+[2025-02-02T11:01:39.738Z] * Processing feature: ghcr.io/devcontainers/features/common-utils
+[2025-02-02T11:01:39.992Z] * Processing feature: ghcr.io/devcontainers/features/git
+[2025-02-02T11:01:40.234Z] Soft-dependency 'ghcr.io/devcontainers/features/common-utils' is not required.  Removing from installation order...
+[2025-02-02T11:01:40.234Z] Soft-dependency 'ghcr.io/devcontainers/features/common-utils' is not required.  Removing from installation order...
+[2025-02-02T11:01:40.234Z] Soft-dependency 'ghcr.io/devcontainers/features/common-utils' is not required.  Removing from installation order...
+[2025-02-02T11:01:40.234Z] Soft-dependency 'ghcr.io/devcontainers/features/git' is not required.  Removing from installation order...
+[2025-02-02T11:01:40.234Z] Soft-dependency 'ghcr.io/devcontainers/features/common-utils' is not required.  Removing from installation order...
+[2025-02-02T11:01:40.235Z] * Fetching feature: azure-cli_0_oci
+[2025-02-02T11:01:40.640Z] Files to omit: ''
+[2025-02-02T11:01:40.644Z] * Fetched feature: azure-cli_0_oci version 1.2.5
+[2025-02-02T11:01:40.644Z] * Fetching feature: docker-in-docker_1_oci
+[2025-02-02T11:01:41.041Z] Files to omit: ''
+[2025-02-02T11:01:41.043Z] * Fetched feature: docker-in-docker_1_oci version 2.12.0
+[2025-02-02T11:01:41.043Z] * Fetching feature: github-cli_2_oci
+[2025-02-02T11:01:41.444Z] Files to omit: ''
+[2025-02-02T11:01:41.446Z] * Fetched feature: github-cli_2_oci version 1.0.13
+[2025-02-02T11:01:41.446Z] * Fetching feature: java_3_oci
+[2025-02-02T11:01:41.878Z] Files to omit: ''
+[2025-02-02T11:01:41.881Z] * Fetched feature: java_3_oci version 1.6.2
+[2025-02-02T11:01:52.356Z] Start: Run: docker inspect --type image mcr.microsoft.com/devcontainers/base:ubuntu
+[2025-02-02T11:01:52.370Z] Stop (14 ms): Run: docker inspect --type image mcr.microsoft.com/devcontainers/base:ubuntu
+[2025-02-02T11:01:53.310Z] Stop (15971 ms): Run: /usr/share/code/code /home/samuelg/.vscode/extensions/ms-vscode-remote.remote-containers-0.394.0/dist/spec-node/devContainersSpecCLI.js read-configuration --workspace-folder /home/samuelg/Projects/fleet-manager/backend/spring-petclinic --log-level debug --log-format json --config /home/samuelg/Projects/fleet-manager/backend/spring-petclinic/.devcontainer/devcontainer.json --include-merged-configuration --mount-workspace-git-root

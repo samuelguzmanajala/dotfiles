@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="tv.fleet.manager.vehicles.domain.Vehicle" table="vehicles">
+        <composite-id name="id" class="tv.fleet.manager.vehicles.domain.VehicleId" access="field">
+            <key-property column="id" name="value" length="36" access="field" />
+        </composite-id>
+
+        <component name="brand" class="tv.fleet.manager.vehicles.domain.VehicleBrand" access="field">
+            <property name="value" column="brand" type="string" access="field" />
+        </component>
+
+        <component name="model" class="tv.fleet.manager.vehicles.domain.VehicleModel" access="field">
+            <property name="value" column="model" type="string" access="field" />
+        </component>
+
+        <component name="type" class="tv.fleet.manager.vehicles.domain.VehicleType" access="field">
+            <property name="value" column="type" type="string" access="field" />
+        </component>
+
+        <component name="year" class="tv.fleet.manager.vehicles.domain.VehicleYear" access="field">
+            <property name="value" column="year" type="integer" access="field" />
+        </component>
+
+        <component name="licensePlate" class="tv.fleet.manager.vehicles.domain.VehicleLicensePlate" access="field">
+            <property name="value" column="license_plate" type="string" access="field" />
+        </component>
+    </class>
+</hibernate-mapping>

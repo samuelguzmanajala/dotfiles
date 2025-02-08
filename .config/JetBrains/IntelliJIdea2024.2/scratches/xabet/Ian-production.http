@@ -1,0 +1,34 @@
+
+### Get pending registration lack
+POST https://ian.dwall.xabet.net/gross-margin/pending-registration-lack
+X-Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImlkIjoxLCJzY29wZXMiOlsiUk9MRV9EQVRBIiwiUk9MRV9BRE1JTiIsIlJPTEVfU1VQRVJBRE1JTiIsIlJPTEVfWEFCRVQiXSwianRpIjoiNTdmOTU2MjYtZDg2Mi00NWI1LWE0NTgtZjdiZjhhMTEyODI2IiwiaXNzIjoieGFiZXQubmV0IiwiaWF0IjoxNzI4MDMyOTE5LCJleHAiOjE3MjgwMzM4MTl9.aR1E7Xq2vjsKW0eWc2-1btLkioakMgu_tWgipuwKMv3pwNNI3yFbYpkCrQnmJrinl-ym2qciDF7NLvnVeV3RTQ
+
+<> 2024-10-02T184734.200.html
+
+### Calculate all gross margins
+POST https://ian.dwall.xabet.net/gross-margin/calculateAllGrossMargins
+X-Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImlkIjoxLCJzY29wZXMiOlsiUk9MRV9EQVRBIiwiUk9MRV9BRE1JTiIsIlJPTEVfU1VQRVJBRE1JTiIsIlJPTEVfWEFCRVQiXSwianRpIjoiNTdmOTU2MjYtZDg2Mi00NWI1LWE0NTgtZjdiZjhhMTEyODI2IiwiaXNzIjoieGFiZXQubmV0IiwiaWF0IjoxNzI4MDMyOTE5LCJleHAiOjE3MjgwMzM4MTl9.aR1E7Xq2vjsKW0eWc2-1btLkioakMgu_tWgipuwKMv3pwNNI3yFbYpkCrQnmJrinl-ym2qciDF7NLvnVeV3RTQ
+
+<> 2024-10-04T110928.200.html
+<> 2024-10-02T184821.200.html
+
+
+### Regenerate Intercompany
+POST https://ian.dwall.xabet.net/api/web/ian/forecast/intercompany
+X-Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImlkIjoxLCJzY29wZXMiOlsiUk9MRV9EQVRBIiwiUk9MRV9BRE1JTiIsIlJPTEVfU1VQRVJBRE1JTiIsIlJPTEVfWEFCRVQiXSwianRpIjoiN2QzYzJlNjItZTQ4NC00Mjk1LWFiMGQtNmUzMDAyYzk5MTM2IiwiaXNzIjoieGFiZXQubmV0IiwiaWF0IjoxNzI4OTI2ODA1LCJleHAiOjE3Mjg5Mjc3MDV9.ZeOdn5lIT6_X7GDORHOmibBEmTQYkqUPsFWVWJ2iSjGiz7vCerkwHLJ0i2srgSmjX4lEgjdhcSA7Jrg_xkuWGQ
+
+### PUT CHECK
+PUT http://localhost:8080/api/web/ian/programming/check
+X-Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImlkIjoxLCJzY29wZXMiOlsiUk9MRV9EQVRBIiwiUk9MRV9BRE1JTiIsIlJPTEVfU1VQRVJBRE1JTiIsIlJPTEVfWEFCRVQiXSwianRpIjoiZTgzMzQ3NzctZGRiMi00ZTY5LWFjYmMtMTI4YWM4NmNlYjQ3IiwiaXNzIjoieGFiZXQubmV0IiwiaWF0IjoxNzM3MTExNDc2LCJleHAiOjE3MzcxMTIzNzZ9.9SpBMH4NOYDPto4xAWcWnSdbabKP4wziIt4DwR4nAxHF4m84qqgPBllpGgliEejW4tBJaT0i5JN6i-9NObdAZg
+Content-Type: application/json
+
+{
+  "id": "{{$random.uuid}}",
+  "articleCode": "0100011",
+  "checked": true
+}
+
+<> 2025-01-17T115836.401.txt
+<> 2025-01-17T115751.401.txt
+<> 2025-01-17T115213.400.txt
+

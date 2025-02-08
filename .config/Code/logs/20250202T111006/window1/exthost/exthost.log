@@ -1,0 +1,112 @@
+2025-02-02 11:10:07.386 [info] Extension host with pid 10519 started
+2025-02-02 11:10:07.386 [info] Skipping acquiring lock for /home/samuelg/.config/Code/User/workspaceStorage/f15ce96a8ddf0af3297d3b3d6aa85039.
+2025-02-02 11:10:07.469 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-02-02 11:10:07.492 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-02-02 11:10:07.503 [info] ExtensionService#_doActivateExtension RooVeterinaryInc.roo-cline, startup: false, activationEvent: 'onLanguage'
+2025-02-02 11:10:07.997 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onChatParticipant:github.copilot.editingSession'
+2025-02-02 11:10:08.372 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:typescript'
+2025-02-02 11:10:08.697 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: false, activationEvent: 'api', root cause: GitHub.copilot-chat
+2025-02-02 11:10:08.727 [info] ExtensionService#_doActivateExtension isudox.vscode-jetbrains-keybindings, startup: true, activationEvent: '*'
+2025-02-02 11:10:08.729 [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+2025-02-02 11:10:08.747 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: GitHub.copilot-chat
+2025-02-02 11:10:08.789 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-02-02 11:10:08.897 [info] Eager extensions activated
+2025-02-02 11:10:08.910 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-02-02 11:10:08.911 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-02-02 11:10:08.926 [info] ExtensionService#_doActivateExtension GitHub.copilot, startup: false, activationEvent: 'onStartupFinished'
+2025-02-02 11:10:13.937 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+2025-02-02 11:10:13.947 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2025-02-02 11:10:13.955 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2025-02-02 11:51:29.295 [info] Extension host terminating: renderer closed the MessagePort
+2025-02-02 11:51:29.324 [info] Extension host with pid 10519 exiting with code 0
+2025-02-02 11:51:29.634 [info] Extension host with pid 17148 started
+2025-02-02 11:51:29.634 [info] Skipping acquiring lock for /home/samuelg/.config/Code/User/workspaceStorage/f15ce96a8ddf0af3297d3b3d6aa85039.
+2025-02-02 11:51:29.638 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-02-02 11:51:29.657 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-02-02 11:51:29.667 [info] ExtensionService#_doActivateExtension RooVeterinaryInc.roo-cline, startup: false, activationEvent: 'onLanguage'
+2025-02-02 11:51:30.069 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:typescript'
+2025-02-02 11:51:30.096 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onChatParticipant:github.copilot.editingSession'
+2025-02-02 11:51:30.422 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+2025-02-02 11:51:30.427 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2025-02-02 11:51:30.434 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2025-02-02 11:51:30.465 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onLanguage:json'
+2025-02-02 11:51:30.772 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: false, activationEvent: 'api', root cause: GitHub.copilot-chat
+2025-02-02 11:51:30.784 [info] ExtensionService#_doActivateExtension isudox.vscode-jetbrains-keybindings, startup: true, activationEvent: '*'
+2025-02-02 11:51:30.815 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: GitHub.copilot-chat
+2025-02-02 11:51:30.851 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-02-02 11:51:30.956 [info] Eager extensions activated
+2025-02-02 11:51:30.975 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-02-02 11:51:30.976 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-02-02 11:51:30.986 [info] ExtensionService#_doActivateExtension GitHub.copilot, startup: false, activationEvent: 'onStartupFinished'
+2025-02-02 11:59:07.808 [info] Extension host terminating: renderer closed the MessagePort
+2025-02-02 11:59:07.830 [info] Extension host with pid 17148 exiting with code 0
+2025-02-02 11:59:08.460 [info] Extension host with pid 18621 started
+2025-02-02 11:59:08.460 [info] Skipping acquiring lock for /home/samuelg/.config/Code/User/workspaceStorage/0ca5730769e682816df327a619c34a30.
+2025-02-02 11:59:08.499 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-02-02 11:59:08.552 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2025-02-02 11:59:08.555 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-02-02 11:59:08.582 [info] Eager extensions activated
+2025-02-02 11:59:08.601 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-02-02 11:59:08.603 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-02-02 11:59:09.853 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2025-02-02 11:59:09.909 [info] ExtensionService#_doActivateExtension GitHub.copilot, startup: false, activationEvent: 'onStartupFinished'
+2025-02-02 11:59:10.158 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onStartupFinished'
+2025-02-02 11:59:10.456 [info] ExtensionService#_doActivateExtension isudox.vscode-jetbrains-keybindings, startup: false, activationEvent: '*'
+2025-02-02 11:59:10.457 [info] ExtensionService#_doActivateExtension RooVeterinaryInc.roo-cline, startup: false, activationEvent: 'onStartupFinished'
+2025-02-02 11:59:19.134 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-02-02 11:59:33.557 [info] ExtensionService#_doActivateExtension vscjava.vscode-java-pack, startup: false, activationEvent: 'onWalkthrough:javaWelcome'
+2025-02-02 11:59:33.616 [info] ExtensionService#_doActivateExtension vscjava.vscode-java-dependency, startup: false, activationEvent: 'workspaceContains:build.gradle'
+2025-02-02 11:59:33.652 [info] ExtensionService#_doActivateExtension redhat.java, startup: false, activationEvent: 'workspaceContains:build.gradle', root cause: vscjava.vscode-java-test
+2025-02-02 11:59:33.723 [info] ExtensionService#_doActivateExtension vscjava.vscode-java-debug, startup: false, activationEvent: 'workspaceContains:build.gradle', root cause: vscjava.vscode-java-test
+2025-02-02 11:59:33.746 [info] ExtensionService#_doActivateExtension vscjava.vscode-gradle, startup: false, activationEvent: 'workspaceContains:build.gradle'
+2025-02-02 11:59:34.269 [warning] [redhat.java] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[java]', provide the URI of a resource or 'null' for any resource.
+2025-02-02 11:59:34.296 [info] ExtensionService#_doActivateExtension vscjava.vscode-java-test, startup: false, activationEvent: 'workspaceContains:build.gradle'
+2025-02-02 11:59:34.418 [warning] [redhat.java] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[java]', provide the URI of a resource or 'null' for any resource.
+2025-02-02 11:59:35.864 [error] Error: ENOENT: no such file or directory, open '/home/samuelg/.config/Code/User/workspaceStorage/0ca5730769e682816df327a619c34a30/redhat.java/jdt_ws/.metadata/.log'
+    at open (node:internal/fs/promises:641:25)
+    at Object.readFile (node:internal/fs/promises:1258:14)
+2025-02-02 11:59:36.744 [error] Error: ENOENT: no such file or directory, open '/home/samuelg/.config/Code/User/workspaceStorage/0ca5730769e682816df327a619c34a30/redhat.java/jdt_ws/.metadata/.log'
+    at open (node:internal/fs/promises:641:25)
+    at Object.readFile (node:internal/fs/promises:1258:14)
+2025-02-02 12:01:30.190 [info] ExtensionService#_doActivateExtension ms-vscode-remote.remote-containers, startup: false, activationEvent: 'onStartupFinished'
+2025-02-02 12:02:50.234 [info] ExtensionService#_doActivateExtension VisualStudioExptTeam.vscodeintellicode, startup: false, activationEvent: 'onLanguage:java'
+2025-02-02 12:02:56.915 [info] ExtensionService#_doActivateExtension vscode.debug-server-ready, startup: false, activationEvent: 'onDebugResolve'
+2025-02-02 12:17:21.227 [info] ExtensionService#_doActivateExtension vmware.vscode-spring-boot, startup: false, activationEvent: 'onView:spring.apps', root cause: vscjava.vscode-spring-boot-dashboard
+2025-02-02 12:17:21.436 [info] ExtensionService#_doActivateExtension vscjava.vscode-spring-boot-dashboard, startup: false, activationEvent: 'onView:spring.apps'
+2025-02-02 12:17:21.512 [error] Error: chatParticipant must be declared in package.json: springboot.agent
+    at d5t.$registerAgent (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:729:48592)
+2025-02-02 12:19:07.724 [info] Extension host terminating: renderer closed the MessagePort
+2025-02-02 12:19:08.787 [error] Error: SDK is not initialized
+    at throwError (/home/samuelg/.vscode/extensions/github.copilot-1.261.0/node_modules/@microsoft/applicationinsights-web-basic/dist/es5/https:/raw.githubusercontent.com/nevware21/ts-utils/refs/tags/0.11.5/lib/src/helpers/throw.ts:15:11)
+    at f.Zt.<computed> [as unload] (/home/samuelg/.vscode/extensions/github.copilot-1.261.0/node_modules/@microsoft/applicationinsights-web-basic/dist/es5/applicationinsights-web-basic@3.3.4/shared/AppInsightsCore/dist-es5/JavaScriptSDK/AppInsightsCore.js:567:1)
+    at f.unload (/home/samuelg/.vscode/extensions/github.copilot-1.261.0/node_modules/@microsoft/applicationinsights-web-basic/dist/es5/applicationinsights-web-basic@3.3.4/shared/AppInsightsCore/dist-es5/JavaScriptSDK/HelperFuncs.js:127:1)
+    at XZ.dispose (/home/samuelg/.vscode/extensions/github.copilot-1.261.0/lib/src/telemetry/appInsightsReporter.ts:79:27)
+    at ai (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:25:699)
+    at file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:14992
+    at file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:25:1009
+    at Object.dispose (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:8:705)
+    at zz.eb (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:11919)
+    at file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:9874
+    at Array.map (<anonymous>)
+    at zz.$ (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:9862)
+    at zz.terminate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:10105)
+    at QC.terminate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:1424)
+    at Zi (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:175:15080)
+    at MessagePortMain.<anonymous> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:175:11628)
+    at MessagePortMain.emit (node:events:518:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+2025-02-02 12:19:08.787 [error] Canceled (FileSystemError): Canceled
+    at Function.e (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:9853)
+    at Object.delete (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:8151)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-02-02 12:19:08.837 [error] Error: write after end
+    at _write (node:internal/streams/writable:489:11)
+    at Socket.Writable.write (node:internal/streams/writable:510:10)
+    at /home/samuelg/.vscode/extensions/vscjava.vscode-gradle-3.16.4/dist/index.js:2:839886
+    at new Promise (<anonymous>)
+    at c.write (/home/samuelg/.vscode/extensions/vscjava.vscode-gradle-3.16.4/dist/index.js:2:839804)
+    at m.doWrite (/home/samuelg/.vscode/extensions/vscjava.vscode-gradle-3.16.4/dist/index.js:2:829407)
+    at /home/samuelg/.vscode/extensions/vscjava.vscode-gradle-3.16.4/dist/index.js:2:829302
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at processImmediate (node:internal/timers:454:9)
+2025-02-02 12:19:12.772 [info] Extension host with pid 18621 exiting with code 0

@@ -1,0 +1,40 @@
+2025-02-02 13:55:45.780 [info] Extension host with pid 148650 started
+2025-02-02 13:55:45.780 [info] Skipping acquiring lock for /home/samuelg/.config/Code/User/workspaceStorage/0ca5730769e682816df327a619c34a30.
+2025-02-02 13:55:45.935 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-02-02 13:55:45.956 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-02-02 13:55:45.966 [info] ExtensionService#_doActivateExtension RooVeterinaryInc.roo-cline, startup: false, activationEvent: 'onLanguage'
+2025-02-02 13:55:46.398 [info] ExtensionService#_doActivateExtension redhat.java, startup: false, activationEvent: 'onLanguage:java'
+2025-02-02 13:55:46.481 [info] ExtensionService#_doActivateExtension VisualStudioExptTeam.vscodeintellicode, startup: false, activationEvent: 'onLanguage:java'
+2025-02-02 13:55:46.504 [info] ExtensionService#_doActivateExtension vscjava.vscode-java-debug, startup: false, activationEvent: 'onLanguage:java'
+2025-02-02 13:55:46.528 [info] ExtensionService#_doActivateExtension vscjava.vscode-java-dependency, startup: false, activationEvent: 'onLanguage:java'
+2025-02-02 13:55:46.565 [info] ExtensionService#_doActivateExtension vscjava.vscode-java-pack, startup: false, activationEvent: 'onLanguage:java'
+2025-02-02 13:55:46.812 [warning] [redhat.java] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[java]', provide the URI of a resource or 'null' for any resource.
+2025-02-02 13:55:46.860 [info] ExtensionService#_doActivateExtension vscjava.vscode-java-test, startup: false, activationEvent: 'onLanguage:java'
+2025-02-02 13:55:46.963 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-02-02 13:55:46.976 [info] ExtensionService#_doActivateExtension isudox.vscode-jetbrains-keybindings, startup: true, activationEvent: '*'
+2025-02-02 13:55:46.978 [info] ExtensionService#_doActivateExtension vscjava.vscode-gradle, startup: true, activationEvent: 'workspaceContains:build.gradle'
+2025-02-02 13:55:47.111 [warning] [redhat.java] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[java]', provide the URI of a resource or 'null' for any resource.
+2025-02-02 13:55:47.118 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-02-02 13:55:47.162 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-02-02 13:55:56.908 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-02-02 13:55:56.910 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-02-02 13:55:56.920 [info] ExtensionService#_doActivateExtension GitHub.copilot, startup: false, activationEvent: 'onStartupFinished'
+2025-02-02 13:55:57.180 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onStartupFinished'
+2025-02-02 13:55:57.490 [info] ExtensionService#_doActivateExtension ms-vscode-remote.remote-containers, startup: false, activationEvent: 'onStartupFinished'
+2025-02-02 13:55:58.835 [info] ExtensionService#_doActivateExtension vmware.vscode-spring-boot, startup: false, activationEvent: 'onCommand:vscode-spring-boot.ls.start'
+2025-02-02 13:55:59.186 [info] ExtensionService#_doActivateExtension vscjava.vscode-spring-boot-dashboard, startup: false, activationEvent: 'onCommand:vscode-spring-boot.ls.start'
+2025-02-02 13:55:59.250 [info] Eager extensions activated
+2025-02-02 14:17:06.626 [error] [redhat.java] provider FAILED
+2025-02-02 14:17:06.632 [error] Error: The request (id: 69, method: 'textDocument/hover') has been cancelled
+    at /home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1066478
+    at re (/home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1066772)
+    at /home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1061556
+    at Immediate.<anonymous> (/home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1061576)
+    at processImmediate (node:internal/timers:483:21)
+2025-02-02 16:55:24.417 [error] [redhat.java] provider FAILED
+2025-02-02 16:55:24.418 [error] Error: The request (id: 80, method: 'textDocument/hover') has been cancelled
+    at /home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1066478
+    at re (/home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1066772)
+    at /home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1061556
+    at Immediate.<anonymous> (/home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1061576)
+    at processImmediate (node:internal/timers:483:21)

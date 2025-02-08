@@ -1,0 +1,102 @@
+2025-02-02 13:56:02.109 [info] Using the Electron fetcher.
+2025-02-02 13:56:02.109 [info] Initializing Git extension service.
+2025-02-02 13:56:02.109 [info] Successfully activated the vscode.git extension.
+2025-02-02 13:56:02.109 [info] Enablement state of the vscode.git extension: true.
+2025-02-02 13:56:02.109 [info] Successfully registered Git commit message provider.
+2025-02-02 13:56:03.017 [info] Logged in as samuelguzmanajala
+2025-02-02 13:56:03.473 [info] Got Copilot token for samuelguzmanajala
+2025-02-02 13:56:03.504 [info] copilot token chat_enabled: true, sku: free_educational
+2025-02-02 13:56:03.504 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-02-02 13:56:03.515 [info] Registering default platform agent...
+2025-02-02 13:56:03.605 [info] Fetched model metadata in 128ms 11d5c9c2-935c-44b4-8000-4dc82dbfca0b
+2025-02-02 13:56:03.607 [info] activationBlocker from 'languageModelAccess' took for 494ms
+2025-02-02 13:56:20.347 [info] Using the Electron fetcher.
+2025-02-02 13:56:20.347 [info] Initializing Git extension service.
+2025-02-02 13:56:20.347 [info] Successfully activated the vscode.git extension.
+2025-02-02 13:56:20.347 [info] Enablement state of the vscode.git extension: true.
+2025-02-02 13:56:20.347 [info] Successfully registered Git commit message provider.
+2025-02-02 13:56:21.129 [info] Logged in as samuelguzmanajala
+2025-02-02 13:56:21.649 [info] Got Copilot token for samuelguzmanajala
+2025-02-02 13:56:21.675 [info] copilot token chat_enabled: true, sku: free_educational
+2025-02-02 13:56:21.675 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-02-02 13:56:21.684 [info] Registering default platform agent...
+2025-02-02 13:56:21.872 [info] Fetched model metadata in 218ms 49797d85-a7c3-40a8-8372-ed9588fe5a8c
+2025-02-02 13:56:21.873 [info] activationBlocker from 'languageModelAccess' took for 722ms
+2025-02-02 14:11:22.216 [info] Fetched model metadata in 122ms 8bdeb2ab-8a37-4611-969b-c7a6f81c09ae
+2025-02-02 14:21:21.652 [info] Logged in as samuelguzmanajala
+2025-02-02 14:21:22.083 [info] Got Copilot token for samuelguzmanajala
+2025-02-02 14:21:22.087 [info] copilot token chat_enabled: true, sku: free_educational
+2025-02-02 14:36:22.204 [info] Fetched model metadata in 112ms e668e458-8aab-47ea-8e10-f612867de483
+2025-02-02 14:46:22.086 [info] Logged in as samuelguzmanajala
+2025-02-02 14:46:22.552 [info] Got Copilot token for samuelguzmanajala
+2025-02-02 14:46:22.557 [info] copilot token chat_enabled: true, sku: free_educational
+2025-02-02 14:46:22.680 [info] Fetched model metadata in 119ms 1410ab9b-72cb-4532-a958-98722ef7825c
+2025-02-02 15:01:22.842 [info] Fetched model metadata in 157ms 1702b95a-1992-4a5e-85aa-f015a43e8e78
+2025-02-02 15:11:22.554 [info] Logged in as samuelguzmanajala
+2025-02-02 15:11:22.999 [info] Got Copilot token for samuelguzmanajala
+2025-02-02 15:11:23.004 [info] copilot token chat_enabled: true, sku: free_educational
+2025-02-02 15:11:23.409 [info] Fetched model metadata in 403ms d27e6444-4fc9-4fb4-b7ac-6ff588c420eb
+2025-02-02 15:26:23.542 [info] Fetched model metadata in 110ms 384c14de-ede9-4855-a9f2-82f44729f45e
+2025-02-02 15:36:23.001 [info] Logged in as samuelguzmanajala
+2025-02-02 15:36:23.463 [info] Got Copilot token for samuelguzmanajala
+2025-02-02 15:36:23.466 [info] copilot token chat_enabled: true, sku: free_educational
+2025-02-02 15:51:23.581 [info] Fetched model metadata in 110ms f1f639b5-b6e0-490f-aff5-3d25320cb340
+2025-02-02 16:01:23.465 [info] Logged in as samuelguzmanajala
+2025-02-02 16:01:23.885 [info] Got Copilot token for samuelguzmanajala
+2025-02-02 16:01:23.889 [info] copilot token chat_enabled: true, sku: free_educational
+2025-02-02 16:01:24.277 [info] Fetched model metadata in 386ms 82ec6795-9a6d-4d7b-bd6a-c5e189485911
+2025-02-02 16:16:24.403 [info] Fetched model metadata in 111ms 08d82d14-9492-4ae4-9d57-30faab238439
+2025-02-02 16:26:23.889 [info] Logged in as samuelguzmanajala
+2025-02-02 16:26:24.334 [info] Got Copilot token for samuelguzmanajala
+2025-02-02 16:26:24.338 [info] copilot token chat_enabled: true, sku: free_educational
+2025-02-02 16:41:24.451 [info] Fetched model metadata in 107ms 6ea70cac-8c90-47b9-bc06-c0e97ce00602
+2025-02-02 16:51:24.336 [info] Logged in as samuelguzmanajala
+2025-02-02 16:51:24.819 [info] Got Copilot token for samuelguzmanajala
+2025-02-02 16:51:24.822 [info] copilot token chat_enabled: true, sku: free_educational
+2025-02-02 16:51:25.283 [info] Fetched model metadata in 459ms 07423c8d-11d5-4835-b7e3-eec0f8e1a18a
+2025-02-02 17:06:25.401 [info] Fetched model metadata in 113ms 421c81bc-cc4b-46d7-ba9a-02c7e4f45598
+2025-02-02 17:16:24.822 [info] Logged in as samuelguzmanajala
+2025-02-02 17:16:25.256 [info] Got Copilot token for samuelguzmanajala
+2025-02-02 17:16:25.263 [info] copilot token chat_enabled: true, sku: free_educational
+2025-02-02 17:31:25.380 [info] Fetched model metadata in 111ms 315214a6-96af-46e7-a4d6-f29d1c084ed8
+2025-02-02 17:41:25.260 [info] Logged in as samuelguzmanajala
+2025-02-02 17:41:25.695 [info] Got Copilot token for samuelguzmanajala
+2025-02-02 17:41:25.701 [info] copilot token chat_enabled: true, sku: free_educational
+2025-02-02 17:41:26.115 [info] Fetched model metadata in 411ms 135d0c08-6c42-4541-8995-1fb662183d5c
+2025-02-02 17:56:26.235 [info] Fetched model metadata in 116ms d8f79052-31f2-4334-80a0-8b89f7e247ee
+2025-02-02 18:06:25.700 [info] Logged in as samuelguzmanajala
+2025-02-02 18:06:26.121 [info] Got Copilot token for samuelguzmanajala
+2025-02-02 18:06:26.126 [info] copilot token chat_enabled: true, sku: free_educational
+2025-02-02 18:21:26.250 [info] Fetched model metadata in 117ms 9a172b3d-bf13-4c19-ba6e-0d858b9dd182
+2025-02-02 18:31:26.126 [info] Logged in as samuelguzmanajala
+2025-02-02 18:31:26.575 [info] Got Copilot token for samuelguzmanajala
+2025-02-02 18:31:26.579 [info] copilot token chat_enabled: true, sku: free_educational
+2025-02-02 18:31:26.998 [info] Fetched model metadata in 417ms 70595263-7134-46dd-9aae-af695912f68f
+2025-02-02 18:46:27.126 [info] Fetched model metadata in 124ms 23234fed-dca5-4dab-91d1-77b9d3ad917d
+2025-02-02 18:56:26.577 [info] Logged in as samuelguzmanajala
+2025-02-02 18:56:27.067 [info] Got Copilot token for samuelguzmanajala
+2025-02-02 18:56:27.071 [info] copilot token chat_enabled: true, sku: free_educational
+2025-02-02 19:11:27.201 [info] Fetched model metadata in 124ms ca10dec1-edc3-416a-bee7-d951c3cd6c06
+2025-02-02 19:21:27.071 [info] Logged in as samuelguzmanajala
+2025-02-02 19:21:27.520 [info] Got Copilot token for samuelguzmanajala
+2025-02-02 19:21:27.525 [info] copilot token chat_enabled: true, sku: free_educational
+2025-02-02 19:21:27.922 [info] Fetched model metadata in 395ms a73f567d-8f3c-44da-b8f8-4fde2280fd03
+2025-02-02 19:36:28.044 [info] Fetched model metadata in 115ms 722903ff-26b3-4e77-b9bb-70e4011fc107
+2025-02-02 19:46:27.523 [info] Logged in as samuelguzmanajala
+2025-02-02 19:46:27.980 [info] Got Copilot token for samuelguzmanajala
+2025-02-02 19:46:27.984 [info] copilot token chat_enabled: true, sku: free_educational
+2025-02-02 20:01:28.115 [info] Fetched model metadata in 126ms 369445a5-2583-4fa5-bb8f-415683524830
+2025-02-02 20:11:27.984 [info] Logged in as samuelguzmanajala
+2025-02-02 20:11:28.433 [info] Got Copilot token for samuelguzmanajala
+2025-02-02 20:11:28.438 [info] copilot token chat_enabled: true, sku: free_educational
+2025-02-02 20:11:28.754 [info] Fetched model metadata in 314ms df310370-ea36-4679-8176-4dc285b39ebe
+2025-02-02 20:26:28.951 [info] Fetched model metadata in 113ms 6106fe1a-30b9-4c7c-b616-2c05efee76f8
+2025-02-02 20:36:28.455 [info] Logged in as samuelguzmanajala
+2025-02-02 20:36:28.952 [info] Got Copilot token for samuelguzmanajala
+2025-02-02 20:36:28.957 [info] copilot token chat_enabled: true, sku: free_educational
+2025-02-02 20:36:29.084 [info] Fetched model metadata in 126ms 41b906cf-5458-480e-8507-d910f5783ae2
+2025-02-02 20:51:29.204 [info] Fetched model metadata in 116ms ea26e41c-6434-4e40-a1d4-251dc3721459
+2025-02-02 21:01:28.956 [info] Logged in as samuelguzmanajala
+2025-02-02 21:01:29.415 [info] Got Copilot token for samuelguzmanajala
+2025-02-02 21:01:29.420 [info] copilot token chat_enabled: true, sku: free_educational
+2025-02-02 21:01:29.806 [info] Fetched model metadata in 385ms b20daeb4-9f7e-4f39-b627-bad6f1bf9da1

@@ -1,0 +1,38 @@
+[INFO - 13:55:53] Use build kind: WRAPPER
+[INFO - 13:55:53] Gradle version: 8.11.1
+[INFO - 13:55:53] Sending response 'build/initialize'. Processing request took 30 ms.
+[INFO - 13:55:54] Found 6 build targets during initialization.
+[INFO - 13:55:54] Sending response 'workspace/buildTargets'. Processing request took 1150 ms.
+[INFO - 13:55:56] Sending response 'workspace/buildTargets'. Processing request took 0 ms.
+[INFO - 13:55:56] Sending response 'buildTarget/outputPaths'. Processing request took 0 ms.
+[INFO - 13:55:56] Sending response 'buildTarget/sources'. Processing request took 0 ms.
+[INFO - 13:55:56] Sending response 'buildTarget/resources'. Processing request took 0 ms.
+[INFO - 13:55:56] Sending response 'buildTarget/outputPaths'. Processing request took 0 ms.
+[INFO - 13:55:56] Sending response 'buildTarget/sources'. Processing request took 0 ms.
+[INFO - 13:55:56] Sending response 'buildTarget/resources'. Processing request took 0 ms.
+[INFO - 13:55:56] Sending response 'buildTarget/dependencyModules'. Processing request took 1 ms.
+[INFO - 13:55:56] Sending response 'buildTarget/dependencyModules'. Processing request took 0 ms.
+[INFO - 13:55:56] Sending response 'buildTarget/javacOptions'. Processing request took 2 ms.
+[INFO - 13:55:56] Sending response 'workspace/buildTargets'. Processing request took 0 ms.
+[INFO - 13:55:56] Sending response 'buildTarget/outputPaths'. Processing request took 0 ms.
+[INFO - 13:55:56] Sending response 'buildTarget/sources'. Processing request took 0 ms.
+[INFO - 13:55:56] Sending response 'buildTarget/resources'. Processing request took 0 ms.
+[INFO - 13:55:56] Sending response 'buildTarget/outputPaths'. Processing request took 0 ms.
+[INFO - 13:55:56] Sending response 'buildTarget/sources'. Processing request took 0 ms.
+[INFO - 13:55:56] Sending response 'buildTarget/resources'. Processing request took 0 ms.
+[INFO - 13:55:56] Sending response 'buildTarget/dependencyModules'. Processing request took 0 ms.
+[INFO - 13:55:56] Sending response 'buildTarget/dependencyModules'. Processing request took 0 ms.
+[INFO - 13:55:56] Sending response 'buildTarget/javacOptions'. Processing request took 2 ms.
+[INFO - 13:55:56] Sending response 'workspace/buildTargets'. Processing request took 0 ms.
+[INFO - 13:55:56] Sending response 'buildTarget/outputPaths'. Processing request took 0 ms.
+[INFO - 13:55:56] Sending response 'buildTarget/sources'. Processing request took 0 ms.
+[INFO - 13:55:56] Sending response 'buildTarget/resources'. Processing request took 0 ms.
+[INFO - 13:55:56] Sending response 'buildTarget/outputPaths'. Processing request took 0 ms.
+[INFO - 13:55:56] Sending response 'buildTarget/sources'. Processing request took 0 ms.
+[INFO - 13:55:56] Sending response 'buildTarget/resources'. Processing request took 0 ms.
+[INFO - 13:55:56] Sending response 'buildTarget/dependencyModules'. Processing request took 0 ms.
+[INFO - 13:55:56] Sending response 'buildTarget/dependencyModules'. Processing request took 0 ms.
+[INFO - 13:55:56] Sending response 'buildTarget/javacOptions'. Processing request took 1 ms.
+[INFO - 13:55:56] Sending response 'workspace/buildTargets'. Processing request took 0 ms.
+[INFO - 13:55:57] Sending response 'workspace/buildTargets'. Processing request took 0 ms.
+[INFO - 13:55:57] Sending response 'workspace/buildTargets'. Processing request took 0 ms.

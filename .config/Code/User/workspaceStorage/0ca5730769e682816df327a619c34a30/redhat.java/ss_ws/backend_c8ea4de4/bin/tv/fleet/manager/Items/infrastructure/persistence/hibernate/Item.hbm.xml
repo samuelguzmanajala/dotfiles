@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="tv.fleet.manager.Items.domain.Item" table="items">
+        <composite-id name="id" class="tv.fleet.manager.Items.domain.ItemId" access="field">
+            <key-property column="id" name="value" length="36" access="field" />
+        </composite-id>
+
+        <component name="category" class="tv.fleet.manager.Items.domain.ItemCategory" access="field">
+            <property name="value" column="category" type="string" access="field" />
+        </component>
+
+        <component name="name" class="tv.fleet.manager.Items.domain.ItemName" access="field">
+            <property name="value" column="name" type="string" access="field" />
+        </component>
+
+        <component name="price" class="tv.fleet.manager.Items.domain.ItemInternalPrice" access="field">
+            <property name="value" column="price" type="java.math.BigDecimal" access="field" />
+        </component>
+
+        <component name="sellPrice" class="tv.fleet.manager.Items.domain.ItemSellPrice" access="field">
+            <property name="value" column="sell_price" type="java.math.BigDecimal" access="field" />
+        </component>
+
+        <component name="stock" class="tv.fleet.manager.Items.domain.ItemStock" access="field">
+            <property name="value" column="stock" type="integer" access="field" />
+        </component>
+
+        <component name="unit" class="tv.fleet.manager.Items.domain.ItemUnit" access="field">
+            <property name="value" column="unit" type="string" access="field" />
+        </component>
+
+        <component name="minimumStock" class="tv.fleet.manager.Items.domain.ItemMinimumStock" access="field">
+            <property name="value" column="minimum_stock" type="integer" access="field" />
+        </component>
+    </class>
+</hibernate-mapping>

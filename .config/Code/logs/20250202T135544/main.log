@@ -1,0 +1,19 @@
+2025-02-02 13:55:44.990 [info] update#setState idle
+2025-02-02 13:56:14.991 [info] update#setState checking for updates
+2025-02-02 13:56:15.037 [info] update#setState idle
+2025-02-02 13:56:17.200 [info] Extension host with pid 150035 exited with code: 0, signal: unknown.
+2025-02-02 13:56:17.206 [error] [UtilityProcess id: 2, type: fileWatcher, pid: 150020]: crashed with code 15 and reason 'killed'
+2025-02-02 14:56:14.995 [info] update#setState checking for updates
+2025-02-02 14:56:15.181 [info] update#setState idle
+2025-02-02 15:56:14.998 [info] update#setState checking for updates
+2025-02-02 15:56:15.136 [info] update#setState idle
+2025-02-02 16:56:15.001 [info] update#setState checking for updates
+2025-02-02 16:56:15.140 [info] update#setState idle
+2025-02-02 17:56:15.004 [info] update#setState checking for updates
+2025-02-02 17:56:15.150 [info] update#setState idle
+2025-02-02 18:56:15.007 [info] update#setState checking for updates
+2025-02-02 18:56:15.198 [info] update#setState idle
+2025-02-02 19:56:15.008 [info] update#setState checking for updates
+2025-02-02 19:56:15.296 [info] update#setState idle
+2025-02-02 20:56:15.010 [info] update#setState checking for updates
+2025-02-02 20:56:15.180 [info] update#setState idle

@@ -1,0 +1,23 @@
+2025-02-02 12:19:13.122 [info] Deleted uninstalled extension from disk rooveterinaryinc.roo-cline /home/samuelg/.vscode/extensions/rooveterinaryinc.roo-cline-3.3.4
+2025-02-02 12:19:13.122 [info] Deleted uninstalled extension from disk github.copilot /home/samuelg/.vscode/extensions/github.copilot-1.260.0
+2025-02-02 13:54:54.329 [info] Uninstalling extension from the profile: rooveterinaryinc.roo-cline@3.3.9 vscode-userdata:/home/samuelg/.vscode/extensions/extensions.json
+2025-02-02 13:54:54.345 [info] Marked extension as uninstalled rooveterinaryinc.roo-cline-3.3.9
+2025-02-02 13:54:54.420 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/samuelg/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/samuelg/.vscode/extensions/extensions.json.vsctmp'
+    at Gm.create (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39624)
+    at xs (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39731)
+    at Vr.ib (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:22778)
+    at Vr.stat (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:16010)
+    at async wh.stat (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:85488)
+    at async fh.Ab (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:67180)
+2025-02-02 13:54:54.520 [info] Successfully uninstalled extension from the profile rooveterinaryinc.roo-cline@3.3.9 vscode-userdata:/home/samuelg/.vscode/extensions/extensions.json
+2025-02-02 13:54:56.949 [info] Getting Manifest... rooveterinaryinc.roo-cline
+2025-02-02 13:54:56.984 [info] Installing extension: rooveterinaryinc.roo-cline {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/samuelg/.vscode/extensions/extensions.json","path":"/home/samuelg/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.96.4","date":"2025-01-16T00:16:19.038Z"}}
+2025-02-02 13:54:57.027 [info] Removed the extension from uninstalled list: rooveterinaryinc.roo-cline
+2025-02-02 13:54:57.044 [info] Extension installed successfully: rooveterinaryinc.roo-cline vscode-userdata:/home/samuelg/.vscode/extensions/extensions.json
+2025-02-02 13:54:57.110 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/samuelg/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/samuelg/.vscode/extensions/extensions.json.vsctmp'
+    at Gm.create (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39624)
+    at xs (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39731)
+    at Vr.ib (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:22778)
+    at Vr.stat (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:16010)
+    at async wh.stat (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:85488)
+    at async fh.Ab (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:67180)

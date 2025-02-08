@@ -1,0 +1,124 @@
+2025-02-05 21:43:16.351 [info] Extension host with pid 47325 started
+2025-02-05 21:43:16.351 [info] Skipping acquiring lock for /home/samuelg/.config/Code/User/workspaceStorage/0ca5730769e682816df327a619c34a30.
+2025-02-05 21:43:16.571 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-02-05 21:43:16.597 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-02-05 21:43:16.610 [info] ExtensionService#_doActivateExtension RooVeterinaryInc.roo-cline, startup: false, activationEvent: 'onLanguage'
+2025-02-05 21:43:17.117 [info] ExtensionService#_doActivateExtension redhat.java, startup: false, activationEvent: 'onLanguage:java'
+2025-02-05 21:43:17.210 [info] ExtensionService#_doActivateExtension VisualStudioExptTeam.vscodeintellicode, startup: false, activationEvent: 'onLanguage:java'
+2025-02-05 21:43:17.241 [info] ExtensionService#_doActivateExtension vscjava.vscode-java-debug, startup: false, activationEvent: 'onLanguage:java'
+2025-02-05 21:43:17.276 [info] ExtensionService#_doActivateExtension vscjava.vscode-java-dependency, startup: false, activationEvent: 'onLanguage:java'
+2025-02-05 21:43:17.321 [info] ExtensionService#_doActivateExtension vscjava.vscode-java-pack, startup: false, activationEvent: 'onLanguage:java'
+2025-02-05 21:43:17.546 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-02-05 21:43:17.548 [info] ExtensionService#_doActivateExtension isudox.vscode-jetbrains-keybindings, startup: true, activationEvent: '*'
+2025-02-05 21:43:17.730 [info] ExtensionService#_doActivateExtension vscjava.vscode-gradle, startup: true, activationEvent: 'workspaceContains:build.gradle'
+2025-02-05 21:43:17.879 [warning] [redhat.java] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[java]', provide the URI of a resource or 'null' for any resource.
+2025-02-05 21:43:17.960 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-02-05 21:43:18.026 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-02-05 21:43:18.071 [info] ExtensionService#_doActivateExtension vscjava.vscode-java-test, startup: false, activationEvent: 'onLanguage:java'
+2025-02-05 21:43:18.379 [warning] [redhat.java] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[java]', provide the URI of a resource or 'null' for any resource.
+2025-02-05 21:43:21.927 [error] [redhat.java] provider FAILED
+2025-02-05 21:43:21.929 [error] Error: The request (id: 1, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1066478
+	at re (/home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1066772)
+	at /home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1061556
+	at Immediate.<anonymous> (/home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1061576)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-02-05 21:43:21.932 [error] [redhat.java] provider FAILED
+2025-02-05 21:43:21.932 [error] Error: The request (id: 2, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1066478
+	at re (/home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1066772)
+	at /home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1061556
+	at Immediate.<anonymous> (/home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1061576)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-02-05 21:43:27.496 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-02-05 21:43:27.498 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-02-05 21:43:27.509 [info] ExtensionService#_doActivateExtension GitHub.copilot, startup: false, activationEvent: 'onStartupFinished'
+2025-02-05 21:43:27.831 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onStartupFinished'
+2025-02-05 21:43:28.287 [info] ExtensionService#_doActivateExtension ms-vscode-remote.remote-containers, startup: false, activationEvent: 'onStartupFinished'
+2025-02-05 21:43:36.969 [info] ExtensionService#_doActivateExtension vmware.vscode-spring-boot, startup: false, activationEvent: 'onCommand:vscode-spring-boot.ls.start'
+2025-02-05 21:43:37.596 [info] Eager extensions activated
+2025-02-05 21:43:37.617 [info] ExtensionService#_doActivateExtension vscjava.vscode-spring-boot-dashboard, startup: false, activationEvent: 'onCommand:vscode-spring-boot.ls.start'
+2025-02-05 21:43:37.960 [error] Error: chatParticipant must be declared in package.json: springboot.agent
+    at d5t.$registerAgent (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:729:48592)
+2025-02-05 21:43:42.064 [error] [redhat.java] provider FAILED
+2025-02-05 21:43:42.074 [error] Error: The request (id: 56, method: 'textDocument/hover') has been cancelled
+    at /home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1066478
+    at re (/home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1066772)
+    at /home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1061556
+    at Immediate.<anonymous> (/home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1061576)
+    at processImmediate (node:internal/timers:483:21)
+2025-02-05 21:43:54.753 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-02-05 21:43:54.759 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-02-05 21:43:54.788 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-02-05 22:09:30.233 [error] [redhat.java] provider FAILED
+2025-02-05 22:09:30.233 [error] Error: The request (id: 279, method: 'textDocument/hover') has been cancelled
+    at /home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1066478
+    at re (/home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1066772)
+    at /home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1061556
+    at Immediate.<anonymous> (/home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1061576)
+    at processImmediate (node:internal/timers:483:21)
+2025-02-05 22:11:13.657 [info] Extension host terminating: renderer closed the MessagePort
+2025-02-05 22:11:13.790 [error] Error: Channel has been closed
+    at s (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:121:2431)
+    at Object.appendLine (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:121:2570)
+    at D.logOutputMessage (/usr/share/code/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain.js:1:285192)
+    at D.info (/usr/share/code/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain.js:1:284925)
+    at ChildProcess.<anonymous> (/usr/share/code/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain.js:1:503028)
+    at ChildProcess.emit (node:events:518:28)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-02-05 22:11:14.747 [error] Error: SDK is not initialized
+    at throwError (/home/samuelg/.vscode/extensions/github.copilot-1.263.0/node_modules/@microsoft/applicationinsights-web-basic/dist/es5/https:/raw.githubusercontent.com/nevware21/ts-utils/refs/tags/0.11.5/lib/src/helpers/throw.ts:15:11)
+    at f.Zt.<computed> [as unload] (/home/samuelg/.vscode/extensions/github.copilot-1.263.0/node_modules/@microsoft/applicationinsights-web-basic/dist/es5/applicationinsights-web-basic@3.3.4/shared/AppInsightsCore/dist-es5/JavaScriptSDK/AppInsightsCore.js:567:1)
+    at f.unload (/home/samuelg/.vscode/extensions/github.copilot-1.263.0/node_modules/@microsoft/applicationinsights-web-basic/dist/es5/applicationinsights-web-basic@3.3.4/shared/AppInsightsCore/dist-es5/JavaScriptSDK/HelperFuncs.js:127:1)
+    at nH.dispose (/home/samuelg/.vscode/extensions/github.copilot-1.263.0/lib/src/telemetry/appInsightsReporter.ts:79:27)
+    at ai (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:25:699)
+    at file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:14992
+    at file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:25:1009
+    at Object.dispose (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:8:705)
+    at zz.eb (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:11919)
+    at file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:9874
+    at Array.map (<anonymous>)
+    at zz.$ (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:9862)
+    at zz.terminate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:10105)
+    at QC.terminate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:1424)
+    at Zi (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:175:15080)
+    at MessagePortMain.<anonymous> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:175:11628)
+    at MessagePortMain.emit (node:events:518:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+2025-02-05 22:11:14.749 [error] TypeError: Cannot read properties of undefined (reading 'type')
+    at /home/samuelg/.vscode/extensions/vmware.vscode-spring-boot-1.59.0/out/lib/test-jar-launch.js:101:21
+    at Generator.next (<anonymous>)
+    at /home/samuelg/.vscode/extensions/vmware.vscode-spring-boot-1.59.0/out/lib/test-jar-launch.js:31:71
+    at new Promise (<anonymous>)
+    at __awaiter (/home/samuelg/.vscode/extensions/vmware.vscode-spring-boot-1.59.0/out/lib/test-jar-launch.js:27:12)
+    at cleanupDebugSession (/home/samuelg/.vscode/extensions/vmware.vscode-spring-boot-1.59.0/out/lib/test-jar-launch.js:99:12)
+    at ev.<anonymous> (/home/samuelg/.vscode/extensions/vmware.vscode-spring-boot-1.59.0/out/lib/test-jar-launch.js:94:382)
+    at ev.dispose (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:109:20143)
+    at ev.<anonymous> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:109:20047)
+    at ev.dispose (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:109:20143)
+    at Object.dispose (/home/samuelg/.vscode/extensions/vmware.vscode-spring-boot-1.59.0/out/lib/debug-config-provider.js:110:26)
+    at ai (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:25:699)
+    at file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:14992
+    at file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:25:1009
+    at Object.dispose (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:8:705)
+    at zz.eb (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:11919)
+    at file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:9874
+    at Array.map (<anonymous>)
+    at zz.$ (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:9862)
+    at zz.terminate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:10105)
+    at QC.terminate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:1424)
+    at Zi (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:175:15080)
+    at MessagePortMain.<anonymous> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:175:11628)
+    at MessagePortMain.emit (node:events:518:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+2025-02-05 22:11:14.796 [error] Error: write after end
+    at _write (node:internal/streams/writable:489:11)
+    at Socket.Writable.write (node:internal/streams/writable:510:10)
+    at /home/samuelg/.vscode/extensions/vscjava.vscode-gradle-3.16.4/dist/index.js:2:839886
+    at new Promise (<anonymous>)
+    at c.write (/home/samuelg/.vscode/extensions/vscjava.vscode-gradle-3.16.4/dist/index.js:2:839804)
+    at m.doWrite (/home/samuelg/.vscode/extensions/vscjava.vscode-gradle-3.16.4/dist/index.js:2:829407)
+    at /home/samuelg/.vscode/extensions/vscjava.vscode-gradle-3.16.4/dist/index.js:2:829302
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at processImmediate (node:internal/timers:454:9)
+2025-02-05 22:11:18.733 [info] Extension host with pid 47325 exiting with code 0

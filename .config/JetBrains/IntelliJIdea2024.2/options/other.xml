@@ -1,0 +1,122 @@
+<application>
+  <component name="ActionHistoryManager">
+    <ids>
+      <option value="ChangeLaf" />
+      <option value="ConfigureSpecificationSources" />
+      <option value="CreateOpenapiSpecification" />
+      <option value="WelcomeScreen.Plugins" />
+      <option value="Maven.AddManagedFiles" />
+      <option value="WelcomeScreen.Settings" />
+      <option value="ShowProjectStructureSettings" />
+    </ids>
+  </component>
+  <component name="FileEditorProviderManager">{
+  &quot;selectedProviders&quot;: {
+    &quot;text-editor,csv-data-editor&quot;: &quot;text-editor&quot;
+  }
+}</component>
+  <component name="JdkInstallerHistory">
+    <option name="installedItems">
+      <installed-jdk>
+        <option name="fullText" value="Amazon Corretto 20.0.2.1" />
+        <option name="installDir" value="/home/samuelg/.jdks/corretto-20.0.2.1" />
+        <option name="sha256" value="3b60fe04966d0aa762bf1fc2974ad239cf7ab887a657a9e7e3c75a9310e34db2" />
+        <option name="url" value="https://corretto.aws/downloads/resources/20.0.2.10.1/amazon-corretto-20.0.2.10.1-linux-x64.tar.gz" />
+        <option name="versionText" value="20.0.2.1" />
+      </installed-jdk>
+    </option>
+  </component>
+  <component name="LangManager">
+    <option name="languageName" value="JAVA" />
+  </component>
+  <component name="NotRoamableUiSettings">
+    <option name="fontSize" value="15.0" />
+    <option name="presentationModeIdeScale" value="1.75" />
+  </component>
+  <component name="PropertyService"><![CDATA[{
+  "keyToString": {
+    "ColorChooser.RecentColors": "255-255-255-0,,,188-104-104-255,,,166-37-37-255,,,208-226-243-134,,,208-226-243-178,,,163-181-197-178,,,108-150-191-255",
+    "DEBUGGER_VISUALIZED_TEXT_SELECTED_TAB#com.intellij.xdebugger.impl.ui.visualizedtext.FallbackTextVisualizer#com.intellij.xdebugger.impl.ui.visualizedtext.common.JsonTextVisualizer": "com.intellij.xdebugger.impl.ui.visualizedtext.common.JsonTextVisualizer",
+    "DEBUGGER_VISUALIZED_TEXT_SELECTED_TAB#com.intellij.xdebugger.impl.ui.visualizedtext.FallbackTextVisualizer#com.intellij.xdebugger.impl.ui.visualizedtext.common.UrlEncodedTextVisualizer": "com.intellij.xdebugger.impl.ui.visualizedtext.common.UrlEncodedTextVisualizer",
+    "DbRenameDialog.previewExpanded": "true",
+    "FileChooser.ShowPath": "true",
+    "FindSplitterProportion": "0.32611638",
+    "InstalledPluginsSearchHistory": "webpack\nwebpac\nweb\ncheckst\nchecks",
+    "LAST_CALCULATED_COLOR_INDEX_KEY": "2",
+    "LAST_EXTRACTOR_SCRIPTS_CLEANUP_VERSION/data/aggregators": "IU-242.23339.11",
+    "LAST_EXTRACTOR_SCRIPTS_CLEANUP_VERSION/data/extractors": "IU-242.23339.11",
+    "LiveContextsPanel[0]": "0.118063755",
+    "MarketplacePluginsSearchHistory": "nvim\nneovim\nopenapi\naou\ncopilot",
+    "MemberChooser.copyJavadoc": "false",
+    "MemberChooser.showClasses": "true",
+    "NewProjectWizard.gradleDslState": "GROOVY",
+    "NewProjectWizard.groupIdState": "tv.fleet.samuel",
+    "PluginConfigurable.selectionTab": "1",
+    "ProjectStructure.SecondLevelElements": "0.433832",
+    "RunOnceActivity.VFSInitializationConditionsToFusReporter": "true",
+    "RunOnceActivity.llm.installer.activate.toolwindow": "true",
+    "SettingsSearchHistory": "checkstyle\nwebpack\ncheckst\neslint\nnew ui",
+    "SqlStructureView.filterD.file.structure.state": "true",
+    "build.toolwindow.Build Output.selection.state": "com.intellij.build.BuildTreeConsoleView",
+    "build.toolwindow.Sync.selection.state": "com.intellij.build.BuildTreeConsoleView",
+    "build.toolwindow.run.selection.state": "com.intellij.build.BuildTreeConsoleView",
+    "com.intellij.database.actions.DbDeleteProvider$2.proportion": "0.5",
+    "com.intellij.ide.projectWizard.generators.JavaNewProjectWizard$Step.selectedStep": "Gradle",
+    "com.intellij.openapi.roots.ui.configuration.TabbedModuleEditor.selectedEditor": "Sources",
+    "debugger.smart.chooser.counter": "1",
+    "decompiler.legal.notice.accepted": "true",
+    "defaultJdkConfigured": "true",
+    "enter_selection_count": "5",
+    "evlsprt3.242": "6",
+    "experimental.ui.on.first.startup": "true",
+    "experimental.ui.used.version": "242.23339.11",
+    "file.gist.reindex.count": "12",
+    "fileTypeChangedCounter": "1",
+    "fontSizeToResetConsole": "13.0",
+    "fontSizeToResetEditor": "13.0",
+    "got.it.tooltip.copilot.inlayGotIt": "1",
+    "got.it.tooltip.copilot.inlayPartialGotIt": "1",
+    "got.it.tooltip.database.schema.control.got.it": "1",
+    "got.it.tooltip.fragment.hidden.commandLineParameters": "1",
+    "got.it.tooltip.new.terminal.promotion.242": "1",
+    "ide.memory.adjusted": "true",
+    "input.method.disabler.muted": "true",
+    "installed.kotlin.plugin.version": "242.23339.11-IJ",
+    "jdk.selected.JAVA_MODULE": "21",
+    "js.chrome.debugger.port.98ca6316-2f89-46d9-a9e5-fa9e2b0625b3": "37935",
+    "last_opened_file_path": "/home/samuelg/.sdkman/candidates/maven/current",
+    "llm.installer.last.toolwindow.state": "LLM_INSTALLER",
+    "migrated.non.roamable.values.from.general.settings": "true",
+    "previousColorScheme": "_@user_Dark",
+    "project.wizard.group": "NPW.simple-module.Java",
+    "registry.to.advanced.settings.migration.build": "IU-242.23339.11",
+    "ts.lib.d.ts.version": "5.4.3"
+  },
+  "keyToStringList": {
+    "file.chooser.recent.files": [
+      "/home/samuelg/Projects/fleet-manager/backend",
+      "/home/samuelg/direct_costs_updates_2.sql",
+      "/home/samuelg/IdeaProjects/xabet-digitalwall-2.0-Beta-",
+      "/home/samuelg/Projects/Spring-Security-in-Action/01-HelloSpring/ssia-ch2-ex1",
+      "/home/samuelg/Projects/Spring-Security-in-Action",
+      "/home/samuelg/direct_costs_2025.sql",
+      "/home/samuelg/IdeaProjects/xabet-digitalwall/dwall-web/build/webpack.base.conf.js",
+      "/home/samuelg/Projects/distributed-portfolio",
+      "/home/samuelg/IdeaProjects/xabet-digitalwall/dwall-web/node/node",
+      "/home/samuelg/IdeaProjects/xabet-digitalwall/dwall-build-tools/src/main/resources/codelinting/checkstyle.xml",
+      "/home/samuelg/IdeaProjects/xabet-digitalwall/doc/files/checkstyle.jar",
+      "/home/samuelg/.sdkman/candidates/maven/current"
+    ],
+    "fileTypeDetectors": [
+      "com.intellij.ide.scratch.ScratchFileServiceImpl$Detector",
+      "com.intellij.profiler.ultimate.hprof.impl.HprofFileTypeDetector",
+      "com.intellij.docker.dockerFile.DockerFileTypeDetector",
+      "com.intellij.javascript.debugger.sourcemap.SourceMapFileType$MyFileTypeDetector",
+      "com.intellij.database.vfs.DbStorageFileType$Detector",
+      "com.jetbrains.nodejs.util.NodeFileTypeDetector$JavaScriptFileTypeDetector",
+      "com.jetbrains.nodejs.util.NodeFileTypeDetector$TypeScriptFileTypeDetector",
+      "org.jetbrains.plugins.textmate.TextMateFileType$TextMateFileDetector"
+    ]
+  }
+}]]></component>
+</application>

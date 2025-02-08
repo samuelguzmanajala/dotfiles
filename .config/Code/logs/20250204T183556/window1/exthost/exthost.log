@@ -1,0 +1,586 @@
+2025-02-04 18:35:57.365 [info] Extension host with pid 9236 started
+2025-02-04 18:35:57.365 [info] Skipping acquiring lock for /home/samuelg/.config/Code/User/workspaceStorage/0ca5730769e682816df327a619c34a30.
+2025-02-04 18:35:57.541 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-02-04 18:35:57.564 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-02-04 18:35:57.577 [info] ExtensionService#_doActivateExtension RooVeterinaryInc.roo-cline, startup: false, activationEvent: 'onLanguage'
+2025-02-04 18:35:58.080 [info] ExtensionService#_doActivateExtension redhat.java, startup: false, activationEvent: 'onLanguage:java'
+2025-02-04 18:35:58.164 [info] ExtensionService#_doActivateExtension VisualStudioExptTeam.vscodeintellicode, startup: false, activationEvent: 'onLanguage:java'
+2025-02-04 18:35:58.188 [info] ExtensionService#_doActivateExtension vscjava.vscode-java-debug, startup: false, activationEvent: 'onLanguage:java'
+2025-02-04 18:35:58.214 [info] ExtensionService#_doActivateExtension vscjava.vscode-java-dependency, startup: false, activationEvent: 'onLanguage:java'
+2025-02-04 18:35:58.261 [info] ExtensionService#_doActivateExtension vscjava.vscode-java-pack, startup: false, activationEvent: 'onLanguage:java'
+2025-02-04 18:35:58.494 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-02-04 18:35:58.496 [info] ExtensionService#_doActivateExtension isudox.vscode-jetbrains-keybindings, startup: true, activationEvent: '*'
+2025-02-04 18:35:58.589 [info] ExtensionService#_doActivateExtension vscjava.vscode-gradle, startup: true, activationEvent: 'workspaceContains:build.gradle'
+2025-02-04 18:35:58.683 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-02-04 18:35:58.742 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-02-04 18:35:59.058 [warning] [redhat.java] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[java]', provide the URI of a resource or 'null' for any resource.
+2025-02-04 18:35:59.106 [info] ExtensionService#_doActivateExtension vscjava.vscode-java-test, startup: false, activationEvent: 'onLanguage:java'
+2025-02-04 18:35:59.307 [warning] [redhat.java] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[java]', provide the URI of a resource or 'null' for any resource.
+2025-02-04 18:36:02.589 [error] [redhat.java] provider FAILED
+2025-02-04 18:36:02.590 [error] Error: The request (id: 3, method: 'textDocument/hover') has been cancelled
+	at /home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1066478
+	at re (/home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1066772)
+	at /home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1061556
+	at Immediate.<anonymous> (/home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1061576)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-02-04 18:36:08.078 [error] [redhat.java] provider FAILED
+2025-02-04 18:36:08.078 [error] Error: The request (id: 9, method: 'textDocument/hover') has been cancelled
+	at /home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1066478
+	at re (/home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1066772)
+	at /home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1061556
+	at Immediate.<anonymous> (/home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1061576)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-02-04 18:36:08.494 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-02-04 18:36:08.496 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-02-04 18:36:08.511 [info] ExtensionService#_doActivateExtension GitHub.copilot, startup: false, activationEvent: 'onStartupFinished'
+2025-02-04 18:36:08.820 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onStartupFinished'
+2025-02-04 18:36:09.209 [info] ExtensionService#_doActivateExtension ms-vscode-remote.remote-containers, startup: false, activationEvent: 'onStartupFinished'
+2025-02-04 18:36:10.630 [error] [redhat.java] provider FAILED
+2025-02-04 18:36:10.635 [error] Error: The request (id: 10, method: 'textDocument/hover') has been cancelled
+    at /home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1066478
+    at re (/home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1066772)
+    at /home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1061556
+    at Immediate.<anonymous> (/home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1061576)
+    at processImmediate (node:internal/timers:483:21)
+2025-02-04 18:36:19.568 [info] ExtensionService#_doActivateExtension vmware.vscode-spring-boot, startup: false, activationEvent: 'onCommand:vscode-spring-boot.ls.start'
+2025-02-04 18:36:19.704 [info] Eager extensions activated
+2025-02-04 18:36:19.938 [info] ExtensionService#_doActivateExtension vscjava.vscode-spring-boot-dashboard, startup: false, activationEvent: 'onCommand:vscode-spring-boot.ls.start'
+2025-02-04 18:36:20.152 [error] Error: chatParticipant must be declared in package.json: springboot.agent
+    at d5t.$registerAgent (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:729:48592)
+2025-02-04 18:39:08.143 [error] Error: Task not found
+    at t.getTaskWithId (/home/samuelg/.vscode/extensions/rooveterinaryinc.roo-cline-3.3.9/dist/extension.js:2820:26938)
+    at kh.value (/home/samuelg/.vscode/extensions/rooveterinaryinc.roo-cline-3.3.9/dist/extension.js:2820:4669)
+2025-02-04 18:55:19.141 [error] [redhat.java] provider FAILED
+2025-02-04 18:55:19.141 [error] Error: The request (id: 88, method: 'textDocument/hover') has been cancelled
+    at /home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1066478
+    at re (/home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1066772)
+    at /home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1061556
+    at Immediate.<anonymous> (/home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1061576)
+    at processImmediate (node:internal/timers:483:21)
+2025-02-04 18:55:37.543 [warning] RooVeterinaryInc.roo-cline - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.rewrite'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-02-04 18:55:37.543 [warning] RooVeterinaryInc.roo-cline - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.rewrite'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-02-04 18:55:50.511 [error] [redhat.java] provider FAILED
+2025-02-04 18:55:50.511 [error] Error: The request (id: 169, method: 'textDocument/hover') has been cancelled
+    at /home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1066478
+    at re (/home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1066772)
+    at /home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1061556
+    at Immediate.<anonymous> (/home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1061576)
+    at processImmediate (node:internal/timers:483:21)
+2025-02-04 18:55:51.388 [warning] RooVeterinaryInc.roo-cline - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.rewrite'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-02-04 18:55:51.388 [warning] RooVeterinaryInc.roo-cline - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.rewrite'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-02-04 18:56:48.595 [warning] RooVeterinaryInc.roo-cline - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.rewrite'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-02-04 18:56:48.595 [warning] RooVeterinaryInc.roo-cline - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.rewrite'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-02-04 18:56:56.239 [error] [redhat.java] provider FAILED
+2025-02-04 18:56:56.239 [error] Error: The request (id: 318, method: 'textDocument/hover') has been cancelled
+    at /home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1066478
+    at re (/home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1066772)
+    at /home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1061556
+    at Immediate.<anonymous> (/home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1061576)
+    at processImmediate (node:internal/timers:483:21)
+2025-02-04 18:57:02.076 [error] [redhat.java] provider FAILED
+2025-02-04 18:57:02.076 [error] Error: The request (id: 350, method: 'textDocument/documentSymbol') has been cancelled
+    at /home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1066478
+    at re (/home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1066772)
+    at /home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1061556
+    at Immediate.<anonymous> (/home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1061576)
+    at processImmediate (node:internal/timers:483:21)
+2025-02-04 18:58:08.318 [error] [redhat.java] provider FAILED
+2025-02-04 18:58:08.318 [error] Error: The request (id: 553, method: 'textDocument/documentSymbol') has been cancelled
+    at /home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1066478
+    at re (/home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1066772)
+    at /home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1061556
+    at Immediate.<anonymous> (/home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1061576)
+    at processImmediate (node:internal/timers:483:21)
+2025-02-04 18:58:09.805 [error] [redhat.java] provider FAILED
+2025-02-04 18:58:09.805 [error] Error: The request (id: 578, method: 'textDocument/documentSymbol') has been cancelled
+    at /home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1066478
+    at re (/home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1066772)
+    at /home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1061556
+    at Immediate.<anonymous> (/home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1061576)
+    at processImmediate (node:internal/timers:483:21)
+2025-02-04 18:58:12.331 [warning] RooVeterinaryInc.roo-cline - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.rewrite'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-02-04 18:58:12.331 [warning] RooVeterinaryInc.roo-cline - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.rewrite'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-02-04 18:58:14.613 [warning] RooVeterinaryInc.roo-cline - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.rewrite'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-02-04 18:58:14.613 [warning] RooVeterinaryInc.roo-cline - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.rewrite'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-02-04 18:58:18.078 [warning] RooVeterinaryInc.roo-cline - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.rewrite'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-02-04 18:58:18.078 [warning] RooVeterinaryInc.roo-cline - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.rewrite'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-02-04 18:58:26.500 [error] [redhat.java] provider FAILED
+2025-02-04 18:58:26.500 [error] Error: The request (id: 635, method: 'textDocument/hover') has been cancelled
+    at /home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1066478
+    at re (/home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1066772)
+    at /home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1061556
+    at Immediate.<anonymous> (/home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1061576)
+    at processImmediate (node:internal/timers:483:21)
+2025-02-04 18:58:28.061 [error] [redhat.java] provider FAILED
+2025-02-04 18:58:28.061 [error] TypeError: Cannot read properties of null (reading 'documentation')
+    at /home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:880717
+    at Generator.next (<anonymous>)
+    at s (/home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:866095)
+2025-02-04 18:58:32.769 [error] [redhat.java] provider FAILED
+2025-02-04 18:58:32.769 [error] Error: The request (id: 680, method: 'textDocument/hover') has been cancelled
+    at /home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1066478
+    at re (/home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1066772)
+    at /home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1061556
+    at Immediate.<anonymous> (/home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1061576)
+    at processImmediate (node:internal/timers:483:21)
+2025-02-04 18:58:37.377 [error] [redhat.java] provider FAILED
+2025-02-04 18:58:37.377 [error] Error: The request (id: 748, method: 'textDocument/documentSymbol') has been cancelled
+    at /home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1066478
+    at re (/home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1066772)
+    at /home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1061556
+    at Immediate.<anonymous> (/home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1061576)
+    at processImmediate (node:internal/timers:483:21)
+2025-02-04 18:58:47.773 [warning] RooVeterinaryInc.roo-cline - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.rewrite'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-02-04 18:58:47.773 [warning] RooVeterinaryInc.roo-cline - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.rewrite'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-02-04 18:58:50.082 [error] [redhat.java] provider FAILED
+2025-02-04 18:58:50.082 [error] Error: The request (id: 854, method: 'textDocument/documentSymbol') has been cancelled
+    at /home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1066478
+    at re (/home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1066772)
+    at /home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1061556
+    at Immediate.<anonymous> (/home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1061576)
+    at processImmediate (node:internal/timers:483:21)
+2025-02-04 18:59:02.942 [error] [redhat.java] provider FAILED
+2025-02-04 18:59:02.942 [error] Error: The request (id: 1001, method: 'textDocument/documentSymbol') has been cancelled
+    at /home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1066478
+    at re (/home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1066772)
+    at /home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1061556
+    at Immediate.<anonymous> (/home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1061576)
+    at processImmediate (node:internal/timers:483:21)
+2025-02-04 18:59:41.976 [warning] RooVeterinaryInc.roo-cline - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.rewrite'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-02-04 18:59:41.976 [warning] RooVeterinaryInc.roo-cline - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.rewrite'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-02-04 19:00:46.725 [error] [redhat.java] provider FAILED
+2025-02-04 19:00:46.725 [error] Error: The request (id: 1445, method: 'textDocument/hover') has been cancelled
+    at /home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1066478
+    at re (/home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1066772)
+    at /home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1061556
+    at Immediate.<anonymous> (/home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1061576)
+    at processImmediate (node:internal/timers:483:21)
+2025-02-04 19:00:56.902 [error] [redhat.java] provider FAILED
+2025-02-04 19:00:56.902 [error] Error: The request (id: 1522, method: 'textDocument/documentSymbol') has been cancelled
+    at /home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1066478
+    at re (/home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1066772)
+    at /home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1061556
+    at Immediate.<anonymous> (/home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1061576)
+    at processImmediate (node:internal/timers:483:21)
+2025-02-04 19:01:03.492 [warning] RooVeterinaryInc.roo-cline - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.rewrite'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-02-04 19:01:03.492 [warning] RooVeterinaryInc.roo-cline - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.rewrite'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-02-04 19:01:33.133 [error] [redhat.java] provider FAILED
+2025-02-04 19:01:33.133 [error] Error: The request (id: 1729, method: 'textDocument/hover') has been cancelled
+    at /home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1066478
+    at re (/home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1066772)
+    at /home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1061556
+    at Immediate.<anonymous> (/home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1061576)
+    at processImmediate (node:internal/timers:483:21)
+2025-02-04 19:02:01.758 [warning] RooVeterinaryInc.roo-cline - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.rewrite'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-02-04 19:02:01.758 [warning] RooVeterinaryInc.roo-cline - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.rewrite'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-02-04 19:02:12.391 [error] [redhat.java] provider FAILED
+2025-02-04 19:02:12.391 [error] Error: The request (id: 1972, method: 'textDocument/documentSymbol') has been cancelled
+    at /home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1066478
+    at re (/home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1066772)
+    at /home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1061556
+    at Immediate.<anonymous> (/home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1061576)
+    at processImmediate (node:internal/timers:483:21)
+2025-02-04 19:02:27.704 [error] [redhat.java] provider FAILED
+2025-02-04 19:02:27.704 [error] Error: The request (id: 2122, method: 'textDocument/documentSymbol') has been cancelled
+    at /home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1066478
+    at re (/home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1066772)
+    at /home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1061556
+    at Immediate.<anonymous> (/home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1061576)
+    at processImmediate (node:internal/timers:483:21)
+2025-02-04 19:03:09.406 [error] [redhat.java] provider FAILED
+2025-02-04 19:03:09.406 [error] Error: The request (id: 2375, method: 'textDocument/hover') has been cancelled
+    at /home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1066478
+    at re (/home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1066772)
+    at /home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1061556
+    at Immediate.<anonymous> (/home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1061576)
+    at processImmediate (node:internal/timers:483:21)
+2025-02-04 19:03:58.877 [error] [redhat.java] provider FAILED
+2025-02-04 19:03:58.877 [error] Error: The request (id: 2490, method: 'textDocument/hover') has been cancelled
+    at /home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1066478
+    at re (/home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1066772)
+    at /home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1061556
+    at Immediate.<anonymous> (/home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1061576)
+    at processImmediate (node:internal/timers:483:21)
+2025-02-04 19:06:53.168 [error] [redhat.java] provider FAILED
+2025-02-04 19:06:53.168 [error] Error: The request (id: 2582, method: 'textDocument/hover') has been cancelled
+    at /home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1066478
+    at re (/home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1066772)
+    at /home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1061556
+    at Immediate.<anonymous> (/home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1061576)
+    at processImmediate (node:internal/timers:483:21)
+2025-02-04 19:07:11.466 [error] [redhat.java] provider FAILED
+2025-02-04 19:07:11.466 [error] Error: The request (id: 2618, method: 'textDocument/hover') has been cancelled
+    at /home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1066478
+    at re (/home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1066772)
+    at /home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1061556
+    at Immediate.<anonymous> (/home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1061576)
+    at processImmediate (node:internal/timers:483:21)
+2025-02-04 19:07:21.461 [error] [redhat.java] provider FAILED
+2025-02-04 19:07:21.461 [error] Error: The request (id: 2649, method: 'textDocument/hover') has been cancelled
+    at /home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1066478
+    at re (/home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1066772)
+    at /home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1061556
+    at Immediate.<anonymous> (/home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1061576)
+    at processImmediate (node:internal/timers:483:21)
+2025-02-04 19:10:55.994 [error] [redhat.java] provider FAILED
+2025-02-04 19:10:55.994 [error] Error: The request (id: 2780, method: 'textDocument/hover') has been cancelled
+    at /home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1066478
+    at re (/home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1066772)
+    at /home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1061556
+    at Immediate.<anonymous> (/home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1061576)
+    at processImmediate (node:internal/timers:483:21)
+2025-02-04 19:14:38.114 [error] [redhat.java] provider FAILED
+2025-02-04 19:14:38.114 [error] Error: The request (id: 2958, method: 'textDocument/documentSymbol') has been cancelled
+    at /home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1066478
+    at re (/home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1066772)
+    at /home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1061556
+    at Immediate.<anonymous> (/home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1061576)
+    at processImmediate (node:internal/timers:483:21)
+2025-02-04 19:14:43.160 [warning] RooVeterinaryInc.roo-cline - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.rewrite'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-02-04 19:14:43.160 [warning] RooVeterinaryInc.roo-cline - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.rewrite'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-02-04 19:14:45.980 [warning] RooVeterinaryInc.roo-cline - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.rewrite'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-02-04 19:14:45.980 [warning] RooVeterinaryInc.roo-cline - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.rewrite'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-02-04 19:14:47.499 [warning] RooVeterinaryInc.roo-cline - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.rewrite'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-02-04 19:14:47.499 [warning] RooVeterinaryInc.roo-cline - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.rewrite'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-02-04 19:14:53.765 [error] [redhat.java] provider FAILED
+2025-02-04 19:14:53.765 [error] Error: Internal error.
+    at /home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1066478
+    at re (/home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1066772)
+    at /home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1061556
+    at Immediate.<anonymous> (/home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1061576)
+    at processImmediate (node:internal/timers:483:21)
+2025-02-04 19:14:54.563 [warning] RooVeterinaryInc.roo-cline - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.rewrite'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-02-04 19:14:54.563 [warning] RooVeterinaryInc.roo-cline - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.rewrite'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-02-04 19:14:54.566 [error] [redhat.java] provider FAILED
+2025-02-04 19:14:54.566 [error] Error: Internal error.
+    at /home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1066478
+    at re (/home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1066772)
+    at /home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1061556
+    at Immediate.<anonymous> (/home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1061576)
+    at processImmediate (node:internal/timers:483:21)
+2025-02-04 19:14:55.839 [error] [redhat.java] provider FAILED
+2025-02-04 19:14:55.839 [error] Error: Internal error.
+    at /home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1066478
+    at re (/home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1066772)
+    at /home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1061556
+    at Immediate.<anonymous> (/home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1061576)
+    at processImmediate (node:internal/timers:483:21)
+2025-02-04 19:14:57.668 [error] [redhat.java] provider FAILED
+2025-02-04 19:14:57.668 [error] Error: Internal error.
+    at /home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1066478
+    at re (/home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1066772)
+    at /home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1061556
+    at Immediate.<anonymous> (/home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1061576)
+    at processImmediate (node:internal/timers:483:21)
+2025-02-04 19:14:58.323 [error] [redhat.java] provider FAILED
+2025-02-04 19:14:58.323 [error] Error: The request (id: 3073, method: 'textDocument/hover') has been cancelled
+    at /home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1066478
+    at re (/home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1066772)
+    at /home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1061556
+    at Immediate.<anonymous> (/home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1061576)
+    at processImmediate (node:internal/timers:483:21)
+2025-02-04 19:14:58.588 [error] [redhat.java] provider FAILED
+2025-02-04 19:14:58.588 [error] Error: Internal error.
+    at /home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1066478
+    at re (/home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1066772)
+    at /home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1061556
+    at Immediate.<anonymous> (/home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1061576)
+    at processImmediate (node:internal/timers:483:21)
+2025-02-04 19:14:59.287 [error] [redhat.java] provider FAILED
+2025-02-04 19:14:59.287 [error] Error: Internal error.
+    at /home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1066478
+    at re (/home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1066772)
+    at /home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1061556
+    at Immediate.<anonymous> (/home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1061576)
+    at processImmediate (node:internal/timers:483:21)
+2025-02-04 19:14:59.565 [error] [redhat.java] provider FAILED
+2025-02-04 19:14:59.566 [error] Error: Internal error.
+    at /home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1066478
+    at re (/home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1066772)
+    at /home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1061556
+    at Immediate.<anonymous> (/home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1061576)
+    at processImmediate (node:internal/timers:483:21)
+2025-02-04 19:15:00.087 [error] [redhat.java] provider FAILED
+2025-02-04 19:15:00.088 [error] Error: Internal error.
+    at /home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1066478
+    at re (/home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1066772)
+    at /home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1061556
+    at Immediate.<anonymous> (/home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1061576)
+    at processImmediate (node:internal/timers:483:21)
+2025-02-04 19:15:09.492 [error] [redhat.java] provider FAILED
+2025-02-04 19:15:09.492 [error] Error: Internal error.
+    at /home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1066478
+    at re (/home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1066772)
+    at /home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1061556
+    at Immediate.<anonymous> (/home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1061576)
+    at processImmediate (node:internal/timers:483:21)
+2025-02-04 19:16:17.225 [error] [redhat.java] provider FAILED
+2025-02-04 19:16:17.225 [error] Error: The request (id: 3337, method: 'textDocument/hover') has been cancelled
+    at /home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1066478
+    at re (/home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1066772)
+    at /home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1061556
+    at Immediate.<anonymous> (/home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1061576)
+    at processImmediate (node:internal/timers:483:21)
+2025-02-04 19:17:28.911 [error] [redhat.java] provider FAILED
+2025-02-04 19:17:28.911 [error] Error: The request (id: 3568, method: 'textDocument/documentSymbol') has been cancelled
+    at /home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1066478
+    at re (/home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1066772)
+    at /home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1061556
+    at Immediate.<anonymous> (/home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1061576)
+    at processImmediate (node:internal/timers:483:21)
+2025-02-04 19:17:36.298 [warning] RooVeterinaryInc.roo-cline - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.rewrite'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-02-04 19:17:36.298 [warning] RooVeterinaryInc.roo-cline - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.rewrite'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-02-04 19:17:37.734 [warning] RooVeterinaryInc.roo-cline - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.rewrite'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-02-04 19:17:37.734 [warning] RooVeterinaryInc.roo-cline - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.rewrite'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-02-04 19:17:38.420 [warning] RooVeterinaryInc.roo-cline - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.rewrite'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-02-04 19:17:38.420 [warning] RooVeterinaryInc.roo-cline - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.rewrite'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-02-04 19:17:38.420 [warning] GitHub.copilot-chat - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.rewrite.review.copilot'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-02-04 19:17:40.063 [error] [redhat.java] provider FAILED
+2025-02-04 19:17:40.063 [error] Error: The request (id: 3640, method: 'textDocument/documentSymbol') has been cancelled
+    at /home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1066478
+    at re (/home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1066772)
+    at /home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1061556
+    at Immediate.<anonymous> (/home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1061576)
+    at processImmediate (node:internal/timers:483:21)
+2025-02-04 19:17:40.652 [error] [redhat.java] provider FAILED
+2025-02-04 19:17:40.652 [error] Error: The request (id: 3650, method: 'textDocument/documentSymbol') has been cancelled
+    at /home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1066478
+    at re (/home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1066772)
+    at /home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1061556
+    at Immediate.<anonymous> (/home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1061576)
+    at processImmediate (node:internal/timers:483:21)
+2025-02-04 19:17:41.907 [error] [redhat.java] provider FAILED
+2025-02-04 19:17:41.907 [error] Error: The request (id: 3670, method: 'textDocument/documentSymbol') has been cancelled
+    at /home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1066478
+    at re (/home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1066772)
+    at /home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1061556
+    at Immediate.<anonymous> (/home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1061576)
+    at processImmediate (node:internal/timers:483:21)
+2025-02-04 19:17:47.340 [error] [redhat.java] provider FAILED
+2025-02-04 19:17:47.340 [error] Error: The request (id: 3751, method: 'textDocument/documentSymbol') has been cancelled
+    at /home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1066478
+    at re (/home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1066772)
+    at /home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1061556
+    at Immediate.<anonymous> (/home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1061576)
+    at processImmediate (node:internal/timers:483:21)
+2025-02-04 19:19:28.247 [warning] RooVeterinaryInc.roo-cline - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.rewrite'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-02-04 19:19:28.248 [warning] RooVeterinaryInc.roo-cline - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.rewrite'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-02-04 19:19:47.276 [info] ExtensionService#_doActivateExtension vscode.debug-server-ready, startup: false, activationEvent: 'onDebugResolve'
+2025-02-04 19:20:55.769 [warning] RooVeterinaryInc.roo-cline - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.rewrite'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-02-04 19:20:55.769 [warning] RooVeterinaryInc.roo-cline - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.rewrite'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-02-04 19:21:54.529 [error] [redhat.java] provider FAILED
+2025-02-04 19:21:54.529 [error] TypeError: Cannot read properties of null (reading 'documentation')
+    at /home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:880717
+    at Generator.next (<anonymous>)
+    at s (/home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:866095)
+2025-02-04 19:21:54.743 [error] [redhat.java] provider FAILED
+2025-02-04 19:21:54.743 [error] TypeError: Cannot read properties of null (reading 'documentation')
+    at /home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:880717
+    at Generator.next (<anonymous>)
+    at s (/home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:866095)
+2025-02-04 19:21:54.809 [error] [redhat.java] provider FAILED
+2025-02-04 19:21:54.809 [error] TypeError: Cannot read properties of null (reading 'documentation')
+    at /home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:880717
+    at Generator.next (<anonymous>)
+    at s (/home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:866095)
+2025-02-04 19:22:06.664 [warning] RooVeterinaryInc.roo-cline - Code actions of kind 'refactor' requested but returned code action is of kind 'quickfix'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-02-04 19:22:06.664 [warning] RooVeterinaryInc.roo-cline - Code actions of kind 'refactor' requested but returned code action is of kind 'quickfix'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-02-04 19:22:06.664 [warning] RooVeterinaryInc.roo-cline - Code actions of kind 'refactor' requested but returned code action is of kind 'quickfix'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-02-04 19:22:06.664 [warning] RooVeterinaryInc.roo-cline - Code actions of kind 'refactor' requested but returned code action is of kind 'quickfix'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-02-04 19:22:06.664 [warning] RooVeterinaryInc.roo-cline - Code actions of kind 'refactor' requested but returned code action is of kind 'quickfix'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-02-04 19:22:15.635 [warning] RooVeterinaryInc.roo-cline - Code actions of kind 'refactor' requested but returned code action is of kind 'quickfix'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-02-04 19:22:15.635 [warning] RooVeterinaryInc.roo-cline - Code actions of kind 'refactor' requested but returned code action is of kind 'quickfix'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-02-04 19:22:15.635 [warning] RooVeterinaryInc.roo-cline - Code actions of kind 'refactor' requested but returned code action is of kind 'quickfix'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-02-04 19:22:15.635 [warning] RooVeterinaryInc.roo-cline - Code actions of kind 'refactor' requested but returned code action is of kind 'quickfix'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-02-04 19:22:15.635 [warning] RooVeterinaryInc.roo-cline - Code actions of kind 'refactor' requested but returned code action is of kind 'quickfix'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-02-04 19:22:35.642 [error] [redhat.java] provider FAILED
+2025-02-04 19:22:35.642 [error] Error: The request (id: 4712, method: 'textDocument/documentSymbol') has been cancelled
+    at /home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1066478
+    at re (/home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1066772)
+    at /home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1061556
+    at Immediate.<anonymous> (/home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1061576)
+    at processImmediate (node:internal/timers:483:21)
+2025-02-04 19:22:39.106 [error] [redhat.java] provider FAILED
+2025-02-04 19:22:39.106 [error] Error: The request (id: 4728, method: 'textDocument/hover') has been cancelled
+    at /home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1066478
+    at re (/home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1066772)
+    at /home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1061556
+    at Immediate.<anonymous> (/home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1061576)
+    at processImmediate (node:internal/timers:483:21)
+2025-02-04 19:22:39.474 [warning] RooVeterinaryInc.roo-cline - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.rewrite'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-02-04 19:22:39.474 [warning] RooVeterinaryInc.roo-cline - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.rewrite'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-02-04 19:22:55.259 [warning] RooVeterinaryInc.roo-cline - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.rewrite'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-02-04 19:22:55.260 [warning] RooVeterinaryInc.roo-cline - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.rewrite'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-02-04 19:22:59.517 [warning] RooVeterinaryInc.roo-cline - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.rewrite'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-02-04 19:22:59.517 [warning] RooVeterinaryInc.roo-cline - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.rewrite'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-02-04 19:23:08.876 [error] [redhat.java] provider FAILED
+2025-02-04 19:23:08.876 [error] Error: The request (id: 4860, method: 'textDocument/documentSymbol') has been cancelled
+    at /home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1066478
+    at re (/home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1066772)
+    at /home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1061556
+    at Immediate.<anonymous> (/home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1061576)
+    at processImmediate (node:internal/timers:483:21)
+2025-02-04 19:23:25.747 [error] [redhat.java] provider FAILED
+2025-02-04 19:23:25.747 [error] Error: The request (id: 4976, method: 'textDocument/documentSymbol') has been cancelled
+    at /home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1066478
+    at re (/home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1066772)
+    at /home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1061556
+    at Immediate.<anonymous> (/home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1061576)
+    at processImmediate (node:internal/timers:483:21)
+2025-02-04 19:23:29.362 [warning] RooVeterinaryInc.roo-cline - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.rewrite'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-02-04 19:23:29.362 [warning] RooVeterinaryInc.roo-cline - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.rewrite'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-02-04 19:23:42.742 [error] [redhat.java] provider FAILED
+2025-02-04 19:23:42.742 [error] Error: The request (id: 5057, method: 'textDocument/hover') has been cancelled
+    at /home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1066478
+    at re (/home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1066772)
+    at /home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1061556
+    at Immediate.<anonymous> (/home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1061576)
+    at processImmediate (node:internal/timers:483:21)
+2025-02-04 19:23:44.980 [error] [redhat.java] provider FAILED
+2025-02-04 19:23:44.980 [error] Error: The request (id: 5064, method: 'textDocument/hover') has been cancelled
+    at /home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1066478
+    at re (/home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1066772)
+    at /home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1061556
+    at Immediate.<anonymous> (/home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1061576)
+    at processImmediate (node:internal/timers:483:21)
+2025-02-04 19:25:08.410 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-02-04 19:25:08.417 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-02-04 19:25:08.448 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-02-04 19:27:11.925 [warning] RooVeterinaryInc.roo-cline - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.rewrite'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-02-04 19:27:11.925 [warning] RooVeterinaryInc.roo-cline - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.rewrite'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-02-04 19:42:16.783 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+2025-02-04 19:42:16.790 [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+2025-02-04 19:42:17.066 [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
+2025-02-04 19:53:29.055 [warning] RooVeterinaryInc.roo-cline - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.rewrite'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-02-04 19:53:29.057 [warning] RooVeterinaryInc.roo-cline - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.rewrite'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-02-04 19:53:42.992 [error] [redhat.java] provider FAILED
+2025-02-04 19:53:42.992 [error] Error: The request (id: 5294, method: 'textDocument/documentSymbol') has been cancelled
+    at /home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1066478
+    at re (/home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1066772)
+    at /home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1061556
+    at Immediate.<anonymous> (/home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1061576)
+    at processImmediate (node:internal/timers:483:21)
+2025-02-04 21:08:26.466 [error] [redhat.java] provider FAILED
+2025-02-04 21:08:26.466 [error] Error: The request (id: 5496, method: 'textDocument/hover') has been cancelled
+    at /home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1066478
+    at re (/home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1066772)
+    at /home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1061556
+    at Immediate.<anonymous> (/home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1061576)
+    at processImmediate (node:internal/timers:483:21)
+2025-02-04 21:11:20.032 [error] [redhat.java] provider FAILED
+2025-02-04 21:11:20.033 [error] Error: The request (id: 5553, method: 'textDocument/hover') has been cancelled
+    at /home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1066478
+    at re (/home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1066772)
+    at /home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1061556
+    at Immediate.<anonymous> (/home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1061576)
+    at processImmediate (node:internal/timers:483:21)
+2025-02-04 21:11:20.752 [warning] RooVeterinaryInc.roo-cline - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.rewrite'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-02-04 21:11:20.752 [warning] RooVeterinaryInc.roo-cline - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.rewrite'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-02-04 21:11:23.964 [error] [redhat.java] provider FAILED
+2025-02-04 21:11:23.965 [error] Error: The request (id: 5571, method: 'textDocument/hover') has been cancelled
+    at /home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1066478
+    at re (/home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1066772)
+    at /home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1061556
+    at Immediate.<anonymous> (/home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1061576)
+    at processImmediate (node:internal/timers:483:21)
+2025-02-04 21:11:24.316 [warning] RooVeterinaryInc.roo-cline - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.rewrite'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-02-04 21:11:24.316 [warning] RooVeterinaryInc.roo-cline - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.rewrite'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-02-04 21:11:29.084 [warning] RooVeterinaryInc.roo-cline - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.rewrite'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-02-04 21:11:29.084 [warning] RooVeterinaryInc.roo-cline - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.rewrite'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-02-04 21:11:30.530 [warning] RooVeterinaryInc.roo-cline - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.rewrite'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-02-04 21:11:30.530 [warning] RooVeterinaryInc.roo-cline - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.rewrite'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-02-04 21:11:34.379 [warning] RooVeterinaryInc.roo-cline - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.rewrite'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-02-04 21:11:34.379 [warning] RooVeterinaryInc.roo-cline - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.rewrite'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-02-04 21:11:37.928 [warning] RooVeterinaryInc.roo-cline - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.rewrite'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-02-04 21:11:37.928 [warning] RooVeterinaryInc.roo-cline - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.rewrite'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-02-04 21:11:41.727 [warning] RooVeterinaryInc.roo-cline - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.rewrite'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-02-04 21:11:41.727 [warning] RooVeterinaryInc.roo-cline - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.rewrite'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-02-04 21:11:44.462 [warning] RooVeterinaryInc.roo-cline - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.rewrite'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-02-04 21:11:44.462 [warning] RooVeterinaryInc.roo-cline - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.rewrite'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-02-04 21:11:44.463 [warning] GitHub.copilot-chat - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.rewrite.review.copilot'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-02-04 21:12:09.319 [warning] RooVeterinaryInc.roo-cline - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.rewrite'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-02-04 21:12:09.319 [warning] RooVeterinaryInc.roo-cline - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.rewrite'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-02-04 21:12:39.039 [error] TypeError: Cannot read properties of undefined (reading 'jmxurl')
+    at Object.<anonymous> (/home/samuelg/.vscode/extensions/vmware.vscode-spring-boot-1.59.0/out/lib/live-hover-connect-ui.js:113:90)
+    at Generator.next (<anonymous>)
+    at /home/samuelg/.vscode/extensions/vmware.vscode-spring-boot-1.59.0/out/lib/live-hover-connect-ui.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (/home/samuelg/.vscode/extensions/vmware.vscode-spring-boot-1.59.0/out/lib/live-hover-connect-ui.js:4:12)
+    at /home/samuelg/.vscode/extensions/vmware.vscode-spring-boot-1.59.0/out/lib/live-hover-connect-ui.js:112:88
+    at cw.h (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:32833)
+    at cw.g (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:31910)
+    at cw.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:31817)
+    at Object.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:157:37484)
+    at handleTerminateDebugSession (/home/samuelg/.vscode/extensions/vmware.vscode-spring-boot-1.59.0/out/lib/debug-config-provider.js:154:23)
+    at kh.value (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:157:35593)
+    at P.B (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:30:746)
+    at P.C (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:30:816)
+    at P.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:30:1033)
+    at db.$acceptDebugSessionTerminated (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:100576) vscode-spring-boot.live.deactivate {"value":"vmware.vscode-spring-boot","_lower":"vmware.vscode-spring-boot"}
+2025-02-04 21:12:40.040 [error] TypeError: Cannot read properties of undefined (reading 'jmxurl')
+    at Object.<anonymous> (/home/samuelg/.vscode/extensions/vmware.vscode-spring-boot-1.59.0/out/lib/live-hover-connect-ui.js:113:90)
+    at Generator.next (<anonymous>)
+    at /home/samuelg/.vscode/extensions/vmware.vscode-spring-boot-1.59.0/out/lib/live-hover-connect-ui.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (/home/samuelg/.vscode/extensions/vmware.vscode-spring-boot-1.59.0/out/lib/live-hover-connect-ui.js:4:12)
+    at /home/samuelg/.vscode/extensions/vmware.vscode-spring-boot-1.59.0/out/lib/live-hover-connect-ui.js:112:88
+    at cw.h (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:32833)
+    at cw.g (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:31910)
+    at cw.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:31817)
+    at Object.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:157:37484)
+    at handleTerminateDebugSession (/home/samuelg/.vscode/extensions/vmware.vscode-spring-boot-1.59.0/out/lib/debug-config-provider.js:154:23)
+    at kh.value (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:157:35593)
+    at P.B (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:30:746)
+    at P.C (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:30:816)
+    at P.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:30:1033)
+    at db.$acceptDebugSessionTerminated (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:100576)
+2025-02-04 21:12:59.839 [error] Error: Roo Code instance aborted
+    at lte.presentAssistantMessage (/home/samuelg/.vscode/extensions/rooveterinaryinc.roo-cline-3.3.9/dist/extension.js:2580:364)
+    at lte.recursivelyMakeClineRequests (/home/samuelg/.vscode/extensions/rooveterinaryinc.roo-cline-3.3.9/dist/extension.js:2693:950)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at lte.recursivelyMakeClineRequests (/home/samuelg/.vscode/extensions/rooveterinaryinc.roo-cline-3.3.9/dist/extension.js:2697:1023)
+    at lte.recursivelyMakeClineRequests (/home/samuelg/.vscode/extensions/rooveterinaryinc.roo-cline-3.3.9/dist/extension.js:2697:1023)
+    at lte.recursivelyMakeClineRequests (/home/samuelg/.vscode/extensions/rooveterinaryinc.roo-cline-3.3.9/dist/extension.js:2697:1023)
+    at lte.recursivelyMakeClineRequests (/home/samuelg/.vscode/extensions/rooveterinaryinc.roo-cline-3.3.9/dist/extension.js:2697:1023)
+    at lte.recursivelyMakeClineRequests (/home/samuelg/.vscode/extensions/rooveterinaryinc.roo-cline-3.3.9/dist/extension.js:2697:1023)
+    at lte.recursivelyMakeClineRequests (/home/samuelg/.vscode/extensions/rooveterinaryinc.roo-cline-3.3.9/dist/extension.js:2697:1023)
+    at lte.recursivelyMakeClineRequests (/home/samuelg/.vscode/extensions/rooveterinaryinc.roo-cline-3.3.9/dist/extension.js:2697:1023)
+    at lte.recursivelyMakeClineRequests (/home/samuelg/.vscode/extensions/rooveterinaryinc.roo-cline-3.3.9/dist/extension.js:2697:1023)
+    at lte.recursivelyMakeClineRequests (/home/samuelg/.vscode/extensions/rooveterinaryinc.roo-cline-3.3.9/dist/extension.js:2697:1023)
+    at lte.initiateTaskLoop (/home/samuelg/.vscode/extensions/rooveterinaryinc.roo-cline-3.3.9/dist/extension.js:2560:209)
+    at lte.resumeTaskFromHistory (/home/samuelg/.vscode/extensions/rooveterinaryinc.roo-cline-3.3.9/dist/extension.js:2560:114)
+2025-02-04 21:13:05.686 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2025-02-04 21:13:06.126 [error] TypeError: Cannot read properties of undefined (reading 'jmxurl')
+    at Object.<anonymous> (/home/samuelg/.vscode/extensions/vmware.vscode-spring-boot-1.59.0/out/lib/live-hover-connect-ui.js:113:90)
+    at Generator.next (<anonymous>)
+    at /home/samuelg/.vscode/extensions/vmware.vscode-spring-boot-1.59.0/out/lib/live-hover-connect-ui.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (/home/samuelg/.vscode/extensions/vmware.vscode-spring-boot-1.59.0/out/lib/live-hover-connect-ui.js:4:12)
+    at /home/samuelg/.vscode/extensions/vmware.vscode-spring-boot-1.59.0/out/lib/live-hover-connect-ui.js:112:88
+    at cw.h (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:32833)
+    at cw.g (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:31910)
+    at cw.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:31817)
+    at Object.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:157:37484)
+    at handleTerminateDebugSession (/home/samuelg/.vscode/extensions/vmware.vscode-spring-boot-1.59.0/out/lib/debug-config-provider.js:154:23)
+    at kh.value (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:157:35593)
+    at P.B (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:30:746)
+    at P.C (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:30:816)
+    at P.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:30:1033)
+    at db.$acceptDebugSessionTerminated (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:100576) vscode-spring-boot.live.deactivate {"value":"vmware.vscode-spring-boot","_lower":"vmware.vscode-spring-boot"}
+2025-02-04 21:13:07.127 [error] TypeError: Cannot read properties of undefined (reading 'jmxurl')
+    at Object.<anonymous> (/home/samuelg/.vscode/extensions/vmware.vscode-spring-boot-1.59.0/out/lib/live-hover-connect-ui.js:113:90)
+    at Generator.next (<anonymous>)
+    at /home/samuelg/.vscode/extensions/vmware.vscode-spring-boot-1.59.0/out/lib/live-hover-connect-ui.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (/home/samuelg/.vscode/extensions/vmware.vscode-spring-boot-1.59.0/out/lib/live-hover-connect-ui.js:4:12)
+    at /home/samuelg/.vscode/extensions/vmware.vscode-spring-boot-1.59.0/out/lib/live-hover-connect-ui.js:112:88
+    at cw.h (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:32833)
+    at cw.g (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:31910)
+    at cw.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:31817)
+    at Object.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:157:37484)
+    at handleTerminateDebugSession (/home/samuelg/.vscode/extensions/vmware.vscode-spring-boot-1.59.0/out/lib/debug-config-provider.js:154:23)
+    at kh.value (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:157:35593)
+    at P.B (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:30:746)
+    at P.C (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:30:816)
+    at P.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:30:1033)
+    at db.$acceptDebugSessionTerminated (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:100576)

@@ -1,0 +1,206 @@
+feb 02, 2025 12:33:07 P. M. org.apache.aries.spifly.BaseActivator log
+INFORMACIÓN: Registered provider ch.qos.logback.classic.servlet.LogbackServletContainerInitializer of service jakarta.servlet.ServletContainerInitializer in bundle ch.qos.logback.classic
+feb 02, 2025 12:33:07 P. M. org.apache.aries.spifly.BaseActivator log
+INFORMACIÓN: Registered provider ch.qos.logback.classic.spi.LogbackServiceProvider of service org.slf4j.spi.SLF4JServiceProvider in bundle ch.qos.logback.classic
+feb 02, 2025 12:33:22 P. M. com.microsoft.java.debug.plugin.internal.JavaDebuggerServerPlugin start
+INFORMACIÓN: Starting com.microsoft.java.debug.plugin
+feb 02, 2025 12:35:58 P. M. com.microsoft.java.debug.core.UsageDataSession recordInfo
+INFORMACIÓN: launch debug info
+feb 02, 2025 12:37:59 P. M. com.microsoft.java.debug.core.UsageDataSession submitUsageData
+INFORMACIÓN: session usage data summary
+feb 02, 2025 12:40:08 P. M. com.microsoft.java.debug.core.UsageDataSession recordInfo
+INFORMACIÓN: launch debug info
+[Error - 12:40:28] 2 feb 2025, 12:40:28 [error response][launch]: Failed to launch debuggee in terminal. Reason: com.sun.jdi.connect.TransportTimeoutException
+Failed to launch debuggee in terminal. Reason: com.sun.jdi.connect.TransportTimeoutException
+com.microsoft.java.debug.core.DebugException: Failed to launch debuggee in terminal. Reason: com.sun.jdi.connect.TransportTimeoutException
+	at com.microsoft.java.debug.core.adapter.handler.LaunchWithDebuggingDelegate.lambda$launchInTerminal$0(LaunchWithDebuggingDelegate.java:147)
+	at java.base/java.util.concurrent.CompletableFuture.uniWhenComplete(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$UniWhenComplete.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.complete(Unknown Source)
+	at com.microsoft.java.debug.core.protocol.AbstractProtocolServer.lambda$sendRequest$2(AbstractProtocolServer.java:178)
+	at io.reactivex.internal.observers.LambdaObserver.onNext(LambdaObserver.java:63)
+	at io.reactivex.internal.operators.observable.ObservableObserveOn$ObserveOnObserver.drainNormal(ObservableObserveOn.java:201)
+	at io.reactivex.internal.operators.observable.ObservableObserveOn$ObserveOnObserver.run(ObservableObserveOn.java:255)
+	at io.reactivex.internal.schedulers.ScheduledRunnable.run(ScheduledRunnable.java:66)
+	at io.reactivex.internal.schedulers.ScheduledRunnable.call(ScheduledRunnable.java:57)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+
+feb 02, 2025 12:40:28 P. M. com.microsoft.java.debug.core.adapter.ProtocolServer lambda$dispatchRequest$1
+GRAVE: [error response][launch]: Failed to launch debuggee in terminal. Reason: com.sun.jdi.connect.TransportTimeoutException
+com.microsoft.java.debug.core.DebugException: Failed to launch debuggee in terminal. Reason: com.sun.jdi.connect.TransportTimeoutException
+	at com.microsoft.java.debug.core.adapter.handler.LaunchWithDebuggingDelegate.lambda$launchInTerminal$0(LaunchWithDebuggingDelegate.java:147)
+	at java.base/java.util.concurrent.CompletableFuture.uniWhenComplete(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$UniWhenComplete.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.complete(Unknown Source)
+	at com.microsoft.java.debug.core.protocol.AbstractProtocolServer.lambda$sendRequest$2(AbstractProtocolServer.java:178)
+	at io.reactivex.internal.observers.LambdaObserver.onNext(LambdaObserver.java:63)
+	at io.reactivex.internal.operators.observable.ObservableObserveOn$ObserveOnObserver.drainNormal(ObservableObserveOn.java:201)
+	at io.reactivex.internal.operators.observable.ObservableObserveOn$ObserveOnObserver.run(ObservableObserveOn.java:255)
+	at io.reactivex.internal.schedulers.ScheduledRunnable.run(ScheduledRunnable.java:66)
+	at io.reactivex.internal.schedulers.ScheduledRunnable.call(ScheduledRunnable.java:57)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+
+feb 02, 2025 12:40:28 P. M. com.microsoft.java.debug.core.UsageDataSession recordResponse
+ADVERTENCIA: abnormal response
+feb 02, 2025 12:40:28 P. M. com.microsoft.java.debug.core.UsageDataSession submitUsageData
+INFORMACIÓN: session usage data summary
+feb 02, 2025 12:40:38 P. M. com.microsoft.java.debug.core.UsageDataSession recordInfo
+INFORMACIÓN: launch debug info
+[Error - 12:40:58] 2 feb 2025, 12:40:58 [error response][launch]: Failed to launch debuggee in terminal. Reason: com.sun.jdi.connect.TransportTimeoutException
+Failed to launch debuggee in terminal. Reason: com.sun.jdi.connect.TransportTimeoutException
+com.microsoft.java.debug.core.DebugException: Failed to launch debuggee in terminal. Reason: com.sun.jdi.connect.TransportTimeoutException
+	at com.microsoft.java.debug.core.adapter.handler.LaunchWithDebuggingDelegate.lambda$launchInTerminal$0(LaunchWithDebuggingDelegate.java:147)
+	at java.base/java.util.concurrent.CompletableFuture.uniWhenComplete(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$UniWhenComplete.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.complete(Unknown Source)
+	at com.microsoft.java.debug.core.protocol.AbstractProtocolServer.lambda$sendRequest$2(AbstractProtocolServer.java:178)
+	at io.reactivex.internal.observers.LambdaObserver.onNext(LambdaObserver.java:63)
+	at io.reactivex.internal.operators.observable.ObservableObserveOn$ObserveOnObserver.drainNormal(ObservableObserveOn.java:201)
+	at io.reactivex.internal.operators.observable.ObservableObserveOn$ObserveOnObserver.run(ObservableObserveOn.java:255)
+	at io.reactivex.internal.schedulers.ScheduledRunnable.run(ScheduledRunnable.java:66)
+	at io.reactivex.internal.schedulers.ScheduledRunnable.call(ScheduledRunnable.java:57)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+
+feb 02, 2025 12:40:58 P. M. com.microsoft.java.debug.core.adapter.ProtocolServer lambda$dispatchRequest$1
+GRAVE: [error response][launch]: Failed to launch debuggee in terminal. Reason: com.sun.jdi.connect.TransportTimeoutException
+com.microsoft.java.debug.core.DebugException: Failed to launch debuggee in terminal. Reason: com.sun.jdi.connect.TransportTimeoutException
+	at com.microsoft.java.debug.core.adapter.handler.LaunchWithDebuggingDelegate.lambda$launchInTerminal$0(LaunchWithDebuggingDelegate.java:147)
+	at java.base/java.util.concurrent.CompletableFuture.uniWhenComplete(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$UniWhenComplete.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.complete(Unknown Source)
+	at com.microsoft.java.debug.core.protocol.AbstractProtocolServer.lambda$sendRequest$2(AbstractProtocolServer.java:178)
+	at io.reactivex.internal.observers.LambdaObserver.onNext(LambdaObserver.java:63)
+	at io.reactivex.internal.operators.observable.ObservableObserveOn$ObserveOnObserver.drainNormal(ObservableObserveOn.java:201)
+	at io.reactivex.internal.operators.observable.ObservableObserveOn$ObserveOnObserver.run(ObservableObserveOn.java:255)
+	at io.reactivex.internal.schedulers.ScheduledRunnable.run(ScheduledRunnable.java:66)
+	at io.reactivex.internal.schedulers.ScheduledRunnable.call(ScheduledRunnable.java:57)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+
+feb 02, 2025 12:40:58 P. M. com.microsoft.java.debug.core.UsageDataSession recordResponse
+ADVERTENCIA: abnormal response
+feb 02, 2025 12:40:58 P. M. com.microsoft.java.debug.core.UsageDataSession submitUsageData
+INFORMACIÓN: session usage data summary
+feb 02, 2025 12:41:05 P. M. com.microsoft.java.debug.core.UsageDataSession recordInfo
+INFORMACIÓN: launch debug info
+[Error - 12:41:25] 2 feb 2025, 12:41:25 [error response][launch]: Failed to launch debuggee in terminal. Reason: com.sun.jdi.connect.TransportTimeoutException
+Failed to launch debuggee in terminal. Reason: com.sun.jdi.connect.TransportTimeoutException
+com.microsoft.java.debug.core.DebugException: Failed to launch debuggee in terminal. Reason: com.sun.jdi.connect.TransportTimeoutException
+	at com.microsoft.java.debug.core.adapter.handler.LaunchWithDebuggingDelegate.lambda$launchInTerminal$0(LaunchWithDebuggingDelegate.java:147)
+	at java.base/java.util.concurrent.CompletableFuture.uniWhenComplete(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$UniWhenComplete.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.complete(Unknown Source)
+	at com.microsoft.java.debug.core.protocol.AbstractProtocolServer.lambda$sendRequest$2(AbstractProtocolServer.java:178)
+	at io.reactivex.internal.observers.LambdaObserver.onNext(LambdaObserver.java:63)
+	at io.reactivex.internal.operators.observable.ObservableObserveOn$ObserveOnObserver.drainNormal(ObservableObserveOn.java:201)
+	at io.reactivex.internal.operators.observable.ObservableObserveOn$ObserveOnObserver.run(ObservableObserveOn.java:255)
+	at io.reactivex.internal.schedulers.ScheduledRunnable.run(ScheduledRunnable.java:66)
+	at io.reactivex.internal.schedulers.ScheduledRunnable.call(ScheduledRunnable.java:57)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+
+feb 02, 2025 12:41:25 P. M. com.microsoft.java.debug.core.adapter.ProtocolServer lambda$dispatchRequest$1
+GRAVE: [error response][launch]: Failed to launch debuggee in terminal. Reason: com.sun.jdi.connect.TransportTimeoutException
+com.microsoft.java.debug.core.DebugException: Failed to launch debuggee in terminal. Reason: com.sun.jdi.connect.TransportTimeoutException
+	at com.microsoft.java.debug.core.adapter.handler.LaunchWithDebuggingDelegate.lambda$launchInTerminal$0(LaunchWithDebuggingDelegate.java:147)
+	at java.base/java.util.concurrent.CompletableFuture.uniWhenComplete(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$UniWhenComplete.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.complete(Unknown Source)
+	at com.microsoft.java.debug.core.protocol.AbstractProtocolServer.lambda$sendRequest$2(AbstractProtocolServer.java:178)
+	at io.reactivex.internal.observers.LambdaObserver.onNext(LambdaObserver.java:63)
+	at io.reactivex.internal.operators.observable.ObservableObserveOn$ObserveOnObserver.drainNormal(ObservableObserveOn.java:201)
+	at io.reactivex.internal.operators.observable.ObservableObserveOn$ObserveOnObserver.run(ObservableObserveOn.java:255)
+	at io.reactivex.internal.schedulers.ScheduledRunnable.run(ScheduledRunnable.java:66)
+	at io.reactivex.internal.schedulers.ScheduledRunnable.call(ScheduledRunnable.java:57)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+
+feb 02, 2025 12:41:25 P. M. com.microsoft.java.debug.core.UsageDataSession recordResponse
+ADVERTENCIA: abnormal response
+feb 02, 2025 12:41:25 P. M. com.microsoft.java.debug.core.UsageDataSession submitUsageData
+INFORMACIÓN: session usage data summary
+feb 02, 2025 12:43:31 P. M. com.microsoft.java.debug.core.UsageDataSession recordInfo
+INFORMACIÓN: launch debug info
+[Error - 12:43:51] 2 feb 2025, 12:43:51 [error response][launch]: Failed to launch debuggee in terminal. Reason: com.sun.jdi.connect.TransportTimeoutException
+Failed to launch debuggee in terminal. Reason: com.sun.jdi.connect.TransportTimeoutException
+com.microsoft.java.debug.core.DebugException: Failed to launch debuggee in terminal. Reason: com.sun.jdi.connect.TransportTimeoutException
+	at com.microsoft.java.debug.core.adapter.handler.LaunchWithDebuggingDelegate.lambda$launchInTerminal$0(LaunchWithDebuggingDelegate.java:147)
+	at java.base/java.util.concurrent.CompletableFuture.uniWhenComplete(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$UniWhenComplete.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.complete(Unknown Source)
+	at com.microsoft.java.debug.core.protocol.AbstractProtocolServer.lambda$sendRequest$2(AbstractProtocolServer.java:178)
+	at io.reactivex.internal.observers.LambdaObserver.onNext(LambdaObserver.java:63)
+	at io.reactivex.internal.operators.observable.ObservableObserveOn$ObserveOnObserver.drainNormal(ObservableObserveOn.java:201)
+	at io.reactivex.internal.operators.observable.ObservableObserveOn$ObserveOnObserver.run(ObservableObserveOn.java:255)
+	at io.reactivex.internal.schedulers.ScheduledRunnable.run(ScheduledRunnable.java:66)
+	at io.reactivex.internal.schedulers.ScheduledRunnable.call(ScheduledRunnable.java:57)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+
+feb 02, 2025 12:43:51 P. M. com.microsoft.java.debug.core.adapter.ProtocolServer lambda$dispatchRequest$1
+GRAVE: [error response][launch]: Failed to launch debuggee in terminal. Reason: com.sun.jdi.connect.TransportTimeoutException
+com.microsoft.java.debug.core.DebugException: Failed to launch debuggee in terminal. Reason: com.sun.jdi.connect.TransportTimeoutException
+	at com.microsoft.java.debug.core.adapter.handler.LaunchWithDebuggingDelegate.lambda$launchInTerminal$0(LaunchWithDebuggingDelegate.java:147)
+	at java.base/java.util.concurrent.CompletableFuture.uniWhenComplete(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$UniWhenComplete.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.complete(Unknown Source)
+	at com.microsoft.java.debug.core.protocol.AbstractProtocolServer.lambda$sendRequest$2(AbstractProtocolServer.java:178)
+	at io.reactivex.internal.observers.LambdaObserver.onNext(LambdaObserver.java:63)
+	at io.reactivex.internal.operators.observable.ObservableObserveOn$ObserveOnObserver.drainNormal(ObservableObserveOn.java:201)
+	at io.reactivex.internal.operators.observable.ObservableObserveOn$ObserveOnObserver.run(ObservableObserveOn.java:255)
+	at io.reactivex.internal.schedulers.ScheduledRunnable.run(ScheduledRunnable.java:66)
+	at io.reactivex.internal.schedulers.ScheduledRunnable.call(ScheduledRunnable.java:57)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+
+feb 02, 2025 12:43:51 P. M. com.microsoft.java.debug.core.UsageDataSession recordResponse
+ADVERTENCIA: abnormal response
+feb 02, 2025 12:43:51 P. M. com.microsoft.java.debug.core.UsageDataSession submitUsageData
+INFORMACIÓN: session usage data summary
+feb 02, 2025 12:44:00 P. M. com.microsoft.java.debug.core.UsageDataSession recordInfo
+INFORMACIÓN: launch debug info
+feb 02, 2025 12:47:14 P. M. com.microsoft.java.debug.core.UsageDataSession submitUsageData
+INFORMACIÓN: session usage data summary
+feb 02, 2025 12:47:15 P. M. com.microsoft.java.debug.core.UsageDataSession recordInfo
+INFORMACIÓN: launch debug info
+feb 02, 2025 12:47:38 P. M. com.microsoft.java.debug.core.UsageDataSession recordResponse
+ADVERTENCIA: abnormal response
+feb 02, 2025 12:47:58 P. M. com.microsoft.java.debug.core.UsageDataSession recordResponse
+ADVERTENCIA: abnormal response
+feb 02, 2025 1:53:45 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 183

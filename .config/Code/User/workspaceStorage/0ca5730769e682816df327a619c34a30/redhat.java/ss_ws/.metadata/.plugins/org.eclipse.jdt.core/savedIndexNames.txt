@@ -1,0 +1,1 @@
+INDEX VERSION 1.134+/home/samuelg/.config/Code/User/workspaceStorage/0ca5730769e682816df327a619c34a30/redhat.java/ss_ws/.metadata/.plugins/org.eclipse.jdt.core

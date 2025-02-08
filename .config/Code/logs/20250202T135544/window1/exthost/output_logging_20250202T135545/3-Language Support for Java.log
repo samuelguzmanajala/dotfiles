@@ -1,0 +1,42 @@
+feb 02, 2025 1:55:47 P. M. org.apache.aries.spifly.BaseActivator log
+INFORMACIÓN: Registered provider ch.qos.logback.classic.servlet.LogbackServletContainerInitializer of service jakarta.servlet.ServletContainerInitializer in bundle ch.qos.logback.classic
+feb 02, 2025 1:55:47 P. M. org.apache.aries.spifly.BaseActivator log
+INFORMACIÓN: Registered provider ch.qos.logback.classic.spi.LogbackServiceProvider of service org.slf4j.spi.SLF4JServiceProvider in bundle ch.qos.logback.classic
+[Warn  - 13:55:49] 2 feb 2025, 13:55:48 The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+null
+feb 02, 2025 1:55:59 P. M. com.microsoft.java.debug.plugin.internal.JavaDebuggerServerPlugin start
+INFORMACIÓN: Starting com.microsoft.java.debug.plugin
+[Error - 14:00:51] 2 feb 2025, 14:00:51 Error occurred while reading master table file
+Input length = 1
+java.nio.charset.MalformedInputException: Input length = 1
+	at java.base/java.nio.charset.CoderResult.throwException(Unknown Source)
+	at java.base/sun.nio.cs.StreamDecoder.implRead(Unknown Source)
+	at java.base/sun.nio.cs.StreamDecoder.lockedRead(Unknown Source)
+	at java.base/sun.nio.cs.StreamDecoder.read(Unknown Source)
+	at java.base/java.io.InputStreamReader.read(Unknown Source)
+	at java.base/java.io.BufferedReader.fill(Unknown Source)
+	at java.base/java.io.BufferedReader.implReadLine(Unknown Source)
+	at java.base/java.io.BufferedReader.readLine(Unknown Source)
+	at java.base/java.io.BufferedReader.readLine(Unknown Source)
+	at java.base/java.nio.file.Files.readAllLines(Unknown Source)
+	at org.eclipse.core.internal.resources.SaveManager.getBadSequenceNumberErrorMessage(SaveManager.java:1670)
+	at org.eclipse.core.internal.resources.SaveManager.validateMasterTableBeforeSave(SaveManager.java:1651)
+	at org.eclipse.core.internal.resources.SaveManager.saveMasterTable(SaveManager.java:1330)
+	at org.eclipse.core.internal.resources.SaveManager.saveMasterTable(SaveManager.java:1321)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1294)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1205)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:52)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+[Error - 14:00:51] 2 feb 2025, 14:00:51 An internal error occurred during: "Periodic workspace save.".
+Cannot set lower sequence number for root (previous: 3, new: 2). Location: /home/samuelg/.config/Code/User/workspaceStorage/0ca5730769e682816df327a619c34a30/redhat.java/jdt_ws/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resourcesTimestamps and tree sequence numbers from file:
+java.lang.IllegalArgumentException: Cannot set lower sequence number for root (previous: 3, new: 2). Location: /home/samuelg/.config/Code/User/workspaceStorage/0ca5730769e682816df327a619c34a30/redhat.java/jdt_ws/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resourcesTimestamps and tree sequence numbers from file:
+	at org.eclipse.core.runtime.Assert.isLegal(Assert.java:68)
+	at org.eclipse.core.internal.resources.SaveManager.validateMasterTableBeforeSave(SaveManager.java:1652)
+	at org.eclipse.core.internal.resources.SaveManager.saveMasterTable(SaveManager.java:1330)
+	at org.eclipse.core.internal.resources.SaveManager.saveMasterTable(SaveManager.java:1321)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1294)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1205)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:52)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+

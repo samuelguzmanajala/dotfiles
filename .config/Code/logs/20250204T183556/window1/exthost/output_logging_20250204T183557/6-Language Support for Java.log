@@ -1,0 +1,529 @@
+feb 04, 2025 6:36:00 P. M. org.apache.aries.spifly.BaseActivator log
+INFORMACIÓN: Registered provider ch.qos.logback.classic.servlet.LogbackServletContainerInitializer of service jakarta.servlet.ServletContainerInitializer in bundle ch.qos.logback.classic
+feb 04, 2025 6:36:00 P. M. org.apache.aries.spifly.BaseActivator log
+INFORMACIÓN: Registered provider ch.qos.logback.classic.spi.LogbackServiceProvider of service org.slf4j.spi.SLF4JServiceProvider in bundle ch.qos.logback.classic
+feb 04, 2025 6:36:20 P. M. com.microsoft.java.debug.plugin.internal.JavaDebuggerServerPlugin start
+INFORMACIÓN: Starting com.microsoft.java.debug.plugin
+feb 04, 2025 6:57:03 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 370
+feb 04, 2025 6:58:03 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 488
+feb 04, 2025 6:58:28 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 641
+feb 04, 2025 6:59:00 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 945
+feb 04, 2025 6:59:00 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 947
+feb 04, 2025 6:59:00 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 949
+feb 04, 2025 6:59:00 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 951
+feb 04, 2025 6:59:00 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 953
+feb 04, 2025 6:59:00 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 955
+feb 04, 2025 6:59:00 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 957
+feb 04, 2025 6:59:00 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 959
+feb 04, 2025 6:59:00 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 961
+feb 04, 2025 6:59:00 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 963
+feb 04, 2025 6:59:00 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 966
+feb 04, 2025 7:14:34 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 2899
+feb 04, 2025 7:14:34 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 2903
+feb 04, 2025 7:14:53 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+GRAVE: Internal error: java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+java.util.concurrent.CompletionException: java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at org.eclipse.jdt.internal.ui.text.correction.proposals.InitializeFinalFieldProposalCore.<init>(InitializeFinalFieldProposalCore.java:79)
+	at org.eclipse.jdt.ls.core.internal.corrections.UnInitializedFinalFieldSubProcessor.createInitializeFinalFieldProposal(UnInitializedFinalFieldSubProcessor.java:41)
+	at org.eclipse.jdt.ls.core.internal.corrections.UnInitializedFinalFieldSubProcessor.createInitializeFinalFieldProposal(UnInitializedFinalFieldSubProcessor.java:1)
+	at org.eclipse.jdt.internal.ui.text.correction.UnInitializedFinalFieldBaseSubProcessor.addProposals(UnInitializedFinalFieldBaseSubProcessor.java:72)
+	at org.eclipse.jdt.ls.core.internal.corrections.QuickFixProcessor.process(QuickFixProcessor.java:165)
+	at org.eclipse.jdt.ls.core.internal.corrections.QuickFixProcessor.getCorrections(QuickFixProcessor.java:91)
+	at org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:190)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$14(JDTLanguageServer.java:759)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	... 7 more
+
+[Error - 19:14:53] Request textDocument/codeAction failed.
+  Message: Internal error.
+  Code: -32603 
+java.util.concurrent.CompletionException: java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at org.eclipse.jdt.internal.ui.text.correction.proposals.InitializeFinalFieldProposalCore.<init>(InitializeFinalFieldProposalCore.java:79)
+	at org.eclipse.jdt.ls.core.internal.corrections.UnInitializedFinalFieldSubProcessor.createInitializeFinalFieldProposal(UnInitializedFinalFieldSubProcessor.java:41)
+	at org.eclipse.jdt.ls.core.internal.corrections.UnInitializedFinalFieldSubProcessor.createInitializeFinalFieldProposal(UnInitializedFinalFieldSubProcessor.java:1)
+	at org.eclipse.jdt.internal.ui.text.correction.UnInitializedFinalFieldBaseSubProcessor.addProposals(UnInitializedFinalFieldBaseSubProcessor.java:72)
+	at org.eclipse.jdt.ls.core.internal.corrections.QuickFixProcessor.process(QuickFixProcessor.java:165)
+	at org.eclipse.jdt.ls.core.internal.corrections.QuickFixProcessor.getCorrections(QuickFixProcessor.java:91)
+	at org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:190)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$14(JDTLanguageServer.java:759)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	... 7 more
+
+feb 04, 2025 7:14:54 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+GRAVE: Internal error: java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+java.util.concurrent.CompletionException: java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at org.eclipse.jdt.internal.ui.text.correction.proposals.InitializeFinalFieldProposalCore.<init>(InitializeFinalFieldProposalCore.java:79)
+	at org.eclipse.jdt.ls.core.internal.corrections.UnInitializedFinalFieldSubProcessor.createInitializeFinalFieldProposal(UnInitializedFinalFieldSubProcessor.java:41)
+	at org.eclipse.jdt.ls.core.internal.corrections.UnInitializedFinalFieldSubProcessor.createInitializeFinalFieldProposal(UnInitializedFinalFieldSubProcessor.java:1)
+	at org.eclipse.jdt.internal.ui.text.correction.UnInitializedFinalFieldBaseSubProcessor.addProposals(UnInitializedFinalFieldBaseSubProcessor.java:72)
+	at org.eclipse.jdt.ls.core.internal.corrections.QuickFixProcessor.process(QuickFixProcessor.java:165)
+	at org.eclipse.jdt.ls.core.internal.corrections.QuickFixProcessor.getCorrections(QuickFixProcessor.java:91)
+	at org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:190)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$14(JDTLanguageServer.java:759)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	... 7 more
+
+[Error - 19:14:54] Request textDocument/codeAction failed.
+  Message: Internal error.
+  Code: -32603 
+java.util.concurrent.CompletionException: java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at org.eclipse.jdt.internal.ui.text.correction.proposals.InitializeFinalFieldProposalCore.<init>(InitializeFinalFieldProposalCore.java:79)
+	at org.eclipse.jdt.ls.core.internal.corrections.UnInitializedFinalFieldSubProcessor.createInitializeFinalFieldProposal(UnInitializedFinalFieldSubProcessor.java:41)
+	at org.eclipse.jdt.ls.core.internal.corrections.UnInitializedFinalFieldSubProcessor.createInitializeFinalFieldProposal(UnInitializedFinalFieldSubProcessor.java:1)
+	at org.eclipse.jdt.internal.ui.text.correction.UnInitializedFinalFieldBaseSubProcessor.addProposals(UnInitializedFinalFieldBaseSubProcessor.java:72)
+	at org.eclipse.jdt.ls.core.internal.corrections.QuickFixProcessor.process(QuickFixProcessor.java:165)
+	at org.eclipse.jdt.ls.core.internal.corrections.QuickFixProcessor.getCorrections(QuickFixProcessor.java:91)
+	at org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:190)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$14(JDTLanguageServer.java:759)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	... 7 more
+
+feb 04, 2025 7:14:55 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+GRAVE: Internal error: java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+java.util.concurrent.CompletionException: java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at org.eclipse.jdt.internal.ui.text.correction.proposals.InitializeFinalFieldProposalCore.<init>(InitializeFinalFieldProposalCore.java:79)
+	at org.eclipse.jdt.ls.core.internal.corrections.UnInitializedFinalFieldSubProcessor.createInitializeFinalFieldProposal(UnInitializedFinalFieldSubProcessor.java:41)
+	at org.eclipse.jdt.ls.core.internal.corrections.UnInitializedFinalFieldSubProcessor.createInitializeFinalFieldProposal(UnInitializedFinalFieldSubProcessor.java:1)
+	at org.eclipse.jdt.internal.ui.text.correction.UnInitializedFinalFieldBaseSubProcessor.addProposals(UnInitializedFinalFieldBaseSubProcessor.java:72)
+	at org.eclipse.jdt.ls.core.internal.corrections.QuickFixProcessor.process(QuickFixProcessor.java:165)
+	at org.eclipse.jdt.ls.core.internal.corrections.QuickFixProcessor.getCorrections(QuickFixProcessor.java:91)
+	at org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:190)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$14(JDTLanguageServer.java:759)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	... 7 more
+
+[Error - 19:14:55] Request textDocument/codeAction failed.
+  Message: Internal error.
+  Code: -32603 
+java.util.concurrent.CompletionException: java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at org.eclipse.jdt.internal.ui.text.correction.proposals.InitializeFinalFieldProposalCore.<init>(InitializeFinalFieldProposalCore.java:79)
+	at org.eclipse.jdt.ls.core.internal.corrections.UnInitializedFinalFieldSubProcessor.createInitializeFinalFieldProposal(UnInitializedFinalFieldSubProcessor.java:41)
+	at org.eclipse.jdt.ls.core.internal.corrections.UnInitializedFinalFieldSubProcessor.createInitializeFinalFieldProposal(UnInitializedFinalFieldSubProcessor.java:1)
+	at org.eclipse.jdt.internal.ui.text.correction.UnInitializedFinalFieldBaseSubProcessor.addProposals(UnInitializedFinalFieldBaseSubProcessor.java:72)
+	at org.eclipse.jdt.ls.core.internal.corrections.QuickFixProcessor.process(QuickFixProcessor.java:165)
+	at org.eclipse.jdt.ls.core.internal.corrections.QuickFixProcessor.getCorrections(QuickFixProcessor.java:91)
+	at org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:190)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$14(JDTLanguageServer.java:759)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	... 7 more
+
+feb 04, 2025 7:14:57 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+GRAVE: Internal error: java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+java.util.concurrent.CompletionException: java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at org.eclipse.jdt.internal.ui.text.correction.proposals.InitializeFinalFieldProposalCore.<init>(InitializeFinalFieldProposalCore.java:79)
+	at org.eclipse.jdt.ls.core.internal.corrections.UnInitializedFinalFieldSubProcessor.createInitializeFinalFieldProposal(UnInitializedFinalFieldSubProcessor.java:41)
+	at org.eclipse.jdt.ls.core.internal.corrections.UnInitializedFinalFieldSubProcessor.createInitializeFinalFieldProposal(UnInitializedFinalFieldSubProcessor.java:1)
+	at org.eclipse.jdt.internal.ui.text.correction.UnInitializedFinalFieldBaseSubProcessor.addProposals(UnInitializedFinalFieldBaseSubProcessor.java:72)
+	at org.eclipse.jdt.ls.core.internal.corrections.QuickFixProcessor.process(QuickFixProcessor.java:165)
+	at org.eclipse.jdt.ls.core.internal.corrections.QuickFixProcessor.getCorrections(QuickFixProcessor.java:91)
+	at org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:190)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$14(JDTLanguageServer.java:759)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	... 7 more
+
+[Error - 19:14:57] Request textDocument/codeAction failed.
+  Message: Internal error.
+  Code: -32603 
+java.util.concurrent.CompletionException: java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at org.eclipse.jdt.internal.ui.text.correction.proposals.InitializeFinalFieldProposalCore.<init>(InitializeFinalFieldProposalCore.java:79)
+	at org.eclipse.jdt.ls.core.internal.corrections.UnInitializedFinalFieldSubProcessor.createInitializeFinalFieldProposal(UnInitializedFinalFieldSubProcessor.java:41)
+	at org.eclipse.jdt.ls.core.internal.corrections.UnInitializedFinalFieldSubProcessor.createInitializeFinalFieldProposal(UnInitializedFinalFieldSubProcessor.java:1)
+	at org.eclipse.jdt.internal.ui.text.correction.UnInitializedFinalFieldBaseSubProcessor.addProposals(UnInitializedFinalFieldBaseSubProcessor.java:72)
+	at org.eclipse.jdt.ls.core.internal.corrections.QuickFixProcessor.process(QuickFixProcessor.java:165)
+	at org.eclipse.jdt.ls.core.internal.corrections.QuickFixProcessor.getCorrections(QuickFixProcessor.java:91)
+	at org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:190)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$14(JDTLanguageServer.java:759)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	... 7 more
+
+feb 04, 2025 7:14:58 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+GRAVE: Internal error: java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+java.util.concurrent.CompletionException: java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at org.eclipse.jdt.internal.ui.text.correction.proposals.InitializeFinalFieldProposalCore.<init>(InitializeFinalFieldProposalCore.java:79)
+	at org.eclipse.jdt.ls.core.internal.corrections.UnInitializedFinalFieldSubProcessor.createInitializeFinalFieldProposal(UnInitializedFinalFieldSubProcessor.java:41)
+	at org.eclipse.jdt.ls.core.internal.corrections.UnInitializedFinalFieldSubProcessor.createInitializeFinalFieldProposal(UnInitializedFinalFieldSubProcessor.java:1)
+	at org.eclipse.jdt.internal.ui.text.correction.UnInitializedFinalFieldBaseSubProcessor.addProposals(UnInitializedFinalFieldBaseSubProcessor.java:72)
+	at org.eclipse.jdt.ls.core.internal.corrections.QuickFixProcessor.process(QuickFixProcessor.java:165)
+	at org.eclipse.jdt.ls.core.internal.corrections.QuickFixProcessor.getCorrections(QuickFixProcessor.java:91)
+	at org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:190)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$14(JDTLanguageServer.java:759)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	... 7 more
+
+[Error - 19:14:58] Request textDocument/codeAction failed.
+  Message: Internal error.
+  Code: -32603 
+java.util.concurrent.CompletionException: java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at org.eclipse.jdt.internal.ui.text.correction.proposals.InitializeFinalFieldProposalCore.<init>(InitializeFinalFieldProposalCore.java:79)
+	at org.eclipse.jdt.ls.core.internal.corrections.UnInitializedFinalFieldSubProcessor.createInitializeFinalFieldProposal(UnInitializedFinalFieldSubProcessor.java:41)
+	at org.eclipse.jdt.ls.core.internal.corrections.UnInitializedFinalFieldSubProcessor.createInitializeFinalFieldProposal(UnInitializedFinalFieldSubProcessor.java:1)
+	at org.eclipse.jdt.internal.ui.text.correction.UnInitializedFinalFieldBaseSubProcessor.addProposals(UnInitializedFinalFieldBaseSubProcessor.java:72)
+	at org.eclipse.jdt.ls.core.internal.corrections.QuickFixProcessor.process(QuickFixProcessor.java:165)
+	at org.eclipse.jdt.ls.core.internal.corrections.QuickFixProcessor.getCorrections(QuickFixProcessor.java:91)
+	at org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:190)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$14(JDTLanguageServer.java:759)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	... 7 more
+
+feb 04, 2025 7:14:59 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+GRAVE: Internal error: java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+java.util.concurrent.CompletionException: java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at org.eclipse.jdt.internal.ui.text.correction.proposals.InitializeFinalFieldProposalCore.<init>(InitializeFinalFieldProposalCore.java:79)
+	at org.eclipse.jdt.ls.core.internal.corrections.UnInitializedFinalFieldSubProcessor.createInitializeFinalFieldProposal(UnInitializedFinalFieldSubProcessor.java:41)
+	at org.eclipse.jdt.ls.core.internal.corrections.UnInitializedFinalFieldSubProcessor.createInitializeFinalFieldProposal(UnInitializedFinalFieldSubProcessor.java:1)
+	at org.eclipse.jdt.internal.ui.text.correction.UnInitializedFinalFieldBaseSubProcessor.addProposals(UnInitializedFinalFieldBaseSubProcessor.java:72)
+	at org.eclipse.jdt.ls.core.internal.corrections.QuickFixProcessor.process(QuickFixProcessor.java:165)
+	at org.eclipse.jdt.ls.core.internal.corrections.QuickFixProcessor.getCorrections(QuickFixProcessor.java:91)
+	at org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:190)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$14(JDTLanguageServer.java:759)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	... 7 more
+
+[Error - 19:14:59] Request textDocument/codeAction failed.
+  Message: Internal error.
+  Code: -32603 
+java.util.concurrent.CompletionException: java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at org.eclipse.jdt.internal.ui.text.correction.proposals.InitializeFinalFieldProposalCore.<init>(InitializeFinalFieldProposalCore.java:79)
+	at org.eclipse.jdt.ls.core.internal.corrections.UnInitializedFinalFieldSubProcessor.createInitializeFinalFieldProposal(UnInitializedFinalFieldSubProcessor.java:41)
+	at org.eclipse.jdt.ls.core.internal.corrections.UnInitializedFinalFieldSubProcessor.createInitializeFinalFieldProposal(UnInitializedFinalFieldSubProcessor.java:1)
+	at org.eclipse.jdt.internal.ui.text.correction.UnInitializedFinalFieldBaseSubProcessor.addProposals(UnInitializedFinalFieldBaseSubProcessor.java:72)
+	at org.eclipse.jdt.ls.core.internal.corrections.QuickFixProcessor.process(QuickFixProcessor.java:165)
+	at org.eclipse.jdt.ls.core.internal.corrections.QuickFixProcessor.getCorrections(QuickFixProcessor.java:91)
+	at org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:190)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$14(JDTLanguageServer.java:759)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	... 7 more
+
+feb 04, 2025 7:14:59 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+GRAVE: Internal error: java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+java.util.concurrent.CompletionException: java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at org.eclipse.jdt.internal.ui.text.correction.proposals.InitializeFinalFieldProposalCore.<init>(InitializeFinalFieldProposalCore.java:79)
+	at org.eclipse.jdt.ls.core.internal.corrections.UnInitializedFinalFieldSubProcessor.createInitializeFinalFieldProposal(UnInitializedFinalFieldSubProcessor.java:41)
+	at org.eclipse.jdt.ls.core.internal.corrections.UnInitializedFinalFieldSubProcessor.createInitializeFinalFieldProposal(UnInitializedFinalFieldSubProcessor.java:1)
+	at org.eclipse.jdt.internal.ui.text.correction.UnInitializedFinalFieldBaseSubProcessor.addProposals(UnInitializedFinalFieldBaseSubProcessor.java:72)
+	at org.eclipse.jdt.ls.core.internal.corrections.QuickFixProcessor.process(QuickFixProcessor.java:165)
+	at org.eclipse.jdt.ls.core.internal.corrections.QuickFixProcessor.getCorrections(QuickFixProcessor.java:91)
+	at org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:190)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$14(JDTLanguageServer.java:759)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	... 7 more
+
+[Error - 19:14:59] Request textDocument/codeAction failed.
+  Message: Internal error.
+  Code: -32603 
+java.util.concurrent.CompletionException: java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at org.eclipse.jdt.internal.ui.text.correction.proposals.InitializeFinalFieldProposalCore.<init>(InitializeFinalFieldProposalCore.java:79)
+	at org.eclipse.jdt.ls.core.internal.corrections.UnInitializedFinalFieldSubProcessor.createInitializeFinalFieldProposal(UnInitializedFinalFieldSubProcessor.java:41)
+	at org.eclipse.jdt.ls.core.internal.corrections.UnInitializedFinalFieldSubProcessor.createInitializeFinalFieldProposal(UnInitializedFinalFieldSubProcessor.java:1)
+	at org.eclipse.jdt.internal.ui.text.correction.UnInitializedFinalFieldBaseSubProcessor.addProposals(UnInitializedFinalFieldBaseSubProcessor.java:72)
+	at org.eclipse.jdt.ls.core.internal.corrections.QuickFixProcessor.process(QuickFixProcessor.java:165)
+	at org.eclipse.jdt.ls.core.internal.corrections.QuickFixProcessor.getCorrections(QuickFixProcessor.java:91)
+	at org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:190)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$14(JDTLanguageServer.java:759)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	... 7 more
+
+feb 04, 2025 7:15:00 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+GRAVE: Internal error: java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+java.util.concurrent.CompletionException: java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at org.eclipse.jdt.internal.ui.text.correction.proposals.InitializeFinalFieldProposalCore.<init>(InitializeFinalFieldProposalCore.java:79)
+	at org.eclipse.jdt.ls.core.internal.corrections.UnInitializedFinalFieldSubProcessor.createInitializeFinalFieldProposal(UnInitializedFinalFieldSubProcessor.java:41)
+	at org.eclipse.jdt.ls.core.internal.corrections.UnInitializedFinalFieldSubProcessor.createInitializeFinalFieldProposal(UnInitializedFinalFieldSubProcessor.java:1)
+	at org.eclipse.jdt.internal.ui.text.correction.UnInitializedFinalFieldBaseSubProcessor.addProposals(UnInitializedFinalFieldBaseSubProcessor.java:72)
+	at org.eclipse.jdt.ls.core.internal.corrections.QuickFixProcessor.process(QuickFixProcessor.java:165)
+	at org.eclipse.jdt.ls.core.internal.corrections.QuickFixProcessor.getCorrections(QuickFixProcessor.java:91)
+	at org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:190)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$14(JDTLanguageServer.java:759)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	... 7 more
+
+[Error - 19:15:00] Request textDocument/codeAction failed.
+  Message: Internal error.
+  Code: -32603 
+java.util.concurrent.CompletionException: java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at org.eclipse.jdt.internal.ui.text.correction.proposals.InitializeFinalFieldProposalCore.<init>(InitializeFinalFieldProposalCore.java:79)
+	at org.eclipse.jdt.ls.core.internal.corrections.UnInitializedFinalFieldSubProcessor.createInitializeFinalFieldProposal(UnInitializedFinalFieldSubProcessor.java:41)
+	at org.eclipse.jdt.ls.core.internal.corrections.UnInitializedFinalFieldSubProcessor.createInitializeFinalFieldProposal(UnInitializedFinalFieldSubProcessor.java:1)
+	at org.eclipse.jdt.internal.ui.text.correction.UnInitializedFinalFieldBaseSubProcessor.addProposals(UnInitializedFinalFieldBaseSubProcessor.java:72)
+	at org.eclipse.jdt.ls.core.internal.corrections.QuickFixProcessor.process(QuickFixProcessor.java:165)
+	at org.eclipse.jdt.ls.core.internal.corrections.QuickFixProcessor.getCorrections(QuickFixProcessor.java:91)
+	at org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:190)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$14(JDTLanguageServer.java:759)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	... 7 more
+
+feb 04, 2025 7:15:09 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+GRAVE: Internal error: java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+java.util.concurrent.CompletionException: java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at org.eclipse.jdt.internal.ui.text.correction.proposals.InitializeFinalFieldProposalCore.<init>(InitializeFinalFieldProposalCore.java:70)
+	at org.eclipse.jdt.ls.core.internal.corrections.UnInitializedFinalFieldSubProcessor.createInitializeFinalFieldProposal(UnInitializedFinalFieldSubProcessor.java:35)
+	at org.eclipse.jdt.ls.core.internal.corrections.UnInitializedFinalFieldSubProcessor.createInitializeFinalFieldProposal(UnInitializedFinalFieldSubProcessor.java:1)
+	at org.eclipse.jdt.internal.ui.text.correction.UnInitializedFinalFieldBaseSubProcessor.addProposals(UnInitializedFinalFieldBaseSubProcessor.java:94)
+	at org.eclipse.jdt.ls.core.internal.corrections.QuickFixProcessor.process(QuickFixProcessor.java:165)
+	at org.eclipse.jdt.ls.core.internal.corrections.QuickFixProcessor.getCorrections(QuickFixProcessor.java:91)
+	at org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:190)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$14(JDTLanguageServer.java:759)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	... 7 more
+
+[Error - 19:15:09] Request textDocument/codeAction failed.
+  Message: Internal error.
+  Code: -32603 
+java.util.concurrent.CompletionException: java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at org.eclipse.jdt.internal.ui.text.correction.proposals.InitializeFinalFieldProposalCore.<init>(InitializeFinalFieldProposalCore.java:70)
+	at org.eclipse.jdt.ls.core.internal.corrections.UnInitializedFinalFieldSubProcessor.createInitializeFinalFieldProposal(UnInitializedFinalFieldSubProcessor.java:35)
+	at org.eclipse.jdt.ls.core.internal.corrections.UnInitializedFinalFieldSubProcessor.createInitializeFinalFieldProposal(UnInitializedFinalFieldSubProcessor.java:1)
+	at org.eclipse.jdt.internal.ui.text.correction.UnInitializedFinalFieldBaseSubProcessor.addProposals(UnInitializedFinalFieldBaseSubProcessor.java:94)
+	at org.eclipse.jdt.ls.core.internal.corrections.QuickFixProcessor.process(QuickFixProcessor.java:165)
+	at org.eclipse.jdt.ls.core.internal.corrections.QuickFixProcessor.getCorrections(QuickFixProcessor.java:91)
+	at org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:190)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$14(JDTLanguageServer.java:759)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	... 7 more
+
+feb 04, 2025 7:15:55 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 3231
+feb 04, 2025 7:17:43 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 3696
+feb 04, 2025 7:17:56 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 3820
+feb 04, 2025 7:18:18 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 3922
+feb 04, 2025 7:18:27 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 3953
+feb 04, 2025 7:19:12 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 4092
+feb 04, 2025 7:19:13 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 4112
+feb 04, 2025 7:19:35 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 4247
+feb 04, 2025 7:19:53 P. M. com.microsoft.java.debug.core.UsageDataSession recordInfo
+INFORMACIÓN: launch debug info
+feb 04, 2025 7:21:52 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 4569
+feb 04, 2025 7:21:54 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 4602
+feb 04, 2025 7:21:54 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 4608
+feb 04, 2025 7:21:54 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 4609
+feb 04, 2025 7:21:54 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 4610
+feb 04, 2025 8:56:34 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 5381
+feb 04, 2025 8:56:34 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 5385
+feb 04, 2025 9:07:26 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 5493
+feb 04, 2025 9:10:46 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 5501
+feb 04, 2025 9:12:38 P. M. com.microsoft.java.debug.core.UsageDataSession recordInfo
+INFORMACIÓN: launch debug info
+feb 04, 2025 9:12:39 P. M. com.microsoft.java.debug.core.UsageDataSession submitUsageData
+INFORMACIÓN: session usage data summary
+feb 04, 2025 9:12:39 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 5817
+feb 04, 2025 9:12:39 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 5819
+feb 04, 2025 9:13:05 P. M. com.microsoft.java.debug.core.UsageDataSession recordInfo
+INFORMACIÓN: launch debug info
+feb 04, 2025 9:13:06 P. M. com.microsoft.java.debug.core.UsageDataSession submitUsageData
+INFORMACIÓN: session usage data summary
+feb 04, 2025 9:31:51 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 5935

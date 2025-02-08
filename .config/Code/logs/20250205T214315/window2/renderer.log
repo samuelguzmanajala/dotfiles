@@ -1,0 +1,10 @@
+2025-02-05 21:43:15.703 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-selfhost-test-provider' wants API proposal 'attributableCoverage' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-02-05 21:43:15.703 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-02-05 21:43:15.703 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.debugpy' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-02-05 21:43:15.946 [info] Started local extension host with pid 47324.
+2025-02-05 21:43:16.769 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-02-05 21:43:18.661 [info] [perf] Render performance baseline is 35ms
+2025-02-05 21:43:23.933 [error] Unknown error while installing extension github.copilot: Unknown: Unknown error while installing extension github.copilot
+    at fh.installFromGallery (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:1534)
+2025-02-05 21:43:24.548 [error] Unknown error while installing extension rooveterinaryinc.roo-cline: Unknown: Unknown error while installing extension rooveterinaryinc.roo-cline
+    at fh.installFromGallery (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:1534)

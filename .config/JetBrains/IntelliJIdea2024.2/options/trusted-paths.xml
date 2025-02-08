@@ -1,0 +1,15 @@
+<application>
+  <component name="Trusted.Paths">
+    <option name="TRUSTED_PROJECT_PATHS">
+      <map>
+        <entry key="$USER_HOME$/IdeaProjects/xabet-digitalwall" value="true" />
+        <entry key="$USER_HOME$/IdeaProjects/xabet-digitalwall-2.0-Beta-" value="true" />
+        <entry key="$USER_HOME$/Projects/Spring-Security-in-Action" value="true" />
+        <entry key="$USER_HOME$/Projects/Spring-Security-in-Action/01-HelloSpring/ssia-ch2-ex1" value="true" />
+        <entry key="$USER_HOME$/Projects/distributed-portfolio" value="true" />
+        <entry key="$USER_HOME$/Projects/fleet-manager/backend" value="true" />
+        <entry key="$USER_HOME$/Projects/fleet-manager/java-ddd-example" value="true" />
+      </map>
+    </option>
+  </component>
+</application>

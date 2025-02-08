@@ -1,0 +1,68 @@
+2025-02-02 12:19:25.899 [info] Using the Electron fetcher.
+2025-02-02 12:19:25.899 [info] Initializing Git extension service.
+2025-02-02 12:19:25.899 [info] Successfully activated the vscode.git extension.
+2025-02-02 12:19:25.899 [info] Enablement state of the vscode.git extension: true.
+2025-02-02 12:19:25.899 [info] Successfully registered Git commit message provider.
+2025-02-02 12:19:26.745 [info] Logged in as samuelguzmanajala
+2025-02-02 12:19:27.270 [info] Got Copilot token for samuelguzmanajala
+2025-02-02 12:19:27.301 [info] copilot token chat_enabled: true, sku: free_educational
+2025-02-02 12:19:27.301 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-02-02 12:19:27.311 [info] Registering default platform agent...
+2025-02-02 12:19:27.599 [info] Fetched model metadata in 323ms 5da55ae1-e9f3-41bd-a8dd-b1aa58783622
+2025-02-02 12:19:27.676 [info] activationBlocker from 'languageModelAccess' took for 855ms
+2025-02-02 12:27:32.617 [info] message 0 returned. finish reason: [stop]
+2025-02-02 12:27:32.617 [info] request done: requestId: [8ead0ec0-4370-4352-b40a-c20518d7d696] model deployment ID: []
+2025-02-02 12:32:52.376 [info] Using the Electron fetcher.
+2025-02-02 12:32:52.376 [info] Initializing Git extension service.
+2025-02-02 12:32:52.376 [info] Successfully activated the vscode.git extension.
+2025-02-02 12:32:52.376 [info] Enablement state of the vscode.git extension: true.
+2025-02-02 12:32:52.376 [info] Successfully registered Git commit message provider.
+2025-02-02 12:32:53.236 [info] Logged in as samuelguzmanajala
+2025-02-02 12:32:53.732 [info] Got Copilot token for samuelguzmanajala
+2025-02-02 12:32:53.758 [info] copilot token chat_enabled: true, sku: free_educational
+2025-02-02 12:32:53.758 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-02-02 12:32:53.767 [info] Registering default platform agent...
+2025-02-02 12:32:54.064 [info] Fetched model metadata in 329ms 687dbea4-aac8-4024-bf68-ca9db18c04a1
+2025-02-02 12:32:54.154 [info] activationBlocker from 'languageModelAccess' took for 950ms
+2025-02-02 12:33:16.827 [info] Using the Electron fetcher.
+2025-02-02 12:33:16.827 [info] Initializing Git extension service.
+2025-02-02 12:33:16.827 [info] Successfully activated the vscode.git extension.
+2025-02-02 12:33:16.827 [info] Enablement state of the vscode.git extension: true.
+2025-02-02 12:33:16.827 [info] Successfully registered Git commit message provider.
+2025-02-02 12:33:17.698 [info] Logged in as samuelguzmanajala
+2025-02-02 12:33:18.118 [info] Got Copilot token for samuelguzmanajala
+2025-02-02 12:33:18.146 [info] copilot token chat_enabled: true, sku: free_educational
+2025-02-02 12:33:18.146 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-02-02 12:33:18.156 [info] Registering default platform agent...
+2025-02-02 12:33:18.245 [info] Fetched model metadata in 122ms c06ef0a5-840d-4f8b-9260-226a3fb2c8a0
+2025-02-02 12:33:18.247 [info] activationBlocker from 'languageModelAccess' took for 515ms
+2025-02-02 12:39:56.128 [info] message 0 returned. finish reason: [stop]
+2025-02-02 12:39:56.129 [info] request done: requestId: [2b2df550-f1f6-4a7c-b373-b31057728755] model deployment ID: []
+2025-02-02 12:40:01.092 [info] message 0 returned. finish reason: [stop]
+2025-02-02 12:40:01.092 [info] request done: requestId: [64b4502e-824d-43dd-ba8f-3c298706f14f] model deployment ID: []
+2025-02-02 12:40:01.568 [info] message 0 returned. finish reason: [stop]
+2025-02-02 12:40:01.569 [info] request done: requestId: [faeaec02-a972-464e-806d-fa91b0ef9b55] model deployment ID: []
+2025-02-02 12:40:03.330 [info] message 0 returned. finish reason: [stop]
+2025-02-02 12:40:03.331 [info] request done: requestId: [ba3f2fea-a56f-4ab6-ae4a-1709a5699165] model deployment ID: []
+2025-02-02 12:41:36.863 [info] message 0 returned. finish reason: [stop]
+2025-02-02 12:41:36.863 [info] request done: requestId: [6fdc8f29-24d6-447e-b41c-aeb9883a0ceb] model deployment ID: []
+2025-02-02 12:41:37.364 [info] message 0 returned. finish reason: [stop]
+2025-02-02 12:41:37.365 [info] request done: requestId: [cc812582-bbfa-4e1d-91ab-e96acff341a3] model deployment ID: []
+2025-02-02 12:41:50.716 [info] message 0 returned. finish reason: [stop]
+2025-02-02 12:41:50.716 [info] request done: requestId: [140edf59-4365-417f-8a5c-4bc28502d168] model deployment ID: []
+2025-02-02 12:43:32.208 [info] Fetched model metadata in 184ms 2b600b35-f130-47ab-99e3-0dc392d9796c
+2025-02-02 12:43:33.298 [info] message 0 returned. finish reason: [stop]
+2025-02-02 12:43:33.299 [info] request done: requestId: [bb9d9c50-b964-4d95-96bc-32d1b478ee32] model deployment ID: []
+2025-02-02 12:58:18.123 [info] Logged in as samuelguzmanajala
+2025-02-02 12:58:18.637 [info] Got Copilot token for samuelguzmanajala
+2025-02-02 12:58:18.647 [info] copilot token chat_enabled: true, sku: free_educational
+2025-02-02 12:58:19.044 [info] Fetched model metadata in 394ms 73034fd8-10e6-42b5-8dda-3a95bba84e1c
+2025-02-02 13:13:19.509 [info] Fetched model metadata in 447ms 08475f66-d217-44dd-8fb9-c981b83fdede
+2025-02-02 13:23:18.642 [info] Logged in as samuelguzmanajala
+2025-02-02 13:23:19.142 [info] Got Copilot token for samuelguzmanajala
+2025-02-02 13:23:19.146 [info] copilot token chat_enabled: true, sku: free_educational
+2025-02-02 13:38:19.526 [info] Fetched model metadata in 375ms 7adb9f7f-3016-4a06-b81b-d38825365afb
+2025-02-02 13:48:19.146 [info] Logged in as samuelguzmanajala
+2025-02-02 13:48:19.686 [info] Got Copilot token for samuelguzmanajala
+2025-02-02 13:48:19.691 [info] copilot token chat_enabled: true, sku: free_educational
+2025-02-02 13:48:20.101 [info] Fetched model metadata in 409ms 173ac2ee-892b-49f3-927a-3b883825e6a9

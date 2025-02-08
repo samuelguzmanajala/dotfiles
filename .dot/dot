@@ -1,0 +1,123 @@
+#!/bin/bash
+# dot
+#
+# Script para crear enlaces simbólicos desde el repositorio de dotfiles hacia el directorio HOME.
+#
+# Uso: dot [--force] (--all | --file <ruta_relativa>)
+#
+#   --force             Sobrescribe si el destino ya existe.
+#   --all               Crea enlaces para todos los elementos en el repositorio.
+#   --file <ruta>       Crea enlace solo para el archivo o carpeta especificado (ruta relativa al REPO_DIR).
+#
+# Ejemplos:
+#   ./dot --all
+#   ./dot --force --file .config/Code
+
+# Configuración: ajusta la variable REPO_DIR según la ubicación de tu repositorio de dotfiles
+REPO_DIR="$HOME/dotfiles"
+
+# Valores por defecto
+OVERWRITE=false
+LINK_ALL=false
+LINK_FILE=""
+
+usage() {
+    echo "Uso: $0 [--force] (--all | --file <ruta_relativa>)"
+    echo "  --force             Sobrescribe si el destino ya existe."
+    echo "  --all               Crea enlaces para todos los elementos en \$REPO_DIR (excepto .git, etc.)."
+    echo "  --file <ruta>       Crea enlace solo para el archivo o carpeta especificado (ruta relativa a \$REPO_DIR)."
+    exit 1
+}
+
+# Verificamos que se haya pasado al menos una opción
+if [ "$#" -eq 0 ]; then
+    usage
+fi
+
+# Procesa los argumentos (long options)
+while [[ $# -gt 0 ]]; do
+    case "$1" in
+        --force)
+            OVERWRITE=true
+            shift
+            ;;
+        --all)
+            LINK_ALL=true
+            shift
+            ;;
+        --file)
+            if [ -z "$2" ]; then
+                echo "Error: --file requiere una ruta."
+                usage
+            fi
+            LINK_FILE="$2"
+            shift 2
+            ;;
+        --help)
+            usage
+            ;;
+        *)
+            echo "Opción desconocida: $1"
+            usage
+            ;;
+    esac
+done
+
+# No se pueden usar --all y --file simultáneamente
+if $LINK_ALL && [ -n "$LINK_FILE" ]; then
+    echo "Error: No se pueden usar --all y --file al mismo tiempo."
+    usage
+fi
+
+if ! $LINK_ALL && [ -z "$LINK_FILE" ]; then
+    echo "Error: Debe proporcionar --all o --file <ruta>."
+    usage
+fi
+
+# Función para crear el enlace simbólico
+create_symlink() {
+    local src="$1"
+    local dest="$2"
+
+    # Si existe el destino (archivo, directorio o enlace)
+    if [ -e "$dest" ] || [ -L "$dest" ]; then
+        if $OVERWRITE; then
+            echo "Sobrescribiendo $dest"
+            rm -rf "$dest"
+        else
+            echo "Omitiendo $dest (ya existe). Usa --force para sobrescribir."
+            return
+        fi
+    fi
+
+    # Crea la carpeta padre si no existe y luego el enlace simbólico
+    mkdir -p "$(dirname "$dest")"
+    ln -s "$src" "$dest"
+    echo "Enlazado: $dest -> $src"
+}
+
+# Si se indica --all, crea enlaces para cada elemento (a nivel superior) en REPO_DIR
+if $LINK_ALL; then
+    cd "$REPO_DIR" || { echo "No se pudo acceder a \$REPO_DIR"; exit 1; }
+    for item in * .[!.]*; do
+        # Excluir por ejemplo el directorio .git
+        if [ "$item" == ".git" ]; then
+            continue
+        fi
+        src="$REPO_DIR/$item"
+        dest="$HOME/$item"
+        create_symlink "$src" "$dest"
+    done
+else
+    # Caso: enlace para un archivo o carpeta específica
+    src="$REPO_DIR/$LINK_FILE"
+    dest="$HOME/$LINK_FILE"
+
+    if [ ! -e "$src" ]; then
+        echo "El origen '$src' no existe."
+        exit 1
+    fi
+
+    create_symlink "$src" "$dest"
+fi
+

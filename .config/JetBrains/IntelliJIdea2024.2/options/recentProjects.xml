@@ -1,0 +1,105 @@
+<application>
+  <component name="RecentProjectsManager">
+    <option name="additionalInfo">
+      <map>
+        <entry key="$USER_HOME$/Projects/distributed-portfolio">
+          <value>
+            <RecentProjectMetaInfo frameTitle="distributed-portfolio – AuthorizationServerConfig.java [authorization-server]" projectWorkspaceId="2m6JhlKwcB70qvA7wP8SHBolGE9">
+              <option name="activationTimestamp" value="1727933633315" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IU-242.23339.11" />
+              <option name="buildTimestamp" value="1727241120000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="3" />
+              </option>
+              <frame x="2500" y="220" width="1400" height="1000" />
+              <option name="productionCode" value="IU" />
+              <option name="projectOpenTimestamp" value="1727933627797" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Projects/Spring-Security-in-Action">
+          <value>
+            <RecentProjectMetaInfo frameTitle="Spring-Security-in-Action – HelloController.java [ssia-ch2-ex1]" projectWorkspaceId="2n3uWfUyUopVU0kjJVoPZtuKoYZ">
+              <option name="activationTimestamp" value="1728226026649" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IU-242.23339.11" />
+              <option name="buildTimestamp" value="1727241120000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="8" />
+              </option>
+              <frame x="1920" y="32" width="2560" height="1408" extendedState="6" />
+              <option name="productionCode" value="IU" />
+              <option name="projectOpenTimestamp" value="1728214113740" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/IdeaProjects/xabet-digitalwall-2.0-Beta-">
+          <value>
+            <RecentProjectMetaInfo frameTitle="xabet-digitalwall-2.0-Beta- – package.json" projectWorkspaceId="2n4IfisqZ8ygCVfr6ZvsxTqG4BH">
+              <option name="activationTimestamp" value="1728284588617" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IU-242.23339.11" />
+              <option name="buildTimestamp" value="1727241120000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="0" />
+              </option>
+              <frame x="1920" y="32" width="2560" height="1408" extendedState="6" />
+              <option name="productionCode" value="IU" />
+              <option name="projectOpenTimestamp" value="1728226026932" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Projects/fleet-manager/java-ddd-example">
+          <value>
+            <RecentProjectMetaInfo projectWorkspaceId="2qEPkndslM4VGkWlKxsCIZMdQw4">
+              <option name="activationTimestamp" value="1734909146428" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IU-242.23339.11" />
+              <option name="buildTimestamp" value="1727241120000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="2" />
+              </option>
+              <option name="productionCode" value="IU" />
+              <option name="projectOpenTimestamp" value="1734224906815" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/IdeaProjects/xabet-digitalwall">
+          <value>
+            <RecentProjectMetaInfo frameTitle="xabet-digitalwall – OnForecastArticleUpdatedBuffer.java [ian-app]" projectWorkspaceId="2mp3sFqKD9DMaFTc2Qd7lxS0oM7">
+              <option name="activationTimestamp" value="1738000025600" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IU-242.23339.11" />
+              <option name="buildTimestamp" value="1727241120000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="7" />
+              </option>
+              <frame x="0" y="0" width="1920" height="1080" extendedState="6" />
+              <option name="productionCode" value="IU" />
+              <option name="projectOpenTimestamp" value="1738000022234" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Projects/fleet-manager/backend">
+          <value>
+            <RecentProjectMetaInfo frameTitle="backend – PendingMaintenance.java [fleet-manager.manager.main]" opened="true" projectWorkspaceId="2qDigbuQRIKZTQbRG2sQzck7fHY">
+              <option name="activationTimestamp" value="1738495936376" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IU-242.23339.11" />
+              <option name="buildTimestamp" value="1727241120000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="1" />
+              </option>
+              <frame x="0" y="0" width="1920" height="1080" extendedState="6" />
+              <option name="productionCode" value="IU" />
+              <option name="projectOpenTimestamp" value="1738000026590" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="lastOpenedProject" value="$USER_HOME$/Projects/fleet-manager/backend" />
+    <option name="lastProjectLocation" value="$USER_HOME$/Projects/fleet-manager" />
+  </component>
+</application>
