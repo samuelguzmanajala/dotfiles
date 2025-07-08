@@ -1,0 +1,16 @@
+# VS Code - Archivos temporales y caché
+Code/Cache/
+Code/CachedData/
+Code/logs/
+Code/User/workspaceStorage/
+Code/User/globalStorage/
+Code/User/History/
+Code/BackupWorkspaces/
+Code/Service Worker/CacheStorage/
+
+# Archivos temporales del sistema
+**/.DS_Store
+**/Thumbs.db
+**/*.tmp
+**/*.swp
+**/*.swo
