@@ -14,3 +14,23 @@ Code/Service Worker/CacheStorage/
 **/*.tmp
 **/*.swp
 **/*.swo
+
+# JetBrains IDEs - Archivos temporales y caché
+.config/JetBrains/*/tasks/
+.config/JetBrains/*/workspace/
+.config/JetBrains/*/consoles/
+.config/JetBrains/*/jdbc-drivers/
+.config/JetBrains/*/migration/
+.config/JetBrains/*/.lock
+.config/JetBrains/*/disabled_update.txt
+
+# Plugins específicos que pueden cambiar
+.config/JetBrains/*/claude-code-jetbrains-plugin/
+
+# Configuraciones específicas de conversaciones/chats
+.config/JetBrains/*/options/ChatGPTConversations_*.xml
+.config/JetBrains/*/options/CodeGPT_*.xml
+.config/JetBrains/*/options/mavenIndicesState.xml
+
+# Fleet (editor más nuevo de JetBrains)
+.config/JetBrains/Fleet/
