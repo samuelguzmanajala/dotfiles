@@ -1,3 +1,0 @@
-com.intellij.python.django
-com.jetbrains.python.pyscript
-ee.carlrobert.chatgpt

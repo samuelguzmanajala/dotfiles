@@ -1,6 +1,0 @@
-<application>
-  <component name="ReworkedTerminalUsage">{}</component>
-  <component name="TerminalOptionsProvider">
-    <option name="useOptionAsMetaKey" value="true" />
-  </component>
-</application>
