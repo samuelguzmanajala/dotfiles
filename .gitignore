@@ -1,12 +1,26 @@
 # VS Code - Archivos temporales y caché
-Code/Cache/
-Code/CachedData/
-Code/logs/
-Code/User/workspaceStorage/
-Code/User/globalStorage/
-Code/User/History/
-Code/BackupWorkspaces/
-Code/Service Worker/CacheStorage/
+.config/Code/Cache/
+.config/Code/CachedData/
+.config/Code/logs/
+.config/Code/User/workspaceStorage/
+.config/Code/User/globalStorage/
+.config/Code/User/History/
+.config/Code/BackupWorkspaces/
+.config/Code/Service Worker/
+.config/Code/GPUCache/
+.config/Code/DawnGraphiteCache/
+.config/Code/DawnWebGPUCache/
+.config/Code/CachedProfilesData/
+.config/Code/CachedExtensionVSIXs/
+.config/Code/Crashpad/
+.config/Code/WebStorage/
+.config/Code/code.lock
+.config/Code/Cookies
+.config/Code/TransportSecurity
+.config/Code/Network*
+.config/Code/Local*
+.config/Code/Session*
+.config/Code/.org.chromium.Chromium.*
 
 # Archivos temporales del sistema
 **/.DS_Store
@@ -23,6 +37,9 @@ Code/Service Worker/CacheStorage/
 .config/JetBrains/*/migration/
 .config/JetBrains/*/.lock
 .config/JetBrains/*/disabled_update.txt
+.config/JetBrains/*/app-internal-state.db
+.config/JetBrains/*/bundled_plugins.txt
+.config/JetBrains/*/early-access-registry.txt
 
 # Plugins específicos que pueden cambiar
 .config/JetBrains/*/claude-code-jetbrains-plugin/

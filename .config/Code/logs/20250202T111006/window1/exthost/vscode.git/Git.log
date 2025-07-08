@@ -1,115 +1,0 @@
-2025-02-02 11:10:08.908 [info] [main] Log level: Info
-2025-02-02 11:10:08.908 [info] [main] Validating found git in: "git"
-2025-02-02 11:10:08.908 [info] [main] Using git "2.47.0" from "git"
-2025-02-02 11:10:08.908 [info] [Model][doInitialScan] Initial repository scan started
-2025-02-02 11:10:08.908 [info] > git rev-parse --show-toplevel [7ms]
-2025-02-02 11:10:09.250 [info] > git rev-parse --show-toplevel [343ms]
-2025-02-02 11:10:09.295 [info] > git rev-parse --show-toplevel [6ms]
-2025-02-02 11:10:09.309 [info] > git rev-parse --show-toplevel [2ms]
-2025-02-02 11:10:09.311 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (1), unsafe repositories (0)
-2025-02-02 11:10:10.165 [info] > git rev-parse --show-toplevel [21ms]
-2025-02-02 11:49:25.414 [info] > git rev-parse --show-toplevel [1ms]
-2025-02-02 11:50:06.272 [info] > git rev-parse --show-toplevel [2ms]
-2025-02-02 11:50:06.287 [info] > git rev-parse --show-toplevel [0ms]
-2025-02-02 11:50:07.995 [info] > git rev-parse --show-toplevel [1ms]
-2025-02-02 11:50:41.098 [info] > git rev-parse --show-toplevel [3ms]
-2025-02-02 11:51:07.179 [info] > git rev-parse --show-toplevel [1ms]
-2025-02-02 11:51:14.445 [info] > git rev-parse --show-toplevel [1ms]
-2025-02-02 11:51:31.283 [info] [main] Log level: Info
-2025-02-02 11:51:31.284 [info] [main] Validating found git in: "git"
-2025-02-02 11:51:31.284 [info] [main] Using git "2.47.0" from "git"
-2025-02-02 11:51:31.284 [info] [Model][doInitialScan] Initial repository scan started
-2025-02-02 11:51:31.284 [info] > git rev-parse --show-toplevel [6ms]
-2025-02-02 11:51:31.301 [info] > git rev-parse --show-toplevel [5ms]
-2025-02-02 11:51:31.316 [info] > git rev-parse --show-toplevel [2ms]
-2025-02-02 11:51:31.318 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (1), unsafe repositories (0)
-2025-02-02 11:51:53.737 [info] > git rev-parse --show-toplevel [2ms]
-2025-02-02 11:54:58.742 [info] > git rev-parse --show-toplevel [1ms]
-2025-02-02 11:58:01.570 [info] > git rev-parse --show-toplevel [2ms]
-2025-02-02 11:58:02.949 [info] > git rev-parse --show-toplevel [2ms]
-2025-02-02 11:59:11.172 [info] [main] Log level: Info
-2025-02-02 11:59:11.172 [info] [main] Validating found git in: "git"
-2025-02-02 11:59:11.172 [info] [main] Using git "2.47.0" from "git"
-2025-02-02 11:59:11.172 [info] [Model][doInitialScan] Initial repository scan started
-2025-02-02 11:59:11.173 [info] > git rev-parse --show-toplevel [12ms]
-2025-02-02 11:59:11.187 [info] > git rev-parse --show-toplevel [1ms]
-2025-02-02 11:59:11.200 [info] > git rev-parse --show-toplevel [1ms]
-2025-02-02 11:59:11.216 [info] > git rev-parse --show-toplevel [1ms]
-2025-02-02 11:59:11.916 [info] > git rev-parse --show-toplevel [687ms]
-2025-02-02 11:59:11.930 [info] > git rev-parse --show-toplevel [1ms]
-2025-02-02 11:59:11.941 [info] > git rev-parse --show-toplevel [1ms]
-2025-02-02 11:59:11.956 [info] > git rev-parse --show-toplevel [1ms]
-2025-02-02 11:59:11.975 [info] > git rev-parse --show-toplevel [2ms]
-2025-02-02 11:59:11.977 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (1), unsafe repositories (0)
-2025-02-02 11:59:33.429 [info] > git rev-parse --show-toplevel [4ms]
-2025-02-02 11:59:33.909 [info] > git rev-parse --show-toplevel [93ms]
-2025-02-02 12:00:34.717 [info] > git rev-parse --show-toplevel [2ms]
-2025-02-02 12:00:34.828 [info] > git rev-parse --show-toplevel [3ms]
-2025-02-02 12:00:57.010 [info] > git clone https://github.com/spring-projects/spring-petclinic /home/samuelg/Projects/fleet-manager/backend/spring-petclinic --progress [1846ms]
-2025-02-02 12:00:57.010 [info] Cloning into '/home/samuelg/Projects/fleet-manager/backend/spring-petclinic'...
-remote: Enumerating objects: 10765, done.        
-Receiving objects:   0% (1/10765)Receiving objects:   1% (108/10765)Receiving objects:   2% (216/10765)Receiving objects:   3% (323/10765)Receiving objects:   4% (431/10765)Receiving objects:   5% (539/10765)Receiving objects:   6% (646/10765)Receiving objects:   7% (754/10765)Receiving objects:   8% (862/10765)Receiving objects:   9% (969/10765)Receiving objects:  10% (1077/10765)Receiving objects:  11% (1185/10765)Receiving objects:  12% (1292/10765)Receiving objects:  13% (1400/10765)Receiving objects:  14% (1508/10765)Receiving objects:  15% (1615/10765)Receiving objects:  16% (1723/10765)Receiving objects:  17% (1831/10765)Receiving objects:  18% (1938/10765)Receiving objects:  19% (2046/10765)Receiving objects:  20% (2153/10765)Receiving objects:  21% (2261/10765)Receiving objects:  22% (2369/10765), 2.19 MiB | 4.26 MiB/sReceiving objects:  23% (2476/10765), 2.19 MiB | 4.26 MiB/sReceiving objects:  24% (2584/10765), 2.19 MiB | 4.26 MiB/sReceiving objects:  25% (2692/10765), 2.19 MiB | 4.26 MiB/sReceiving objects:  26% (2799/10765), 2.19 MiB | 4.26 MiB/sReceiving objects:  27% (2907/10765), 2.19 MiB | 4.26 MiB/sReceiving objects:  28% (3015/10765), 2.19 MiB | 4.26 MiB/sReceiving objects:  29% (3122/10765), 2.19 MiB | 4.26 MiB/sReceiving objects:  30% (3230/10765), 2.19 MiB | 4.26 MiB/sReceiving objects:  31% (3338/10765), 2.19 MiB | 4.26 MiB/sReceiving objects:  32% (3445/10765), 2.19 MiB | 4.26 MiB/sReceiving objects:  33% (3553/10765), 2.19 MiB | 4.26 MiB/sReceiving objects:  34% (3661/10765), 2.19 MiB | 4.26 MiB/sReceiving objects:  35% (3768/10765), 2.19 MiB | 4.26 MiB/sReceiving objects:  36% (3876/10765), 2.19 MiB | 4.26 MiB/sReceiving objects:  37% (3984/10765), 2.19 MiB | 4.26 MiB/sReceiving objects:  38% (4091/10765), 2.19 MiB | 4.26 MiB/sReceiving objects:  39% (4199/10765), 2.19 MiB | 4.26 MiB/sReceiving objects:  40% (4306/10765), 2.19 MiB | 4.26 MiB/sReceiving objects:  41% (4414/10765), 2.19 MiB | 4.26 MiB/sReceiving objects:  42% (4522/10765), 2.19 MiB | 4.26 MiB/sReceiving objects:  43% (4629/10765), 2.19 MiB | 4.26 MiB/sReceiving objects:  44% (4737/10765), 2.19 MiB | 4.26 MiB/sReceiving objects:  45% (4845/10765), 2.19 MiB | 4.26 MiB/sReceiving objects:  46% (4952/10765), 2.19 MiB | 4.26 MiB/sReceiving objects:  47% (5060/10765), 2.19 MiB | 4.26 MiB/sReceiving objects:  48% (5168/10765), 2.19 MiB | 4.26 MiB/sReceiving objects:  48% (5207/10765), 2.19 MiB | 4.26 MiB/sReceiving objects:  49% (5275/10765), 7.43 MiB | 7.33 MiB/sReceiving objects:  50% (5383/10765), 7.43 MiB | 7.33 MiB/sReceiving objects:  51% (5491/10765), 7.43 MiB | 7.33 MiB/sReceiving objects:  52% (5598/10765), 7.43 MiB | 7.33 MiB/sReceiving objects:  53% (5706/10765), 7.43 MiB | 7.33 MiB/sReceiving objects:  54% (5814/10765), 7.43 MiB | 7.33 MiB/sReceiving objects:  55% (5921/10765), 7.43 MiB | 7.33 MiB/sReceiving objects:  56% (6029/10765), 7.43 MiB | 7.33 MiB/sReceiving objects:  57% (6137/10765), 7.43 MiB | 7.33 MiB/sReceiving objects:  58% (6244/10765), 7.43 MiB | 7.33 MiB/sReceiving objects:  59% (6352/10765), 7.43 MiB | 7.33 MiB/sReceiving objects:  60% (6459/10765), 7.43 MiB | 7.33 MiB/sReceiving objects:  61% (6567/10765), 7.43 MiB | 7.33 MiB/sReceiving objects:  62% (6675/10765), 7.43 MiB | 7.33 MiB/sReceiving objects:  63% (6782/10765), 7.43 MiB | 7.33 MiB/sReceiving objects:  64% (6890/10765), 7.43 MiB | 7.33 MiB/sReceiving objects:  65% (6998/10765), 7.43 MiB | 7.33 MiB/sReceiving objects:  66% (7105/10765), 7.43 MiB | 7.33 MiB/sReceiving objects:  67% (7213/10765), 7.43 MiB | 7.33 MiB/sReceiving objects:  68% (7321/10765), 7.43 MiB | 7.33 MiB/sReceiving objects:  69% (7428/10765), 7.43 MiB | 7.33 MiB/sReceiving objects:  70% (7536/10765), 7.43 MiB | 7.33 MiB/sReceiving objects:  71% (7644/10765), 7.43 MiB | 7.33 MiB/sReceiving objects:  72% (7751/10765), 7.43 MiB | 7.33 MiB/sReceiving objects:  73% (7859/10765), 7.43 MiB | 7.33 MiB/sReceiving objects:  74% (7967/10765), 7.43 MiB | 7.33 MiB/sReceiving objects:  75% (8074/10765), 7.43 MiB | 7.33 MiB/sReceiving objects:  76% (8182/10765), 7.43 MiB | 7.33 MiB/sReceiving objects:  77% (8290/10765), 7.43 MiB | 7.33 MiB/sReceiving objects:  78% (8397/10765), 7.43 MiB | 7.33 MiB/sReceiving objects:  79% (8505/10765), 7.43 MiB | 7.33 MiB/sReceiving objects:  80% (8612/10765), 7.43 MiB | 7.33 MiB/sReceiving objects:  81% (8720/10765), 7.43 MiB | 7.33 MiB/sReceiving objects:  82% (8828/10765), 7.43 MiB | 7.33 MiB/sReceiving objects:  83% (8935/10765), 7.43 MiB | 7.33 MiB/sReceiving objects:  84% (9043/10765), 7.43 MiB | 7.33 MiB/sReceiving objects:  85% (9151/10765), 7.43 MiB | 7.33 MiB/sReceiving objects:  86% (9258/10765), 7.43 MiB | 7.33 MiB/sReceiving objects:  87% (9366/10765), 7.43 MiB | 7.33 MiB/sReceiving objects:  88% (9474/10765), 7.43 MiB | 7.33 MiB/sReceiving objects:  89% (9581/10765), 7.43 MiB | 7.33 MiB/sReceiving objects:  90% (9689/10765), 7.43 MiB | 7.33 MiB/sReceiving objects:  91% (9797/10765), 7.43 MiB | 7.33 MiB/sReceiving objects:  92% (9904/10765), 7.43 MiB | 7.33 MiB/sReceiving objects:  93% (10012/10765), 7.43 MiB | 7.33 MiB/sReceiving objects:  94% (10120/10765), 7.43 MiB | 7.33 MiB/sReceiving objects:  95% (10227/10765), 7.43 MiB | 7.33 MiB/sReceiving objects:  96% (10335/10765), 7.43 MiB | 7.33 MiB/sReceiving objects:  97% (10443/10765), 7.43 MiB | 7.33 MiB/sReceiving objects:  98% (10550/10765), 7.43 MiB | 7.33 MiB/sReceiving objects:  99% (10658/10765), 7.43 MiB | 7.33 MiB/sremote: Total 10765 (delta 0), reused 0 (delta 0), pack-reused 10765 (from 1)        
-Receiving objects: 100% (10765/10765), 7.43 MiB | 7.33 MiB/sReceiving objects: 100% (10765/10765), 10.22 MiB | 8.36 MiB/s, done.
-Resolving deltas:   0% (0/4084)Resolving deltas:   1% (42/4084)Resolving deltas:   2% (83/4084)Resolving deltas:   3% (127/4084)Resolving deltas:   4% (167/4084)Resolving deltas:   5% (205/4084)Resolving deltas:   6% (246/4084)Resolving deltas:   7% (286/4084)Resolving deltas:   8% (327/4084)Resolving deltas:   9% (368/4084)Resolving deltas:  10% (411/4084)Resolving deltas:  11% (450/4084)Resolving deltas:  12% (491/4084)Resolving deltas:  13% (532/4084)Resolving deltas:  14% (572/4084)Resolving deltas:  15% (613/4084)Resolving deltas:  16% (654/4084)Resolving deltas:  17% (697/4084)Resolving deltas:  18% (736/4084)Resolving deltas:  19% (776/4084)Resolving deltas:  20% (817/4084)Resolving deltas:  21% (858/4084)Resolving deltas:  22% (899/4084)Resolving deltas:  23% (940/4084)Resolving deltas:  24% (981/4084)Resolving deltas:  25% (1021/4084)Resolving deltas:  26% (1062/4084)Resolving deltas:  27% (1103/4084)Resolving deltas:  28% (1144/4084)Resolving deltas:  29% (1187/4084)Resolving deltas:  30% (1226/4084)Resolving deltas:  31% (1267/4084)Resolving deltas:  32% (1307/4084)Resolving deltas:  33% (1348/4084)Resolving deltas:  34% (1389/4084)Resolving deltas:  35% (1430/4084)Resolving deltas:  36% (1471/4084)Resolving deltas:  37% (1512/4084)Resolving deltas:  38% (1552/4084)Resolving deltas:  39% (1593/4084)Resolving deltas:  40% (1634/4084)Resolving deltas:  41% (1675/4084)Resolving deltas:  42% (1716/4084)Resolving deltas:  43% (1757/4084)Resolving deltas:  44% (1797/4084)Resolving deltas:  45% (1838/4084)Resolving deltas:  46% (1879/4084)Resolving deltas:  47% (1920/4084)Resolving deltas:  48% (1961/4084)Resolving deltas:  49% (2002/4084)Resolving deltas:  50% (2042/4084)Resolving deltas:  51% (2083/4084)Resolving deltas:  52% (2126/4084)Resolving deltas:  53% (2167/4084)Resolving deltas:  54% (2206/4084)Resolving deltas:  55% (2248/4084)Resolving deltas:  56% (2288/4084)Resolving deltas:  57% (2328/4084)Resolving deltas:  58% (2370/4084)Resolving deltas:  59% (2410/4084)Resolving deltas:  60% (2452/4084)Resolving deltas:  61% (2492/4084)Resolving deltas:  62% (2533/4084)Resolving deltas:  63% (2573/4084)Resolving deltas:  64% (2614/4084)Resolving deltas:  65% (2655/4084)Resolving deltas:  66% (2696/4084)Resolving deltas:  67% (2737/4084)Resolving deltas:  68% (2778/4084)Resolving deltas:  69% (2818/4084)Resolving deltas:  70% (2859/4084)Resolving deltas:  71% (2900/4084)Resolving deltas:  72% (2941/4084)Resolving deltas:  73% (2983/4084)Resolving deltas:  74% (3023/4084)Resolving deltas:  75% (3063/4084)Resolving deltas:  76% (3104/4084)Resolving deltas:  77% (3145/4084)Resolving deltas:  78% (3186/4084)Resolving deltas:  79% (3227/4084)Resolving deltas:  80% (3268/4084)Resolving deltas:  81% (3309/4084)Resolving deltas:  82% (3349/4084)Resolving deltas:  83% (3390/4084)Resolving deltas:  84% (3431/4084)Resolving deltas:  85% (3472/4084)Resolving deltas:  86% (3514/4084)Resolving deltas:  87% (3554/4084)Resolving deltas:  88% (3596/4084)Resolving deltas:  89% (3635/4084)Resolving deltas:  90% (3676/4084)Resolving deltas:  91% (3717/4084)Resolving deltas:  92% (3758/4084)Resolving deltas:  93% (3800/4084)Resolving deltas:  94% (3839/4084)Resolving deltas:  95% (3880/4084)Resolving deltas:  96% (3921/4084)Resolving deltas:  97% (3962/4084)Resolving deltas:  98% (4003/4084)Resolving deltas:  99% (4044/4084)Resolving deltas: 100% (4084/4084)Resolving deltas: 100% (4084/4084), done.
-2025-02-02 12:00:57.599 [info] > git rev-parse --show-toplevel [1ms]
-2025-02-02 12:00:57.615 [info] > git rev-parse --git-dir --git-common-dir [1ms]
-2025-02-02 12:00:57.620 [info] [Model][openRepository] Opened repository: /home/samuelg/Projects/fleet-manager/backend/spring-petclinic
-2025-02-02 12:00:57.637 [info] > git config --get commit.template [2ms]
-2025-02-02 12:00:57.653 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
-2025-02-02 12:00:57.669 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/samuelg/Projects/fleet-manager/backend/spring-petclinic/.git/refs/remotes/origin/main'
-2025-02-02 12:00:57.669 [info] > git rev-parse refs/remotes/origin/main [0ms]
-2025-02-02 12:00:57.699 [info] > git status -z -uall [15ms]
-2025-02-02 12:00:57.700 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
-2025-02-02 12:00:57.732 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [16ms]
-2025-02-02 12:00:57.745 [info] > git config --get commit.template [14ms]
-2025-02-02 12:00:57.745 [info] > git config --local branch.main.vscode-merge-base [1ms]
-2025-02-02 12:00:57.745 [warning] [Git][config] git config failed: Failed to execute git
-2025-02-02 12:00:57.774 [info] > git reflog main --grep-reflog=branch: Created from *. [15ms]
-2025-02-02 12:00:57.789 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [16ms]
-2025-02-02 12:00:57.789 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [1ms]
-2025-02-02 12:00:57.821 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/samuelg/Projects/fleet-manager/backend/spring-petclinic/.git/refs/remotes/origin/main'
-2025-02-02 12:00:57.822 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [17ms]
-2025-02-02 12:00:57.837 [info] > git rev-parse refs/remotes/origin/main [16ms]
-2025-02-02 12:00:57.862 [info] > git status -z -uall [13ms]
-2025-02-02 12:00:57.862 [info] > git config --local branch.main.vscode-merge-base origin/main [26ms]
-2025-02-02 12:00:57.862 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms] (cancelled)
-2025-02-02 12:00:57.889 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [15ms]
-2025-02-02 12:00:57.903 [info] > git config --get commit.template [14ms]
-2025-02-02 12:00:57.904 [info] > git config --local branch.main.vscode-merge-base [0ms]
-2025-02-02 12:00:57.932 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [16ms]
-2025-02-02 12:00:57.949 [info] > git merge-base refs/heads/main refs/remotes/origin/main [1ms]
-2025-02-02 12:00:57.962 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [30ms]
-2025-02-02 12:00:57.975 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/samuelg/Projects/fleet-manager/backend/spring-petclinic/.git/refs/remotes/origin/main'
-2025-02-02 12:00:57.976 [info] > git diff --name-status -z --diff-filter=ADMR 6148ddd9671ccab86a3f0ae2dfa77d833b713ee8...refs/remotes/origin/main [14ms]
-2025-02-02 12:00:57.977 [info] > git rev-parse refs/remotes/origin/main [2ms]
-2025-02-02 12:00:58.003 [info] > git status -z -uall [13ms]
-2025-02-02 12:00:58.003 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
-2025-02-02 12:00:58.301 [info] > git diff --name-status -z --diff-filter=ADMR 6148ddd9671ccab86a3f0ae2dfa77d833b713ee8 [5ms]
-2025-02-02 12:01:03.620 [info] > git rev-parse --show-toplevel [1ms]
-2025-02-02 12:01:30.176 [info] > git rev-parse --show-toplevel [3ms]
-2025-02-02 12:01:53.455 [info] > git rev-parse --show-toplevel [1ms]
-2025-02-02 12:02:05.083 [info] > git config --get commit.template [16ms]
-2025-02-02 12:02:05.084 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
-2025-02-02 12:02:05.100 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/samuelg/Projects/fleet-manager/backend/spring-petclinic/.git/refs/remotes/origin/main'
-2025-02-02 12:02:05.101 [info] > git rev-parse refs/remotes/origin/main [0ms]
-2025-02-02 12:02:05.132 [info] > git status -z -uall [16ms]
-2025-02-02 12:02:05.133 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
-2025-02-02 12:02:08.048 [info] > git check-ignore -v -z --stdin [1ms]
-2025-02-02 12:02:10.165 [info] > git config --get commit.template [17ms]
-2025-02-02 12:02:10.165 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
-2025-02-02 12:02:10.178 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/samuelg/Projects/fleet-manager/backend/spring-petclinic/.git/refs/remotes/origin/main'
-2025-02-02 12:02:10.180 [info] > git rev-parse refs/remotes/origin/main [1ms]
-2025-02-02 12:02:10.212 [info] > git status -z -uall [17ms]
-2025-02-02 12:02:10.213 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
-2025-02-02 12:02:30.195 [info] > git check-ignore -v -z --stdin [1ms]
-2025-02-02 12:02:36.231 [warning] [Git][getHEAD] Failed to parse HEAD file: ENOENT: no such file or directory, open '/home/samuelg/Projects/fleet-manager/backend/spring-petclinic/.git/HEAD'
-2025-02-02 12:02:36.254 [warning] [Git][getRemotes] Error: ENOENT: no such file or directory, open '/home/samuelg/Projects/fleet-manager/backend/spring-petclinic/.git/config'
-2025-02-02 12:02:36.288 [warning] [Git][getHEAD] Failed to parse HEAD file: ENOENT: no such file or directory, open '/home/samuelg/Projects/fleet-manager/backend/spring-petclinic/.git/HEAD'
-2025-02-02 12:02:36.317 [warning] [Git][getRemotes] Error: ENOENT: no such file or directory, open '/home/samuelg/Projects/fleet-manager/backend/spring-petclinic/.git/config'
-2025-02-02 12:02:50.211 [info] > git rev-parse --show-toplevel [2ms]
-2025-02-02 12:03:02.402 [info] > git rev-parse --show-toplevel [2ms]
-2025-02-02 12:18:21.005 [info] > git rev-parse --show-toplevel [4ms]
-2025-02-02 12:18:23.741 [info] > git rev-parse --show-toplevel [3ms]
-2025-02-02 12:18:28.667 [info] > git rev-parse --show-toplevel [2ms]
-2025-02-02 12:18:49.679 [info] > git rev-parse --show-toplevel [2ms]
-2025-02-02 12:19:04.619 [info] > git rev-parse --show-toplevel [2ms]

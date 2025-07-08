@@ -1,7 +1,0 @@
-Activating 'vscode-spring-boot' extension
-"spring-boot.ls.java.home" setting not specified or empty value
-Found java executable: /home/samuelg/.vscode/extensions/redhat.java-1.39.0-linux-x64/jre/21.0.5-linux-x86_64/bin/java
-isJavaEightOrHigher => true
-Redirecting server logs to /dev/null
-Disabling server log output. No more output will be sent after this.
-[Error - 12:32:49] Server process exited with code 0.
