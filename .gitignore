@@ -40,6 +40,25 @@
 .config/JetBrains/*/app-internal-state.db
 .config/JetBrains/*/bundled_plugins.txt
 .config/JetBrains/*/early-access-registry.txt
+.config/JetBrains/*/updatedBrokenPlugins.db
+.config/JetBrains/*/scratches/
+
+# Archivos de opciones específicas que cambian frecuentemente
+.config/JetBrains/*/options/actionSummary.xml
+.config/JetBrains/*/options/checkstyle-idea.xml
+.config/JetBrains/*/options/contributorSummary.xml
+.config/JetBrains/*/options/databaseDrivers.xml
+.config/JetBrains/*/options/features.usage.statistics.xml
+.config/JetBrains/*/options/find.xml
+.config/JetBrains/*/options/github-copilot.local.xml
+.config/JetBrains/*/options/nodejs.xml
+.config/JetBrains/*/options/other.xml
+.config/JetBrains/*/options/recentProjects.xml
+.config/JetBrains/*/options/runner.layout.xml
+.config/JetBrains/*/options/trusted-paths.xml
+.config/JetBrains/*/options/updates.xml
+.config/JetBrains/*/options/window.state.xml
+.config/JetBrains/*/options/IntelliLang.xml
 
 # Plugins específicos que pueden cambiar
 .config/JetBrains/*/claude-code-jetbrains-plugin/

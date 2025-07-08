@@ -1,0 +1,25 @@
+<application>
+  <component name="ProjectManager">
+    <defaultProject>
+      <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "settings.editor.selected.configurable": "reference.settings.project.maven.importing"
+  }
+}]]></component>
+      <component name="TaskManager">
+        <task active="true" id="Default" summary="Default task">
+          <created>1727724304793</created>
+          <option name="number" value="Default" />
+          <option name="presentableId" value="Default" />
+          <updated>1727724304793</updated>
+          <workItem from="1727724307577" duration="22000" />
+        </task>
+        <servers />
+      </component>
+      <component name="TimeTrackingManager">
+        <option name="totallyTimeSpent" value="22000" />
+      </component>
+      <component name="VcsDirectoryMappings" defaultProject="true" />
+    </defaultProject>
+  </component>
+</application>

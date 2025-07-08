@@ -1,0 +1,7 @@
+<application>
+  <component name="JSONCrackN">
+    <option name="extensions">
+      <option value=".json" />
+    </option>
+  </component>
+</application>
